@@ -332,7 +332,9 @@
         onclick: () => {
           try { localStorage.removeItem(storageKey(examId)); } catch (e) {}
           State.answers = {}; State.writing = { text: '', score: null, checklist: {} }; State.timers = {};
-          renderApp();
+          // Always land on the overview so a fresh attempt starts from the top.
+          const overview = '#exam/' + examId;
+          if (location.hash !== overview) location.hash = overview; else renderApp();
         }
       }, 'Ja, zurücksetzen'));
       container.appendChild(h('button', { className: 'btn btn-sm', onclick: () => renderApp() }, 'Abbrechen'));
@@ -574,18 +576,41 @@
   function renderTrueFalseSection(block, section) {
     const col = h('div', { className: 'col', style: 'max-width:640px;' });
 
-    const audioEl = h('audio', { controls: true, preload: 'none' });
-    if (AudioFiles[section.id]) audioEl.src = AudioFiles[section.id];
-    const fileInput = h('input', { type: 'file', accept: 'audio/*', id: 'audiofile-' + section.id });
-    fileInput.addEventListener('change', () => {
-      const f = fileInput.files && fileInput.files[0];
-      if (!f) return;
-      const url = URL.createObjectURL(f);
-      AudioFiles[section.id] = url;
-      audioEl.src = url;
-      fileNote.textContent = f.name;
-    });
-    const fileNote = h('span', { className: 'subtle' }, AudioFiles[section.id] ? 'Audiodatei geladen' : 'Noch keine Audiodatei ausgewählt');
+    const audioEl = h('audio', { controls: true, preload: 'metadata' });
+
+    // Fixed audio from the exam JSON: section.audio = { src, start, end } (seconds).
+    // Falls back to the manual file picker when a section has no audio configured.
+    const fixed = section.audio && section.audio.src ? section.audio : null;
+    let fileInput = null;
+    let fileNote = null;
+    if (fixed) {
+      const start = fixed.start || 0;
+      const end = fixed.end != null ? fixed.end : null;
+      audioEl.src = 'exams/' + fixed.src;
+      audioEl.addEventListener('loadedmetadata', () => {
+        if (audioEl.currentTime < start) audioEl.currentTime = start;
+      });
+      audioEl.addEventListener('play', () => {
+        if (audioEl.currentTime < start || (end != null && audioEl.currentTime >= end)) audioEl.currentTime = start;
+      });
+      if (end != null) {
+        audioEl.addEventListener('timeupdate', () => {
+          if (audioEl.currentTime >= end) { audioEl.pause(); audioEl.currentTime = end; }
+        });
+      }
+    } else {
+      if (AudioFiles[section.id]) audioEl.src = AudioFiles[section.id];
+      fileInput = h('input', { type: 'file', accept: 'audio/*', id: 'audiofile-' + section.id });
+      fileInput.addEventListener('change', () => {
+        const f = fileInput.files && fileInput.files[0];
+        if (!f) return;
+        const url = URL.createObjectURL(f);
+        AudioFiles[section.id] = url;
+        audioEl.src = url;
+        fileNote.textContent = f.name;
+      });
+      fileNote = h('span', { className: 'subtle' }, AudioFiles[section.id] ? 'Audiodatei geladen' : 'Noch keine Audiodatei ausgewählt');
+    }
 
     let transcriptShown = false;
     const transcriptBox = h('div', { className: 'transcript', hidden: true });
@@ -601,7 +626,7 @@
 
     const audioBox = h('div', { className: 'card audio-box' },
       h('div', { className: 'subtle' }, section.audioLabel || 'Audio'),
-      h('div', { className: 'file-row' },
+      fixed ? null : h('div', { className: 'file-row' },
         h('label', { className: 'btn btn-sm', for: 'audiofile-' + section.id }, 'Audiodatei wählen'),
         fileNote
       ),
@@ -609,8 +634,10 @@
       h('div', { className: 'row' }, transcriptBtn),
       transcriptBox
     );
-    fileInput.style.display = 'none';
-    audioBox.insertBefore(fileInput, audioBox.firstChild);
+    if (fileInput) {
+      fileInput.style.display = 'none';
+      audioBox.insertBefore(fileInput, audioBox.firstChild);
+    }
 
     col.appendChild(audioBox);
 
@@ -663,12 +690,18 @@
       saveTimer = setTimeout(saveState, 400);
     });
 
-    const copyBtn = h('button', { className: 'btn btn-sm' }, 'Text kopieren');
-    copyBtn.addEventListener('click', async () => {
-      const ok = await copyText(area.value);
-      copyBtn.textContent = ok ? 'Kopiert ✓' : 'Kopieren nicht möglich — markiere den Text manuell';
-      setTimeout(() => { copyBtn.textContent = 'Text kopieren'; }, 2200);
-    });
+    function makeCopyButton(label, getText) {
+      const btn = h('button', { className: 'btn btn-sm' }, label);
+      btn.addEventListener('click', async () => {
+        const ok = await copyText(getText());
+        btn.textContent = ok ? 'Kopiert ✓' : 'Kopieren nicht möglich, markiere den Text manuell';
+        setTimeout(() => { btn.textContent = label; }, 2200);
+      });
+      return btn;
+    }
+    const promptBtn = makeCopyButton('Bewertungs-Prompt kopieren', () => buildGradingPrompt(section, area.value));
+    promptBtn.className = 'btn btn-sm btn-primary';
+    const copyBtn = makeCopyButton('Nur Text kopieren', () => area.value);
 
     const scoreInput = h('input', { type: 'number', className: 'score-input', min: 0, max: section.maxPoints, step: 0.5 });
     scoreInput.value = State.writing.score != null ? State.writing.score : '';
@@ -682,12 +715,9 @@
     writeCol.appendChild(h('div', { className: 'row', style: 'justify-content:space-between; margin-bottom:8px;' },
       h('span', { className: 'subtle' }, 'Ziel: ca. 100–150 Wörter'), count));
     writeCol.appendChild(area);
-    writeCol.appendChild(h('div', { className: 'row', style: 'margin-top:12px; justify-content:space-between;' },
-      copyBtn,
-      h('span', null)
-    ));
+    writeCol.appendChild(h('div', { className: 'row', style: 'margin-top:12px;' }, promptBtn, copyBtn));
     writeCol.appendChild(h('div', { className: 'card', style: 'margin-top:16px;' },
-      h('div', { className: 'subtle', style: 'margin-bottom:8px;' }, 'Kopiere deinen Text in den Chat — Claude bewertet ihn nach den drei telc-Kriterien. Trag die Punktzahl danach hier ein:'),
+      h('div', { className: 'subtle', style: 'margin-bottom:8px;' }, '„Bewertungs-Prompt kopieren“ kopiert Aufgabe, telc-Bewertungskriterien und deinen Text in einem Stück. Füge ihn in einen beliebigen KI-Chat ein, auch ohne Vorwissen. Trag die Punktzahl danach hier ein:'),
       h('div', { className: 'row' },
         h('span', null, 'Schriftlicher Ausdruck:'),
         scoreInput,
@@ -700,6 +730,62 @@
     return col;
   }
   function wordCount(str) { const t = str.trim(); return t ? t.split(/\s+/).length : 0; }
+
+  // Self-contained grading prompt: works in any model with no prior context.
+  function buildGradingPrompt(section, text) {
+    const examTitle = State.exam ? State.exam.title : 'telc Deutsch B1';
+    const leitpunkte = section.leitpunkte.map((lp, i) => (i + 1) + '. ' + lp).join('\n');
+    const answer = text.trim() ? text.trim() : '(kein Text geschrieben)';
+    return [
+      'You are a certified telc examiner. Grade the following "Schriftlicher Ausdruck" from the ' + examTitle + ' (German, CEFR level B1) using the official telc rating scale below. Be strict and realistic, as in the real exam.',
+      '',
+      '## The task given to the candidate',
+      section.instructions,
+      '',
+      'Email the candidate received:',
+      '"""',
+      section.prompt,
+      '"""',
+      '',
+      'Leitpunkte (all four must be addressed):',
+      leitpunkte,
+      '',
+      '## Official rating scale',
+      'Three criteria, each graded A, B, C or D:',
+      '- A = 5 points, B = 3 points, C = 1 point, D = 0 points.',
+      '- Total = (sum of the three criteria) x 3, maximum 45 points.',
+      '',
+      'Kriterium I, Aufgabenbewältigung (task completion):',
+      '- A: all four Leitpunkte handled appropriately. B: three handled. C: two handled. D: one or none.',
+      '- A Leitpunkt counts as fulfilled if it is addressed sensibly and is understandable, even in a single short sentence, or combined with another Leitpunkt in one sentence.',
+      '- If the text misses the topic entirely ("Thema verfehlt"), all three criteria get D. If it fits the topic but not the situation, only Kriterium I gets D.',
+      '',
+      'Kriterium II, Kommunikative Gestaltung (structure, cohesion, register):',
+      '- Assesses text logic, connectors, register and range of vocabulary. Sender, date and subject line are NOT required.',
+      '- A is NOT given if: email text-type features are missing (greeting, introduction, closing), the register is wrong or inconsistent, the Leitpunkte stand side by side without connection, or most sentences start with "Ich" or "Wir".',
+      '- C or D: serious register errors that make central parts unclear, or missing/nonsensical connections.',
+      '',
+      'Kriterium III, Formale Richtigkeit (accuracy):',
+      '- Comprehensibility comes first. Ending and gender errors weigh less than agreement errors.',
+      '- A or B is possible if errors do not hinder quick understanding, depending on number and type of errors.',
+      '- If Kriterium III is D, Kriterien I and II can still be A, B or C.',
+      '',
+      'Pass context: the whole written exam needs 135 of 225 points; this writing task is worth 45.',
+      '',
+      '## Candidate\'s text (' + wordCount(text) + ' words, target about 100-150)',
+      '"""',
+      answer,
+      '"""',
+      '',
+      '## Answer in this format (explanations in English, corrections in German)',
+      '1. A table: criterion, grade (A/B/C/D), points, one-line reason.',
+      '2. Total: (sum) x 3 = X / 45.',
+      '3. Which Leitpunkte were covered and which were missing or weak.',
+      '4. A table of errors: what the candidate wrote, the corrected German, and the rule in a few words.',
+      '5. The two or three changes that would raise the score most.',
+      '6. A corrected model answer that keeps the candidate\'s ideas, at B1 level.'
+    ].join('\n');
+  }
 
   async function copyText(str) {
     try { await navigator.clipboard.writeText(str); return true; }
@@ -799,7 +885,7 @@
     );
     const backBtn = h('button', { className: 'btn', onclick: () => { location.hash = '#exam/' + exam.id; } }, '← Zur Übersicht');
 
-    mount(appEl, header, kpis, h('div', { className: 'card' }, table), h('div', { style: 'margin-top:16px;' }, reviewToggleBtn, reviewBox), h('div', { style: 'margin-top:22px;' }, backBtn));
+    mount(appEl, header, kpis, h('div', { className: 'card' }, table), h('div', { style: 'margin-top:16px;' }, reviewToggleBtn, reviewBox), h('div', { className: 'row', style: 'margin-top:22px; justify-content:space-between;' }, backBtn, buildResetRow(exam.id)));
   }
 
   function describeAnswer(section, item, key) {
