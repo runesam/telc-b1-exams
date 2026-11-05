@@ -1,0 +1,10 @@
+{
+  "exams": [
+    {
+      "id": "telc-b1-uebungstest-1",
+      "title": "telc Deutsch B1 – Übungstest 1",
+      "subtitle": "Zertifikat Deutsch, 13. Auflage 2020",
+      "file": "telc-b1-uebungstest-1.json"
+    }
+  ]
+}

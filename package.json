@@ -1,4 +1,8 @@
 {
   "name": "telc-b1-trainer",
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.6.0",
+  "dependencies": {
+    "global": "^4.4.0",
+    "serve": "^14.2.6"
+  }
 }
