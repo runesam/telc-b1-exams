@@ -668,7 +668,7 @@
     const col = h('div', { className: 'two-col' });
 
     const promptCol = h('div', { className: 'col sticky-col card' },
-      h('h3', { style: 'font-size:1rem; margin-bottom:8px;' }, 'E-Mail von Marianne'),
+      h('h3', { style: 'font-size:1rem; margin-bottom:8px;' }, section.promptTitle || 'E-Mail von Marianne'),
       h('p', { style: 'white-space:pre-wrap;' }, section.prompt),
       h('h3', { style: 'font-size:0.95rem; margin:16px 0 6px;' }, 'Gehe auf alle vier Punkte ein'),
       h('ul', { className: 'leitpunkte' }, ...section.leitpunkte.map((lp, i) => {
@@ -713,7 +713,7 @@
     });
 
     writeCol.appendChild(h('div', { className: 'row', style: 'justify-content:space-between; margin-bottom:8px;' },
-      h('span', { className: 'subtle' }, 'Ziel: ca. 100–150 Wörter'), count));
+      h('span', { className: 'subtle' }, 'Ziel: ca. ' + (section.targetWords || '100–150') + ' Wörter'), count));
     writeCol.appendChild(area);
     writeCol.appendChild(h('div', { className: 'row', style: 'margin-top:12px;' }, promptBtn, copyBtn));
     writeCol.appendChild(h('div', { className: 'card', style: 'margin-top:16px;' },
@@ -772,7 +772,7 @@
       '',
       'Pass context: the whole written exam needs 135 of 225 points; this writing task is worth 45.',
       '',
-      '## Candidate\'s text (' + wordCount(text) + ' words, target about 100-150)',
+      '## Candidate\'s text (' + wordCount(text) + ' words, target about ' + (section.targetWords || '100-150').replace('–', '-') + ')',
       '"""',
       answer,
       '"""',

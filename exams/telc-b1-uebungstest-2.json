@@ -1,0 +1,396 @@
+{
+  "id": "telc-b1-uebungstest-2",
+  "title": "telc Deutsch B1 – Übungstest 2",
+  "source": "Übungstest im telc-B1-Format. Kein offizieller Lösungsschlüssel: Lösungen selbst ermittelt; Aussagen 46–60 selbst erstellt.",
+  "writtenMaxPoints": 225,
+  "writtenPassPoints": 135,
+  "objectiveMaxPoints": 180,
+  "writingMaxPoints": 45,
+  "blocks": [
+    {
+      "id": "lesen-sprachbausteine",
+      "title": "1 + 2 Leseverstehen & Sprachbausteine",
+      "officialTimeMinutes": 90,
+      "sections": ["lesen1", "lesen2", "lesen3", "sb1", "sb2"]
+    },
+    {
+      "id": "hoeren",
+      "title": "3 Hörverstehen",
+      "officialTimeMinutes": 30,
+      "sections": ["hoeren1", "hoeren2", "hoeren3"]
+    },
+    {
+      "id": "schreiben",
+      "title": "4 Schriftlicher Ausdruck",
+      "officialTimeMinutes": 30,
+      "sections": ["schreiben"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "lesen1",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 1",
+      "type": "match",
+      "instructions": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen.",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "optionLabel": "Überschrift",
+      "options": [
+        { "key": "a", "text": "Handybenutzer haben seltener Autounfälle" },
+        { "key": "b", "text": "Immer mehr Familien fahren mit dem Auto in Urlaub" },
+        { "key": "c", "text": "Die Mehrheit der Deutschen macht beim Umweltschutz mit" },
+        { "key": "d", "text": "Familien reisen billiger" },
+        { "key": "e", "text": "Gesundheitstipps für den Urlaub im Ausland" },
+        { "key": "f", "text": "Studie: Die meisten Autofahrer benutzen Handys" },
+        { "key": "g", "text": "Reisen und Unterhaltung nun günstiger für junge Leute" },
+        { "key": "h", "text": "Centrum für Reisemedizin hilft Touristen in Deutschland" },
+        { "key": "i", "text": "Kulturprogramm der Europäischen Union für die Jugend" },
+        { "key": "j", "text": "Die Deutschen tun nicht genug für die Umwelt" }
+      ],
+      "items": [
+        {
+          "number": 1,
+          "text": "Seit zehn Jahren besteht das Centrum für Reisemedizin (CRM) in Düsseldorf. Reisende können dort für 7 Euro einen Reise-Gesundheitsbrief bekommen, der speziell für ihre geplante Auslandsreise erstellt wird und ausführliche Tipps zur Gesundheitsvorsorge enthält. Darin erfährt man zum Beispiel, ob besondere Impfungen notwendig sind, ob man im Reiseland unbesorgt Wasser aus der Wasserleitung trinken darf oder worauf man beim Essen achten muss. CRM hat auch einen telefonischen Notruf eingerichtet, über den Reisende im Ausland Rat und Hilfe bekommen können, wenn es Gesundheitsprobleme gibt.",
+          "correct": "e"
+        },
+        {
+          "number": 2,
+          "text": "Handybenutzer fahren doppelt so sicher wie der Durchschnitt der Autofahrer. Dieses überraschende Ergebnis brachte eine Studie der Bundesanstalt für Straßenwesen in der BRD. Besitzer von Mobiltelefonen legen pro Jahr fast doppelt so viele Kilometer zurück wie andere Fahrer, sind aber trotzdem in weniger Unfälle verwickelt. Es handelt sich dabei zum Teil um Fahrer, die durch ihren Beruf gezwungen sind, lange Strecken im Wagen zurückzulegen, wie Lkw- und Taxifahrer, Pendler oder Leute, die aus geschäftlichen Gründen viel unterwegs sind.",
+          "correct": "a"
+        },
+        {
+          "number": 3,
+          "text": "Urlaub ohne Auto und trotzdem mobil. Die FerienTickets der Deutschen Bahn AG machen Lust auf Autoverzicht. Sie kosten nur 20 Euro und bieten viel: In 53 Regionen Deutschlands können Urlauber damit eine Woche lang kreuz und quer mit fast allen Zügen der DB die Umgebung ihres Ferienortes kennenlernen. Noch günstiger ist das FerienTicket für Gruppen und Familien. Von der zweiten bis zur fünften Person zahlen Mitfahrer die Hälfte, Kinder ein Viertel.",
+          "correct": "d"
+        },
+        {
+          "number": 4,
+          "text": "Für junge Leute im Alter von 12 bis 26 Jahren haben die europäischen Jugendminister die EURO<26-Karte geschaffen. Sie bietet in Deutschland und in 27 europäischen Ländern Preisvorteile zum Beispiel bei Flügen, Sprachreisen, in Hotels, Diskotheken, Fitness-Centern, Kinos, Museen und bei kulturellen Veranstaltungen. Die EURO<26-Karte kann unter der Telefonnummer (0 18 05) 13 26 26 bestellt werden. Direkt kaufen kann man sie in allen Geschäftsstellen der Dresdner Bank und an allen Fahrkartenausgaben der Deutschen Bahn AG.",
+          "correct": "g"
+        },
+        {
+          "number": 5,
+          "text": "In den 70er Jahren galten die ersten Umweltschützer noch als komische Idealisten. Doch inzwischen hat sich „grünes Denken“ durchgesetzt. In einer aktuellen Studie des Umweltbundesamtes geben rund 75 Prozent der Befragten an, dass sie versuchen, sich möglichst „umweltfreundlich“ zu verhalten. Zwei Drittel befürchten eine globale Katastrophe, wenn wir so weitermachen wie bisher.",
+          "correct": "c"
+        }
+      ]
+    },
+    {
+      "id": "lesen2",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 2",
+      "type": "mc",
+      "instructions": "Lesen Sie den Text und die Aufgaben 6–10. Welche Lösung (a, b oder c) ist jeweils richtig?",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "passage": {
+        "heading": "Ein ganz normaler Bub",
+        "subheading": "Craig Kielburger, 15: Das Kind, das gegen Kinderarbeit kämpft (Martina Prewein)",
+        "paragraphs": [
+          "Craig Kielburger ist fünfzehn. Seit drei Jahren kämpft der Bub gegen die Kinderarbeit. Er reist in Dritte-Welt-Länder, spricht mit Politikern und organisiert medienwirksame Aktionen. Jetzt hat er ein Buch über seine Mission geschrieben.",
+          "Craig Kielburger kennt viele Politiker. In seiner Heimat Kanada ist er Berater des Außenministeriums, und außerdem hält er ständig Vorträge rund um den Globus: vor der UNO, der UNESCO, vor dem Weltrat der Kirchen usw. Und so hat vor drei Jahren alles angefangen: „Damals“, sagt Craig, „habe ich einen Bericht über einen pakistanischen Buben gelesen, der aus einer Teppichfabrik geflüchtet war, sich fortan gegen Kinderarbeit eingesetzt hatte und deswegen ermordet worden ist.“ Kinderarbeit: ein Thema, das bei ihm daheim, in dem kleinen Vorort von Toronto, bis dahin unbekannt gewesen war.",
+          "Craig begann, mit seinen Mitschülern Informationsmaterial zu sammeln, und trat mit Menschenrechtsorganisationen in Kontakt. Doch niemand wusste wirklich Bescheid. Also gab es für ihn nur einen Weg: Er musste selbst nach Informationen suchen. So beschloss er nach Asien zu fliegen. Seine Eltern sagen: „Wir sind natürlich dagegen gewesen. Unser Bub war ja erst zwölf. Aber irgendwie hat er es schließlich geschafft, uns davon zu überzeugen, wie wichtig das ist.“",
+          "Auch seine Lehrer konnte er leicht dazu überreden, ihm freizugeben und die Prüfungen nachholen zu lassen. Zusammen mit einem Studenten reiste Craig in verschiedene asiatische Städte. Dort hat er mit einigen Kindern gesprochen, die für eine Mahlzeit am Tag von 7 Uhr früh bis spätnachts in Fabriken arbeiten. Weltweit, schätzt er, sind es 250 Millionen Kinder, die so leben.",
+          "Ihr Leid muss gezeigt werden. Nur dann kann sich etwas ändern. Deswegen hat der Bub schon viele Aktionen gestartet: In Brasilien etwa brachte er ein Kamerateam des größten Fernsehsenders zu Zuckerrohrfeldern, wo Sechsjährige schuften, in Indien brachte er die Presse in Fabriken, wo Kinder arbeiten.",
+          "„Niemals werde ich aufhören, für die ausgebeuteten Kinder zu kämpfen, weil es doch unnormal wäre, als Kind zu akzeptieren, dass Kinder leiden müssen“, sagt Craig, der in einem Haus mit Swimmingpool aufgewachsen ist und in seiner Freizeit am liebsten Gameboy spielt."
+        ]
+      },
+      "items": [
+        {
+          "number": 6,
+          "question": "In vielen asiatischen Städten",
+          "options": [
+            { "key": "a", "text": "bekommen Kinder nur eine Mahlzeit am Tag." },
+            { "key": "b", "text": "arbeiten Kinder." },
+            { "key": "c", "text": "leben 250 Millionen Kinder." }
+          ],
+          "correct": "b"
+        },
+        {
+          "number": 7,
+          "question": "Craigs Aktionen sollen",
+          "options": [
+            { "key": "a", "text": "die Situation der Kinder ändern." },
+            { "key": "b", "text": "in Brasilien den größten Fernsehsender unterstützen." },
+            { "key": "c", "text": "helfen, Arbeitsstellen für Kinder in Fabriken zu finden." }
+          ],
+          "correct": "a"
+        },
+        {
+          "number": 8,
+          "question": "Vor drei Jahren",
+          "options": [
+            { "key": "a", "text": "ist ein pakistanischer Bub aus einer Teppichfabrik geflüchtet." },
+            { "key": "b", "text": "hielt Craig Vorträge vor der UNO, der UNESCO und dem Weltrat der Kirchen." },
+            { "key": "c", "text": "erfuhr Craig zum ersten Mal etwas über das Thema Kinderarbeit." }
+          ],
+          "correct": "c"
+        },
+        {
+          "number": 9,
+          "question": "Informationen über das Thema Kinderarbeit",
+          "options": [
+            { "key": "a", "text": "bekam Craig von Menschenrechtsorganisationen." },
+            { "key": "b", "text": "wollte Craig selbst in Asien sammeln." },
+            { "key": "c", "text": "erhielt Craig von seinen Mitschülern." }
+          ],
+          "correct": "b"
+        },
+        {
+          "number": 10,
+          "question": "Die Eltern von Craig",
+          "options": [
+            { "key": "a", "text": "waren zuerst gegen seine Reise nach Asien." },
+            { "key": "b", "text": "haben ihn überzeugt, dass die Reise nach Asien wichtig ist." },
+            { "key": "c", "text": "wollten, dass ein Student mit Craig fährt." }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "lesen3",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 3",
+      "type": "match",
+      "instructions": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Finden Sie für jede Situation die passende Anzeige. Sie können jede Anzeige nur einmal benutzen. Wenn Sie zu einer Situation keine Anzeige finden, wählen Sie x.",
+      "pointsPerItem": 2.5,
+      "maxPoints": 25,
+      "optionLabel": "Anzeige",
+      "allowX": true,
+      "options": [
+        { "key": "a", "text": "Studenten für lukrative Fahrerjobs gesucht. Stundenweise und als Urlaubsvertretung. FS Kl. III, 15,– EUR/Std. Tel. (089) 45 67 23" },
+        { "key": "b", "text": "Gebrauchtwagen – Ständig ca. 130 Gebrauchtfahrzeuge (Pkw und Lkw) vorrätig. Jetzt bei uns testen! Sonntags von 11–14 Uhr geöffnet! Nur Besichtigung, kein Verkauf." },
+        { "key": "c", "text": "Neuwagenimporte – fast alle Modelle, auch Wunschbestellungen. Sonntags Besichtigung 10–17 Uhr. Autohaus Münchs, Königsallee 45, Köln, Tel. 75 64 22" },
+        { "key": "d", "text": "Beginnen Sie das neue Jahr einmal anders und besuchen Sie unseren Tanztee am 3.1. von 15.00 bis 18.00 Uhr. Lernen Sie bei einem Stück selbst gemachten Kuchen neue Menschen kennen. Dorfschänke Mausbach, Inh. Familie Luis, 41379 Brüggen-Boorholz 21, Telefon 90 80 87" },
+        { "key": "e", "text": "Vis à Vis – Bistro & Café & Kneipe, Marion Krienen, Hühnermarkt 13, 41751 Viersen-Dülken, Tel. (0 21 62) 4 17 28. Wir wünschen unseren Gästen viel Spaß in der lustigsten Zeit des Jahres! Faschings-Party ab 20 Uhr. Wir freuen uns auf Ihren Besuch." },
+        { "key": "f", "text": "CITY-CAR – Funk-Mietwagen, E. Eickelberg. Wir fahren Sie sicher, gut und preiswert. Tel. (0 21 62) 3 38 33. Gerberstraße 132, 41718 Viersen. Krankenfahrten (zugelassen für alle Kassen), Kurierfahrten mit Pkw und Kombi, Taxidienst." },
+        { "key": "g", "text": "Frisör kommt ins Haus zu normalen Preisen! Termin zum Schneiden, aber wohin mit den Kindern? Bei Krankheit, z.B. Beinbruch, wie komme ich zum Frisör? Jetzt kommt Ihr Frisör bis 20 Uhr ins Haus! Damen- und Herrensalon Coiffeur Casaretto, Großbaumstr. 5, 41747 Viersen, Tel. 93 27 22" },
+        { "key": "h", "text": "Auto-Dienst, Kfz-Meister-Betrieb: Auto-Technik Cloeters, Gladbacher Str. 330, 41748 Viersen. Reparaturen aller Kraftfahrzeuge, Unfallschadenbeseitigung. Tel. (0 21 62) 35 34 14" },
+        { "key": "i", "text": "Reis Garten China-Restaurant, Fahrgasse 3, 60311 Frankfurt/Main, Telefon 29 56 34. Alle Speisen auch zum Mitnehmen! Öffnungszeiten: Mo.–Fr. 11.30–14.30 Uhr und 17.30–23.00 Uhr, Sa. u. So. 11.30–23.00 Uhr." },
+        { "key": "j", "text": "Leistungsbereite Taxifahrer für Tag und Nacht auf fabrikneuem Mercedes mit vielen Extras gesucht. Tel. 9 22 13 56, 17–19 Uhr. Personal-Parkplätze." },
+        { "key": "k", "text": "Junge Haarmoden sucht für sein Team qualifizierte, einsatzbereite Friseure/Friseurinnen mit überdurchschnittlichen Fachkenntnissen. Leistungsgerechte Bezahlung und fachliche Fortbildung sind bei uns selbstverständlich. Möritzstraße 26–28, Tel. 89 35 55" },
+        { "key": "l", "text": "Highlander – Finest Whisky Malt Beer. Ristorante – Pension, italienische Spezialitäten & Pizza. Landheimer Straße 197, 60387 Frankfurt, Tel. (069) 52 13 58. Geöffnet: täglich bis 4.00 Uhr, Küche bis 3.30 Uhr." }
+      ],
+      "items": [
+        { "number": 11, "text": "Sie haben selbst kein Auto, möchten aber abends mit einem Auto vom Theater abgeholt werden.", "correct": "f" },
+        { "number": 12, "text": "Ihre Großeltern wollen ihre goldene Hochzeit feiern und suchen einen Raum, in dem 70 Gäste Platz haben.", "correct": "x" },
+        { "number": 13, "text": "Sie sind heute Abend mit Freunden in der Disko gewesen. Nun haben Sie Hunger bekommen und möchten noch etwas essen, obwohl es schon ziemlich spät ist.", "correct": "l" },
+        { "number": 14, "text": "Ein Freund von Ihnen sucht Arbeit. Er hat einen Führerschein und hätte gern eine feste Stelle als Fahrer.", "correct": "j" },
+        { "number": 15, "text": "Sie wollen mit Freunden fröhlich Karneval feiern.", "correct": "e" },
+        { "number": 16, "text": "Ihr Bruder hat eine Ausbildung als Automechaniker gemacht und sucht eine passende Arbeitsstelle.", "correct": "x" },
+        { "number": 17, "text": "Ihr Wagen hat eine Panne. Sie suchen nun eine Werkstatt.", "correct": "h" },
+        { "number": 18, "text": "Sie haben heute keine Zeit zum Kochen und möchten lieber ein warmes Essen kaufen und mit nach Hause nehmen.", "correct": "i" },
+        { "number": 19, "text": "Ein Freund von Ihnen braucht unbedingt ein Auto, hat aber nicht genug Geld für einen neuen Wagen.", "correct": "b" },
+        { "number": 20, "text": "Ihre alte Oma, die ohne Hilfe nicht mehr gehen kann, müsste dringend ihre Haare schneiden lassen.", "correct": "g" }
+      ]
+    },
+    {
+      "id": "sb1",
+      "block": "lesen-sprachbausteine",
+      "title": "Sprachbausteine Teil 1",
+      "type": "cloze-mc",
+      "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+      "pointsPerItem": 1.5,
+      "maxPoints": 15,
+      "textBefore": "Lieber Oliver,\n\nseit einem Monat wohne ich",
+      "items": [
+        {
+          "number": 21,
+          "textAfter": "in Hamburg. Es ist gar nicht einfach, sich an so eine große Stadt zu gewöhnen. Unter so vielen Menschen fühle ich mich richtig verloren. Aber das wird hoffentlich bald",
+          "options": [{ "key": "a", "text": "mehr" }, { "key": "b", "text": "schon" }, { "key": "c", "text": "noch" }],
+          "correct": "b"
+        },
+        {
+          "number": 22,
+          "textAfter": ".\n\nIn der Schule habe ich schon Kontakt zu",
+          "options": [{ "key": "a", "text": "anders" }, { "key": "b", "text": "anderes" }, { "key": "c", "text": "andere" }],
+          "correct": "a"
+        },
+        {
+          "number": 23,
+          "textAfter": "Schülern aus meiner Klasse. Außerdem bin ich in der Handball-AG, um Leute kennenzulernen. Ansonsten ist es fast so wie früher:",
+          "options": [{ "key": "a", "text": "einzigen" }, { "key": "b", "text": "eigenen" }, { "key": "c", "text": "einigen" }],
+          "correct": "c"
+        },
+        {
+          "number": 24,
+          "textAfter": ", als ob die Lehrer überall gleich blöd wären!! Die Mathelehrerin zeigt mir",
+          "options": [{ "key": "a", "text": "Sie scheinen" }, { "key": "b", "text": "Man scheint" }, { "key": "c", "text": "Es scheint" }],
+          "correct": "c"
+        },
+        {
+          "number": 25,
+          "textAfter": "jeder Gelegenheit, dass sie etwas gegen mich hat. Wenn ich nur",
+          "options": [{ "key": "a", "text": "vor" }, { "key": "b", "text": "in" }, { "key": "c", "text": "bei" }],
+          "correct": "c"
+        },
+        {
+          "number": 26,
+          "textAfter": ", warum! Ich war ja noch nie besonders gut in Mathe, und das wird sich an dieser Schule bestimmt nicht",
+          "options": [{ "key": "a", "text": "weiß" }, { "key": "b", "text": "wüsste" }, { "key": "c", "text": "wisse" }],
+          "correct": "b"
+        },
+        {
+          "number": 27,
+          "textAfter": ".\n\n",
+          "options": [{ "key": "a", "text": "ändert" }, { "key": "b", "text": "geändert" }, { "key": "c", "text": "ändern" }],
+          "correct": "c"
+        },
+        {
+          "number": 28,
+          "textAfter": "Eltern geht es gut. Mein Vater hat endlich seine Traumstelle bekommen, schließlich sind wir ja deswegen hierher gezogen. Auch meine Mutter ist zufrieden, denn sie hat schon ein paar Bekannte,",
+          "options": [{ "key": "a", "text": "Meiner" }, { "key": "b", "text": "Meinen" }, { "key": "c", "text": "Meine" }],
+          "correct": "b"
+        },
+        {
+          "number": 29,
+          "textAfter": "in der Nachbarschaft wohnen.\n\nDu wolltest mich doch bald besuchen, oder klappt",
+          "options": [{ "key": "a", "text": "die" }, { "key": "b", "text": "der" }, { "key": "c", "text": "denen" }],
+          "correct": "a"
+        },
+        {
+          "number": 30,
+          "textAfter": "erst Weihnachten?\n\nLass von dir hören\ndein Boris",
+          "options": [{ "key": "a", "text": "es" }, { "key": "b", "text": "dir" }, { "key": "c", "text": "–" }],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "sb2",
+      "block": "lesen-sprachbausteine",
+      "title": "Sprachbausteine Teil 2",
+      "type": "cloze-bank",
+      "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–p. Jedes Wort passt nur einmal.",
+      "pointsPerItem": 1.5,
+      "maxPoints": 15,
+      "wordBank": [
+        { "key": "a", "text": "BEVOR" },
+        { "key": "b", "text": "WO" },
+        { "key": "c", "text": "KANN" },
+        { "key": "d", "text": "HAT" },
+        { "key": "e", "text": "ERHOLEN" },
+        { "key": "f", "text": "WOHIN" },
+        { "key": "g", "text": "KÜMMERN" },
+        { "key": "h", "text": "NÄMLICH" },
+        { "key": "i", "text": "VOR" },
+        { "key": "j", "text": "DA" },
+        { "key": "k", "text": "KENNEN" },
+        { "key": "l", "text": "WIRD" },
+        { "key": "m", "text": "WOHER" },
+        { "key": "n", "text": "WISSEN" },
+        { "key": "o", "text": "DENN" },
+        { "key": "p", "text": "WOHL FÜHLEN" }
+      ],
+      "textBefore": "Sehr geehrte Damen und Herren vom Tiergarten,\n\nmit großer Begeisterung – und Erleichterung – haben wir Ihre Anzeige in der Zeitung gelesen. Wir haben nämlich einen Schäferhund und",
+      "items": [
+        { "number": 31, "textAfter": ", welche Probleme es dadurch bei der Urlaubsplanung gibt.", "correct": "n" },
+        { "number": 32, "textAfter": "jeder Reise immer die gleiche Frage:", "correct": "i" },
+        { "number": 33, "textAfter": "kommt der Hund?\n\nIn den letzten Jahren haben wir unseren Hund jedes Mal mitgenommen. Es war nicht einfach, sich mit unseren zwei kleinen Kindern und dem Hund zu", "correct": "f" },
+        { "number": 34, "textAfter": ". Wir hoffen, dass der nächste Urlaub durch Sie gerettet", "correct": "e" },
+        { "number": 35, "textAfter": ". Natürlich möchten wir einige Einzelheiten wissen,", "correct": "l" },
+        { "number": 36, "textAfter": "wir unseren Rex zu Ihnen bringen.", "correct": "a" },
+        { "number": 37, "textAfter": "der Hund zum Beispiel bei Ihnen genügend Platz zum Laufen? Bei uns zu Hause,", "correct": "d" },
+        { "number": 38, "textAfter": "wir einen sehr großen Garten haben, ist er es nämlich so gewohnt. Was passiert, wenn die Tiere sich bei Ihnen nicht", "correct": "b" },
+        { "number": 39, "textAfter": ", weil sie etwa Ihre Mitarbeiter nicht", "correct": "p" },
+        { "number": 40, "textAfter": "?\n\nNatürlich beschäftigt uns auch die Kostenfrage. Wie teuer ist es, wenn Sie den Hund für drei Wochen aufnehmen würden?\n\nBitte informieren Sie uns möglichst bald, denn wir wollen in den nächsten Wochen unseren Urlaub buchen.\n\nMit freundlichen Grüßen\nFamilie Köttgen", "correct": "k" }
+      ]
+    },
+    {
+      "id": "hoeren1",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 1",
+      "type": "truefalse",
+      "instructions": "Sie hören fünf kurze Texte. Sie hören diese Texte nur einmal. Entscheiden Sie: richtig (+) oder falsch (–)?",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 1 (fünf kurze Texte, einmal hören)",
+      "audio": { "src": "audio/telc-b1-uebungstest-2-hoeren1.mp3" },
+      "transcripts": [
+        { "number": null, "text": "Moderatorin: Wir wollten von jungen Leuten wissen: Wie war das mit deinem ersten Freund, deiner ersten Freundin? Hören Sie dazu folgende Äußerungen." },
+        { "number": 41, "text": "Meine erste Freundin habe ich auf einem Schulfest kennengelernt, das wir mit der Clique besuchten. Ich glaube, ich habe sie angesprochen. Aufgeregt war ich nicht. Wir hatten sofort ein Gesprächsthema, weil wir beide Gitarre spielten. Danach haben wir viel zusammen unternommen. Wir haben nämlich beide gern Sport und Musik gemacht. Sie ist dann aber irgendwann umgezogen. Seitdem habe ich sie nicht mehr wiedergesehen." },
+        { "number": 42, "text": "Ich war 15, als ich mit Philipp zusammengekommen bin. Ich denke immer noch oft an ihn, obwohl wir mittlerweile getrennt sind. Damals gingen wir in eine Klasse und hatten denselben Freundeskreis. Ich fand das toll. Ich glaube nicht, dass ich nochmal einen Jungen finde, mit dem ich so gut zusammenpasse. Daher denke ich auch so oft an die Zeit zurück." },
+        { "number": 43, "text": "Mit 14 hatte ich meine erste Freundin. Richtig verliebt war ich nicht. Wir waren zusammen, weil es mir anfangs Spaß machte. Wir sind durchs Stadtzentrum gebummelt und auf Partys gegangen zu Freunden. Das war eine schöne Zeit. Ja, und dann? Die Sache hielt ein halbes Jahr, denn dann fingen wir an, uns gegenseitig auf die Nerven zu gehen." },
+        { "number": 44, "text": "Mit meiner ersten Freundin war ich bis vor Kurzem noch zusammen. Ich kannte sie schon länger vom Sport. In den Sommerferien sind wir dann zusammengekommen, aber mit Problemen. Ich wusste überhaupt nicht, was sie von mir denkt. Eines Abends habe ich mir ein Herz gefasst und sie einfach geküsst – ohne zu fragen. Nach einem Jahr hat sie gesagt: „Ich möchte nicht mehr mit dir zusammen sein. Wir können ja gute Freunde bleiben.“ Das ist jetzt ein paar Wochen her. Wir werden ja sehen." },
+        { "number": 45, "text": "Mit meinem ersten Freund bin ich immer noch zusammen, seit drei Jahren. Zuerst sind wir immer nur auf Partys gegangen. Er war aber schon lange vorher in mich verliebt, und ich wusste das. Ich hatte damals Angst, überhaupt eine Beziehung einzugehen. Zum Glück stimmt die Chemie. Er ist nicht nur mein Freund, er ist auch mein bester Freund. Wir können alles zusammen machen, sonst hätte es bestimmt nicht so lang gehalten." }
+      ],
+      "items": [
+        { "number": 41, "text": "Der Sprecher hatte keine gemeinsamen Interessen mit seiner Freundin.", "correct": "-" },
+        { "number": 42, "text": "Die Sprecherin kann ihren Freund nicht vergessen.", "correct": "+" },
+        { "number": 43, "text": "Der Sprecher war am Anfang gern mit seiner Freundin zusammen.", "correct": "+" },
+        { "number": 44, "text": "Der Sprecher und seine Freundin sind jetzt getrennt.", "correct": "+" },
+        { "number": 45, "text": "Die Sprecherin ist nicht so glücklich mit ihrem Freund.", "correct": "-" }
+      ]
+    },
+    {
+      "id": "hoeren2",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 2",
+      "type": "truefalse",
+      "instructions": "Sie hören ein Gespräch. Sie hören das Gespräch zweimal. Entscheiden Sie: richtig (+) oder falsch (–)? Hinweis: Die Aussagen 46–55 stammen nicht aus dem Original, sondern wurden anhand des Hörtexts erstellt.",
+      "pointsPerItem": 2.5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 2 (ein Gespräch, zweimal hören)",
+      "audio": { "src": "audio/telc-b1-uebungstest-2-hoeren2.mp3" },
+      "transcripts": [
+        { "number": null, "text": "Moderatorin: Hallo Leute! Heute haben wir Stefan Walz aus dem LesArt-Zentrum zu Gast. Das LesArt-Zentrum wurde 1993 in einem renovierten Haus in Berlin eröffnet. Hier kann man sich nicht nur Kinder- und Jugendbücher ausleihen, hier wird auch eine Zeitung von Jugendlichen für Jugendliche gemacht. Stefan ist Mitglied des Zentrums und kann uns sicher mehr darüber erzählen. Guten Tag, Stefan.\nStefan: Guten Tag.\nModeratorin: Sag mal, was ist das für eine Zeitung, die ihr da macht?\nStefan: Also unsere Zeitung heißt „XYZ“ und besteht aus drei Teilen. Auf den ersten Seiten schreiben wir eigene Artikel, in der Mitte stehen Gedichte und Geschichten, die uns andere Leute eingesandt haben, und auf den letzten Seiten werden Bücher vorgestellt. Unser Ziel ist, dass Kinder und Jugendliche mehr Lust zum Lesen bekommen, sich mehr für Bücher interessieren.\nModeratorin: Das dauert sicher lange, bis so eine Zeitung fertig ist, oder?\nStefan: Na ja, das ist ganz schön viel Arbeit. Zuerst suchen wir uns ein bestimmtes Thema aus, zum Beispiel „Freundschaft unter Jugendlichen“. Mit dem müssen dann alle Artikel zu tun haben. Danach werden in einer Konferenz alle Ideen besprochen und die Aufgaben verteilt, also wer was macht. Bis dann eine Zeitung gedruckt ist, dauert es schon ein halbes Jahr.\nModeratorin: Wie oft erscheint denn die Zeitung und wie viele Artikel muss sie haben?\nStefan: Die Zeitung kann man alle zwei Monate bekommen. Wie viele Artikel sie genau hat, ist nicht so wichtig. Das können fünf sein, manchmal sind es aber auch 10 oder 12, dann sind die Texte halt kürzer. Aber die Zeitung hat immer 24 Seiten, das ist bei jeder Ausgabe gleich. Wir schneiden, ordnen und kleben die Artikel der Zeitschrift so lange, bis die Seiten voll sind. Und wenn wir dann fertig sind und alles mit dem Computer bearbeitet haben, dann gibt's jedes Mal ein großes Fest, mit dem wir die neue Ausgabe feiern.\nModeratorin: Aha, das heißt: erst die Arbeit, dann das Vergnügen. Aber so muss es ja auch sein. Erzähl uns doch noch, Stefan: Wer kann bei euch eigentlich mitmachen?\nStefan: Jeder Schüler, jeder Student, der Spaß am Schreiben hat, ist bei uns willkommen. Es ist aber auch so, dass jeder nur bei der Herstellung einer einzigen Zeitung mit dabei sein darf, damit möglichst viele junge Leute die Gelegenheit haben, produktiv zu werden. Geld gibt's natürlich nicht dafür.\nModeratorin: Ach so, na. Weshalb machen denn sonst die jungen Leute bei euch mit?\nStefan: Ach, das ist ganz unterschiedlich. Viele finden es toll, etwas zu schreiben und es dann gedruckt in der Zeitung zu sehen. Da ist man schon ganz schön stolz drauf. Andere wollen zum Beispiel später einen grafischen Beruf ausüben und können auf diese Weise erste Erfahrungen sammeln. Oder manche Schüler geben die fertige Zeitung dann ihrem Direktor, damit er sie bei dem Plan einer Schülerzeitung an ihrer eigenen Schule unterstützt. Und dann gibt es da noch diejenigen, die zwar bei uns mitmachen, dann aber feststellen, dass ihnen so eine Art Arbeit nicht gefällt, dass sie also später beruflich ganz sicher nichts damit zu tun haben wollen.\nModeratorin: Das Zentrum hier heißt ja „LesArt“. Was bedeutet das eigentlich?\nStefan: Das ist eine Kombination aus zwei Wörtern, nämlich aus „Lesen“ und „Art“, dem englischen Wort für Kunst. Die Kinder und Jugendlichen, die hierher kommen, sollen ja nicht nur Literatur hören, lesen und kennenlernen, sondern sie sollen auch mit Hilfe von eigenen Bildern, Fotos, Liedern, Plakaten, Puppen, Videos und so weiter ausdrücken, was sie gelesen haben.\nModeratorin: Das ist ja wirklich eine tolle Sache, so seine Freizeit zu gestalten. Hoffentlich kommt bald wieder eine neue Zeitung raus. Wir sind alle schon ganz drauf gespannt. Und vielen Dank für das Interview, Stefan.\nStefan: Nichts zu danken." }
+      ],
+      "items": [
+        { "number": 46, "text": "Das LesArt-Zentrum wurde 1993 eröffnet.", "correct": "+" },
+        { "number": 47, "text": "Im LesArt-Zentrum kann man keine Bücher ausleihen.", "correct": "-" },
+        { "number": 48, "text": "Auf den letzten Seiten der Zeitung werden Bücher vorgestellt.", "correct": "+" },
+        { "number": 49, "text": "Bis eine Zeitung gedruckt ist, dauert es etwa zwei Monate.", "correct": "-" },
+        { "number": 50, "text": "Jede Ausgabe der Zeitung hat gleich viele Seiten.", "correct": "+" },
+        { "number": 51, "text": "In jeder Ausgabe stehen genau zehn Artikel.", "correct": "-" },
+        { "number": 52, "text": "Jeder darf nur bei einer einzigen Zeitung mitarbeiten.", "correct": "+" },
+        { "number": 53, "text": "Die jungen Leute bekommen für ihre Arbeit etwas Geld.", "correct": "-" },
+        { "number": 54, "text": "Manche merken bei der Arbeit, dass sie später nicht in diesem Bereich arbeiten wollen.", "correct": "+" },
+        { "number": 55, "text": "„Art“ ist das englische Wort für „Lesen“.", "correct": "-" }
+      ]
+    },
+    {
+      "id": "hoeren3",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 3",
+      "type": "truefalse",
+      "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Entscheiden Sie: richtig (+) oder falsch (–)? Hinweis: Die Aussagen 56–60 stammen nicht aus dem Original, sondern wurden anhand des Hörtexts erstellt.",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 3 (fünf kurze Texte, je zweimal hören)",
+      "audio": { "src": "audio/telc-b1-uebungstest-2-hoeren3.mp3" },
+      "transcripts": [
+        { "number": 56, "text": "Sie wollen bei sich zu Hause eine Party machen und rufen deshalb beim Partyservice an. Was bietet der Partyservice?\nAnrufbeantworter: Hier Partyservice Feste GmbH. Wir dekorieren, kochen, servieren, unterhalten und arrangieren. Und wenn Ihre Gäste nach Hause gehen, sieht bei Ihnen wieder alles so aus wie vorher. Leider ist unser Partybüro zurzeit nicht besetzt. Wählen Sie deshalb die Nummer 627 23. Informationen auch im Internet auf der Webseite www.fl.feste.de oder Sie bestellen bei uns über E-Mail." },
+        { "number": 57, "text": "Sie wollen das Konzert von Michael Jackson besuchen und rufen deshalb bei der Kartenvorverkaufsstelle an. Was erfahren Sie?\nBandansage: Hier die Ticket-Hotline, Rufnummer 0180 55700. Für das Konzert von Michael Jackson am Samstag, den 26. Juni um 15:00 Uhr im Olympiastadion: kein Kartenverkauf mehr. Karten für das Jackson-Konzert am Sonntag, den 27. Juni um 19:30 Uhr auf dem Königsplatz unter der Nummer 64 91 43 27. Nächste Veranstaltung: Verdi, Puccini, Rossini – Ein italienischer Sommernachtstraum. Am 1. Juli um 20:00 Uhr im Herkulessaal. Kartenvorverkauf ab 20. Mai unter 26 70 24." },
+        { "number": 58, "text": "Sie hören im Radio folgende Werbung eines Möbelhauses. Welchen besonderen Service bietet es?\nRadiowerbung: Sie träumen, Fischer macht den Rest. Jetzt können Sie Ihre Wohnträume verwirklichen mit Fischer, dem Polstermöbel-Spezialisten. Wir haben Wohnideen für jeden Geschmack. Wir beraten Sie in allen Einrichtungsfragen gerne und kompetent. Falls Sie es wünschen, kommen wir auch ins Haus. Oder besuchen Sie uns doch einfach in einem unserer vier Möbelmärkte. Geöffnet täglich außer samstags von 9:00 bis 18:00 Uhr." },
+        { "number": 59, "text": "Sie planen einen Ausflug für das Wochenende und hören im Radio den Wetterbericht. Wie wird das Wetter?\nWetterbericht: Und nun die Vorhersage für Freitag, 16. Mai bis einschließlich Sonntag, 18. Mai. Heute zunächst Nebel oder Hochnebel, am Alpenrand geringer Regen. Nachmittags etwas Sonnenschein. Tageshöchstwerte 13 bis 17 Grad, Tiefstwerte 7 bis 2 Grad, mitunter Bodenfrostgefahr. Morgen zunächst trüb, stellenweise Sprühregen. Dann am Nachmittag etwas Sonnenschein, aber auch noch einzelne Schauer. Tageshöchstwerte 13 bis 15 Grad. Weitere Aussichten: Am Sonntag wird es sonnig und trocken, gegen Abend vereinzelt bewölkt." },
+        { "number": 60, "text": "Sie rufen die Programmansage des Cinerama-Kinos an. Wann läuft der Film „Mulan“?\nKinoprogrammansage: Hier die Programmdurchsage des Cinerama-Kinocenters für die kommende Woche vom 19. bis 25.7. Jeder Film 2,40 Euro. „Mulan“, ab 6 Jahren: Samstag bis Sonntag 15:30 Uhr, Samstag 20:00 Uhr, Sonntag auch 17:30 Uhr. „Der Pferdeflüsterer“, ab 16 Jahren: Freitag 20:00 Uhr, Montag 17:30 Uhr, Mittwoch 23:00 Uhr. „Eine Hochzeit zum Verlieben“, ab 12 Jahren: Donnerstag 23:00 Uhr, Sonntag 20:00 Uhr, Mittwoch 17:30 Uhr." }
+      ],
+      "items": [
+        { "number": 56, "text": "Der Partyservice räumt nach der Party auch wieder auf.", "correct": "+" },
+        { "number": 57, "text": "Für das Konzert am Samstag kann man noch Karten kaufen.", "correct": "-" },
+        { "number": 58, "text": "Das Möbelhaus berät seine Kunden auf Wunsch auch zu Hause.", "correct": "+" },
+        { "number": 59, "text": "Am Sonntag soll es regnen.", "correct": "-" },
+        { "number": 60, "text": "Der Film „Mulan“ läuft am Samstag auch am Abend.", "correct": "+" }
+      ]
+    },
+    {
+      "id": "schreiben",
+      "block": "schreiben",
+      "title": "Schriftlicher Ausdruck",
+      "type": "writing",
+      "maxPoints": 45,
+      "promptTitle": "E-Mail von Mina",
+      "targetWords": "150",
+      "instructions": "Sie haben von einer Bekannten folgende E-Mail erhalten. Antworten Sie auf die E-Mail. Schreiben Sie etwas zu allen vier Punkten, jeweils ein oder zwei Sätze. Überlegen Sie sich vor dem Schreiben eine passende Reihenfolge der Punkte, eine passende Anrede, Einleitung und einen passenden Schluss. (ca. 150 Wörter)",
+      "prompt": "Liebe(r) ...,\n\nes ist schon ein Monat vergangen, seitdem ich deine Mail bekommen habe. Erst jetzt habe ich Zeit, dir kurz zu antworten. Du weißt ja, dass wir im letzten Monat umgezogen sind. Ich musste mich um alles kümmern, weil mein Mann den ganzen Tag arbeitet und noch weniger Zeit hat als ich.\n\nAber jetzt bin ich mit allem fertig. Unsere neue Wohnung ist richtig gemütlich geworden. Vielleicht kommst du uns ja bald besuchen?! Wenn du wirklich immer noch vorhast, nach Deutschland zu kommen, dann kannst du erst einmal bei uns bleiben, bis du eine eigene Wohnung gefunden hast. Was möchtest du eigentlich hier machen? Schreib mir bitte mehr über deine Pläne!\n\nViele Grüße auch von Max\ndeine Mina",
+      "leitpunkte": [
+        "wo Sie wohnen möchten",
+        "wie lange Sie vorhaben zu bleiben",
+        "warum Sie nach Deutschland fahren wollen",
+        "wie Ihre Bekannte Ihnen sonst noch helfen könnte"
+      ]
+    }
+  ]
+}

@@ -5,6 +5,12 @@
       "title": "telc Deutsch B1 – Übungstest 1",
       "subtitle": "Zertifikat Deutsch, 13. Auflage 2020",
       "file": "telc-b1-uebungstest-1.json"
+    },
+    {
+      "id": "telc-b1-uebungstest-2",
+      "title": "telc Deutsch B1 – Übungstest 2",
+      "subtitle": "Lösungen ohne offiziellen Schlüssel, Hören 46–60 selbst erstellt",
+      "file": "telc-b1-uebungstest-2.json"
     }
   ]
 }
