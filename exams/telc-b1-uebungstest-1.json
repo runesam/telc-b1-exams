@@ -52,27 +52,32 @@
         {
           "number": 1,
           "text": "Wer ist der typische Computerfan? Das B.A.T. Freizeitforschungsinstitut Hamburg ermittelte einige Eigenschaften: Er ist männlich, jung und hat einen höheren Schulabschluss. Bei der Beschäftigung am heimischen Computer stehen Textverarbeitung und Spiele ganz oben, es folgen private Buchhaltung, Grafikprogramme und Tabellenkalkulation.",
-          "correct": "i"
+          "correct": "i",
+          "explanation": "The text reports research results on who uses the computer at home (male, young, higher school degree) and what for, which is what i asks. c is a trap: the typical fan is described as „männlich“, not as a woman."
         },
         {
           "number": 2,
           "text": "„Bahn&Bike“ heißt ein 222-seitiger Prospekt, den die Deutsche Bahn AG in Zusammenarbeit mit der Deutschen Zentrale für Tourismus herausgebracht hat und der wichtige Informationen für jene bereitstellt, die ihren Radurlaub mit Bahnfahren verbinden wollen. Das Motto lautet: Hin mit der Bahn – das Rad vor Ort mieten. Der Prospekt enthält Angaben zur Streckenlänge und Wegbeschaffenheit, Adressen von Verleihstationen, verweist auf Sehenswürdigkeiten sowie Unterkünfte und wird durch Karten ergänzt. Die Broschüre kostet 5 Euro und ist im Buchhandel beziehungsweise an Fahrkartenschaltern zu beziehen.",
-          "correct": "d"
+          "correct": "d",
+          "explanation": "„Bahn&Bike“ is a new brochure from the Deutsche Bahn with routes, bike rental stations and accommodation for people who combine a bike holiday with the train, so d. g claims bike holidays are getting more popular, which the text never says."
         },
         {
           "number": 3,
           "text": "Ausführliche Informationen zum Thema „Schlafstörungen“ finden Sie im gleichnamigen Patientenratgeber von Dr. med. Fritz Hohagen. Sie erfahren, was den Schlaf stört und was Sie dagegen unternehmen können. Für 9,95 Euro erhalten Sie das Buch in Apotheken oder direkt beim Wort&Bild Verlag, 82065 Baierbrunn.",
-          "correct": "b"
+          "correct": "b",
+          "explanation": "A „Patientenratgeber“ is a book: the text gives the author, the price (9,95 Euro) and where to buy it, so it is a „Buchtipp“ (b). e is wrong because no tablets are mentioned."
         },
         {
           "number": 4,
           "text": "Jetzt wird für Familien Reisen mit der Bahn zwischen Österreich und Deutschland noch ein gutes Stück günstiger. Denn ab 6. Oktober gibt es den Familien-Super-Sparpreis. Ein echter Traumpreis für die ganze Familie – vom Baby bis zum Großpapa – da kann man wirklich sparen. Der Familien-Super-Sparpreis gilt für Familien, bestehend aus ein oder zwei Erwachsenen (Eltern, auch Großeltern) und deren Kindern/Enkelkindern bis zum vollendeten 17. Lebensjahr, wobei mindestens ein Kind/Enkelkind an der Reise teilnehmen muss.",
-          "correct": "f"
+          "correct": "f",
+          "explanation": "The new „Familien-Super-Sparpreis“ makes train travel „noch ein gutes Stück günstiger“ for families, so f. a is a trap: the text is about a cheaper price, not about more families choosing the train."
         },
         {
           "number": 5,
           "text": "Touristen zwischen 14 und 29 Jahren sowie zwischen 40 und 49 Jahren haben ein besonders großes Interesse an der Kultur des jeweiligen Reiselandes, während die Gruppe der 30- bis 39-jährigen im Urlaub „eine Kulturpause einlegt“. Dies geht aus der neuesten Analyse der Forschungsgemeinschaft Urlaub und Reisen e.V. hervor. Urlauber aus Ostdeutschland, so die Studie, zeigen wiederum mehr Kulturinteresse als Reisende aus dem Westen. Grundsätzlich gelte: Je höher das Einkommen und die Schulbildung sind, umso mehr besteht im Urlaub der Wunsch, Land und Leute kennenzulernen.",
-          "correct": "h"
+          "correct": "h",
+          "explanation": "The text compares interest in culture by age group (14-29 and 40-49 high, 30-39 a „Kulturpause“), so h. j is a trap: East and West Germans are compared by their interest in culture, not by where tourists travel."
         }
       ]
     },
@@ -105,7 +110,8 @@
             { "key": "b", "text": "lernen, was sie in der Schule verpasst haben." },
             { "key": "c", "text": "praktische Erfahrungen mit der Büroarbeit sammeln." }
           ],
-          "correct": "c"
+          "correct": "c",
+          "explanation": "„In einem fünfmonatigen Kurs lernen sie, das in der Schule Gelernte in die Praxis umzusetzen“ means practical office experience (c). a is wrong because they already have „eine abgeschlossene kaufmännische Ausbildung“; b, catching up on what they missed, is never said."
         },
         {
           "number": 7,
@@ -115,7 +121,8 @@
             { "key": "b", "text": "Behinderte auf die Abschlussprüfungen vorzubereiten." },
             { "key": "c", "text": "für die behinderten Menschen eine Arbeit zu finden." }
           ],
-          "correct": "c"
+          "correct": "c",
+          "explanation": "„Gleichzeitig wird ihnen bei der Jobsuche geholfen“ means the Büro-Werkstatt also helps them find work (c). Non-disabled unemployed people (a) are only mentioned as competition, and no exams (b) are mentioned."
         },
         {
           "number": 8,
@@ -125,7 +132,8 @@
             { "key": "b", "text": "einen Behinderten einstellen oder eine monatliche Gebühr bezahlen." },
             { "key": "c", "text": "für jeden Behinderten monatlich 150 Euro bezahlen." }
           ],
-          "correct": "b"
+          "correct": "b",
+          "explanation": "Firms must hire one disabled person per 25 employees, but most „kaufen sich frei“ with the „Ausgleichstaxe“ of about 150 Euro a month: hire or pay (b). There is no special tax (a), and the 150 Euro is paid instead of hiring someone, not for each disabled person (c)."
         },
         {
           "number": 9,
@@ -135,7 +143,8 @@
             { "key": "b", "text": "konnte Günther Hos für den Verein schon viel Geld sparen." },
             { "key": "c", "text": "zahlen Arbeitslose um ein Drittel weniger Steuern." }
           ],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "„Seit der Vereinsgründung ... ein Drittel unserer Leute untergebracht“ means a job was found for a third of the participants (a). Nobody saved money (b), and the text says one more taxpayer, not lower taxes (c)."
         },
         {
           "number": 10,
@@ -145,7 +154,8 @@
             { "key": "b", "text": "wollte nicht länger Geografie und Geschichte unterrichten." },
             { "key": "c", "text": "wird nach der Ausbildung der Behinderten nicht mehr gebraucht." }
           ],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "She would not accept that her disabled students were trained and then „als Arbeitnehmer nicht gebraucht“, so she wanted them to get jobs (a). She still teaches Geografie and Geschichte (b), and „nicht gebraucht“ refers to the students, not to her (c)."
         }
       ]
     },
@@ -174,16 +184,16 @@
         { "key": "l", "text": "SPRACHBÖRSE – Deutsch als Fremdsprache · Fremdsprachen · Kindersprachkurse: Prüfungskurse, muttersprachliche Lehrkräfte, Geschäftsdeutsch, Minigruppen und Einzelunterricht, schon für Kinder ab 4 Jahren. Nähe Rotkreuzplatz, Tel. 16 14 79, Schulstraße 31." }
       ],
       "items": [
-        { "number": 11, "text": "Sie möchten mit Freunden in einem Restaurant essen. Da das Wetter schön ist, möchten Sie gerne draußen sitzen.", "correct": "b" },
-        { "number": 12, "text": "Sie möchten heute nicht selbst kochen, sondern lieber ein warmes Essen kaufen und mit nach Hause nehmen.", "correct": "a" },
-        { "number": 13, "text": "In den Sommerferien möchten Sie gerne in die USA fliegen. Sie brauchen dort auch eine Unterkunft.", "correct": "d" },
-        { "number": 14, "text": "Reisebüros bieten billigere Flüge an, wenn man in letzter Minute bucht. Sie suchen so einen Flug.", "correct": "x" },
-        { "number": 15, "text": "Ihre Tochter, die studiert, möchte in die USA fliegen. Sie suchen einen billigen Flug für sie.", "correct": "e" },
-        { "number": 16, "text": "Ihr Sohn ist schlecht in Mathematik und braucht deshalb noch Unterricht außerhalb der Schule.", "correct": "i" },
-        { "number": 17, "text": "Das Kind Ihrer Freunde hat Probleme beim Sprechen und braucht deshalb Hilfe.", "correct": "k" },
-        { "number": 18, "text": "Sie haben einen jungen Franzosen zu Besuch. Sie möchten, dass er in einen Deutschkurs geht.", "correct": "l" },
-        { "number": 19, "text": "Sie möchten, dass Ihr Sohn in einen Jugendclub geht.", "correct": "x" },
-        { "number": 20, "text": "Sie interessieren sich für die Probleme ausländischer Jugendlicher in Deutschland.", "correct": "g" }
+        { "number": 11, "text": "Sie möchten mit Freunden in einem Restaurant essen. Da das Wetter schön ist, möchten Sie gerne draußen sitzen.", "correct": "b", "explanation": "Only Olindo offers „bei schönem Wetter Gartenbetrieb“, which means you can sit outside (b). f also has a Biergarten, but it is a Kneipe for billiards and football, not a restaurant to eat with friends." },
+        { "number": 12, "text": "Sie möchten heute nicht selbst kochen, sondern lieber ein warmes Essen kaufen und mit nach Hause nehmen.", "correct": "a", "explanation": "Bong-Hong says „Alle Gerichte auch zum Mitnehmen und Heimservice“, so you can buy hot food and take it home (a). No other restaurant ad offers takeaway." },
+        { "number": 13, "text": "In den Sommerferien möchten Sie gerne in die USA fliegen. Sie brauchen dort auch eine Unterkunft.", "correct": "d", "explanation": "SEATOP is a „Flug- und Hotelspezialist“ with summer dates to the USA still free, so it covers both the flight and the accommodation (d). j only rents campers, and e is cheap flights for students without a hotel." },
+        { "number": 14, "text": "Reisebüros bieten billigere Flüge an, wenn man in letzter Minute bucht. Sie suchen so einen Flug.", "correct": "x", "explanation": "No ad mentions cheap last-minute offers, so x. e is cheap but only for students, d just has free seats, and j even says „Früh buchen lohnt“, which is the opposite of last minute." },
+        { "number": 15, "text": "Ihre Tochter, die studiert, möchte in die USA fliegen. Sie suchen einen billigen Flug für sie.", "correct": "e", "explanation": "Council Travel offers cheap flights „für Studenten/Jugendliche“ to New York, Los Angeles and other US cities, a perfect match for a student daughter (e). d is not specifically cheap or for students." },
+        { "number": 16, "text": "Ihr Sohn ist schlecht in Mathematik und braucht deshalb noch Unterricht außerhalb der Schule.", "correct": "i", "explanation": "i offers „Nachhilfe in Mathe-Physik“ for all classes. h prepares for a Nachprüfung, but only in Latein, Englisch, Französisch and Deutsch, so no maths." },
+        { "number": 17, "text": "Das Kind Ihrer Freunde hat Probleme beim Sprechen und braucht deshalb Hilfe.", "correct": "k", "explanation": "k offers courses „für Erwachsene und Kinder mit (Sprach-)Schwierigkeiten“, exactly a child who has trouble speaking. l is a normal language school, not help for speech problems." },
+        { "number": 18, "text": "Sie haben einen jungen Franzosen zu Besuch. Sie möchten, dass er in einen Deutschkurs geht.", "correct": "l", "explanation": "SPRACHBÖRSE offers „Deutsch als Fremdsprache“ with native-speaker teachers, which is right for a young French visitor (l). h is exam preparation for school pupils, and k is for speech difficulties." },
+        { "number": 19, "text": "Sie möchten, dass Ihr Sohn in einen Jugendclub geht.", "correct": "x", "explanation": "No ad is about a youth club, so x. g is a single discussion evening about young people, not a club, and e sells travel for young people." },
+        { "number": 20, "text": "Sie interessieren sich für die Probleme ausländischer Jugendlicher in Deutschland.", "correct": "g", "explanation": "The Internationaler Stammtisch discusses „Deutsche und ausländische Jugendliche in München“, exactly the problems of foreign young people (g). No other ad deals with this topic." }
       ]
     },
     {
@@ -200,61 +210,71 @@
           "number": 21,
           "textAfter": "das hat dann leider nicht geklappt. Doch dann habe ich eine Stelle als Praktikant bei",
           "options": [{ "key": "a", "text": "aber" }, { "key": "b", "text": "denn" }, { "key": "c", "text": "sondern" }],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "Two main clauses with a contrast (wanted Paris, did not work out) need „aber“ (a). „sondern“ only follows a negation („nicht A, sondern B“), and „denn“ gives a reason, which does not fit here."
         },
         {
           "number": 22,
           "textAfter": "Firma in Straßburg gefunden.\n\nDort",
           "options": [{ "key": "a", "text": "eine" }, { "key": "b", "text": "einen" }, { "key": "c", "text": "einer" }],
-          "correct": "c"
+          "correct": "c",
+          "explanation": "„bei“ always takes the dative, and „Firma“ is feminine, so „bei einer Firma“ (c). „eine“ is nominative/accusative, and „einen“ is masculine accusative."
         },
         {
           "number": 23,
           "textAfter": "ich drei Monate geblieben. Die Arbeit war sehr",
           "options": [{ "key": "a", "text": "bin" }, { "key": "b", "text": "habe" }, { "key": "c", "text": "wurde" }],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "„bleiben“ is a verb of staying, which forms its Perfekt with „sein“: „Dort bin ich drei Monate geblieben“ (a). „habe“ is the wrong auxiliary, and „wurde“ would be passive or past of „werden“."
         },
         {
           "number": 24,
           "textAfter": "– ich musste schon um 8.00 Uhr im Büro sein –, hat mir aber",
           "options": [{ "key": "a", "text": "anstrengend" }, { "key": "b", "text": "anstrengende" }, { "key": "c", "text": "anstrengendes" }],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "After „sein“ an adjective used as a predicate takes no ending: „Die Arbeit war sehr anstrengend“ (a). Endings like -e or -es only appear when the adjective stands before a noun."
         },
         {
           "number": 25,
           "textAfter": "sehr gut gefallen.\nIch habe",
           "options": [{ "key": "a", "text": "trotzdem" }, { "key": "b", "text": "wegen" }, { "key": "c", "text": "weshalb" }],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "The work was hard, but he still liked it, so a concession: „hat mir aber trotzdem sehr gut gefallen“ (a). „wegen“ is a preposition that needs a noun, and „weshalb“ would start a subordinate clause with the verb at the end."
         },
         {
           "number": 26,
           "textAfter": "dieser Zeit in verschiedenen Abteilungen gearbeitet und so nicht nur etwas über die Herstellung von Fernsehgeräten",
           "options": [{ "key": "a", "text": "bis" }, { "key": "b", "text": "in" }, { "key": "c", "text": "nach" }],
-          "correct": "b"
+          "correct": "b",
+          "explanation": "„in dieser Zeit“ means „during this time“, i.e. during the internship he worked in different departments (b). „bis“ would need „bis zu dieser Zeit“, and „nach dieser Zeit“ means after the internship, which contradicts the story."
         },
         {
           "number": 27,
           "textAfter": ", sondern auch über den Verkauf. Und die Kollegen, mit",
           "options": [{ "key": "a", "text": "gelernt" }, { "key": "b", "text": "lernen" }, { "key": "c", "text": "lernte" }],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "„habe ... gelernt“ is Perfekt, so the verb at the end must be the Partizip II „gelernt“ (a). „lernen“ is the infinitive, and „lernte“ is Präteritum, which cannot combine with „habe“."
         },
         {
           "number": 28,
           "textAfter": "ich am meisten zu tun hatte, waren wirklich sehr nett.\n\nNach dem Praktikum habe ich noch zwei Wochen Urlaub bei",
           "options": [{ "key": "a", "text": "dem" }, { "key": "b", "text": "denen" }, { "key": "c", "text": "die" }],
-          "correct": "b"
+          "correct": "b",
+          "explanation": "„die Kollegen, mit denen ich ...“: the relative pronoun refers to a plural noun and comes after „mit“, which takes the dative, so dative plural „denen“ (b). „dem“ is singular, and „die“ is nominative/accusative."
         },
         {
           "number": 29,
           "textAfter": "Freunden gemacht. Darüber erzähle ich",
           "options": [{ "key": "a", "text": "meine" }, { "key": "b", "text": "meinen" }, { "key": "c", "text": "meiner" }],
-          "correct": "b"
+          "correct": "b",
+          "explanation": "„bei“ takes the dative, and „Freunden“ is dative plural, so „bei meinen Freunden“ (b). „meine“ is nominative/accusative, and „meiner“ is dative feminine singular."
         },
         {
           "number": 30,
           "textAfter": "bald mehr – für heute muss ich Schluss machen.\n\nLiebe Grüße\nFritz",
           "options": [{ "key": "a", "text": "dir" }, { "key": "b", "text": "Ihnen" }, { "key": "c", "text": "uns" }],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "The letter starts with „Liebe Karin“, an informal du-letter, so „erzähle ich dir“ (a). „Ihnen“ is the formal Sie-form, and „uns“ makes no sense because he is telling her."
         }
       ]
     },
@@ -286,16 +306,16 @@
       ],
       "textBefore": "Sehr geehrter Herr Janosch,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr",
       "items": [
-        { "number": 31, "textAfter": "Ihr Angebot. Ich möchte mit meiner Familie vom 10.–24. August in Österreich Urlaub machen und hätte deshalb", "correct": "h" },
-        { "number": 32, "textAfter": "noch nähere Informationen.\nMeine Frau und mich interessiert ganz", "correct": "i" },
-        { "number": 33, "textAfter": "das Freizeitprogramm für Kinder,", "correct": "a" },
-        { "number": 34, "textAfter": "wir zwei Kinder (3 und 8 Jahre) haben. Gibt es Schwimm- und Tenniskurse für Kinder und", "correct": "b" },
-        { "number": 35, "textAfter": "ja, was kosten sie? In Ihrer Anzeige steht auch, dass Sie für die Unterkunft günstige Angebote für Kinder haben. Wie viel", "correct": "o" },
-        { "number": 36, "textAfter": "wir pro Woche für unsere Kinder bezahlen?\nUnd", "correct": "l" },
-        { "number": 37, "textAfter": "noch eine letzte Frage: Wir haben einen kleinen Hund, von dem sich meine Kinder nicht trennen können und den wir", "correct": "m" },
-        { "number": 38, "textAfter": "auch mitnehmen müssten. Wäre das möglich?\nBitte schreiben Sie uns so bald wie möglich,", "correct": "g" },
-        { "number": 39, "textAfter": "wir uns bald entscheiden können. Außerdem wären wir Ihnen sehr", "correct": "e" },
-        { "number": 40, "textAfter": ", wenn Sie uns einige Prospekte oder Bilder Ihrer Pension sowie der Umgebung zusenden würden.\n\nMit freundlichen Grüßen\nIhr Anton Müller", "correct": "f" }
+        { "number": 31, "textAfter": "Ihr Angebot. Ich möchte mit meiner Familie vom 10.–24. August in Österreich Urlaub machen und hätte deshalb", "correct": "h", "explanation": "The fixed verb phrase is „sich interessieren für etwas“, so „für Ihr Angebot“ (FÜR)." },
+        { "number": 32, "textAfter": "noch nähere Informationen.\nMeine Frau und mich interessiert ganz", "correct": "i", "explanation": "„hätte ... gerne noch nähere Informationen“ is the polite way to ask for something: „ich hätte gerne“ = I would like (GERNE)." },
+        { "number": 33, "textAfter": "das Freizeitprogramm für Kinder,", "correct": "a", "explanation": "„ganz besonders“ means „especially“ and emphasises what interests them most (BESONDERS)." },
+        { "number": 34, "textAfter": "wir zwei Kinder (3 und 8 Jahre) haben. Gibt es Schwimm- und Tenniskurse für Kinder und", "correct": "b", "explanation": "The clause gives the reason with the verb at the end („... Kinder haben“), so it needs the subordinating conjunction „da“ (DA). „deshalb“ would need main-clause order, and „damit“ expresses a purpose, not a reason." },
+        { "number": 35, "textAfter": "ja, was kosten sie? In Ihrer Anzeige steht auch, dass Sie für die Unterkunft günstige Angebote für Kinder haben. Wie viel", "correct": "o", "explanation": "„und wenn ja, was kosten sie?“ means „and if so, what do they cost?“ (WENN). „wann“ asks about time and does not fit." },
+        { "number": 36, "textAfter": "wir pro Woche für unsere Kinder bezahlen?\nUnd", "correct": "l", "explanation": "„Wie viel müssten wir pro Woche bezahlen?“ is a polite question about what they would have to pay (MÜSSTEN). „könnten“ would mean how much they are able to pay, which is not the question." },
+        { "number": 37, "textAfter": "noch eine letzte Frage: Wir haben einen kleinen Hund, von dem sich meine Kinder nicht trennen können und den wir", "correct": "m", "explanation": "„Und schließlich noch eine letzte Frage“ means „and finally, one last question“ (SCHLIESSLICH). „damals“ refers to the past and does not fit." },
+        { "number": 38, "textAfter": "auch mitnehmen müssten. Wäre das möglich?\nBitte schreiben Sie uns so bald wie möglich,", "correct": "g", "explanation": "The children cannot be separated from the dog, and that is the reason they would have to bring it: „den wir deshalb auch mitnehmen müssten“ (DESHALB)." },
+        { "number": 39, "textAfter": "wir uns bald entscheiden können. Außerdem wären wir Ihnen sehr", "correct": "e", "explanation": "They ask for a quick reply so that they can decide soon, a purpose with the verb at the end: „damit wir uns bald entscheiden können“ (DAMIT)." },
+        { "number": 40, "textAfter": ", wenn Sie uns einige Prospekte oder Bilder Ihrer Pension sowie der Umgebung zusenden würden.\n\nMit freundlichen Grüßen\nIhr Anton Müller", "correct": "f", "explanation": "The fixed polite phrase is „Wir wären Ihnen sehr dankbar, wenn ...“ (DANKBAR)." }
       ]
     },
     {
@@ -316,11 +336,11 @@
         { "number": 45, "text": "Also mein Mann, der ist ziemlich faul, der macht überhaupt nur, was ihm Spaß macht. Einkaufen geht er ja – aber er hält sich nicht an die Liste, die ich ihm aufschreibe, er kauft immer irgendwas, meistens zu teure Sachen. Ab und zu kocht er, aber das Abwaschen überlässt er mir, na, aufräumen tut er sowieso nicht, die Wäsche schmeißt er einfach ins Eck, das ist meine Sache, von Putzen kann keine Rede sein, also und um den Garten kümmert sich bei uns eigentlich überhaupt keiner – der verwildert." }
       ],
       "items": [
-        { "number": 41, "text": "Die Sprecherin muss im Haushalt fast alles alleine machen.", "correct": "+" },
-        { "number": 42, "text": "Der Sprecher wäscht das Geschirr und die Wäsche.", "correct": "-" },
-        { "number": 43, "text": "Die Sprecherin ist berufstätig und hat keine Zeit für die Hausarbeit.", "correct": "-" },
-        { "number": 44, "text": "Der Sprecher teilt sich mit seiner Partnerin die Arbeit je nach Situation auf.", "correct": "+" },
-        { "number": 45, "text": "Die Sprecherin ist froh, dass ihr Mann so viele Hausarbeiten übernimmt.", "correct": "-" }
+        { "number": 41, "text": "Die Sprecherin muss im Haushalt fast alles alleine machen.", "correct": "+", "explanation": "„eigentlich mach ich alles“: she cooks, washes up, irons and looks after the child, and her husband only „vielleicht“ washes up and does the garden. So she does almost everything alone: richtig." },
+        { "number": 42, "text": "Der Sprecher wäscht das Geschirr und die Wäsche.", "correct": "-", "explanation": "He does the cooking, and „dafür wäscht meine Frau eben ab“; the laundry „das macht sie“. His wife does both the dishes and the laundry: falsch." },
+        { "number": 43, "text": "Die Sprecherin ist berufstätig und hat keine Zeit für die Hausarbeit.", "correct": "-", "explanation": "She is at home with two small children, and it is her husband who is „voll berufstätig“: falsch." },
+        { "number": 44, "text": "Der Sprecher teilt sich mit seiner Partnerin die Arbeit je nach Situation auf.", "correct": "+", "explanation": "„das hängt von der Situation ab“, and they share the laundry. They split the work depending on the situation: richtig." },
+        { "number": 45, "text": "Die Sprecherin ist froh, dass ihr Mann so viele Hausarbeiten übernimmt.", "correct": "-", "explanation": "She calls her husband „ziemlich faul“ and complains that he does almost nothing. She is not happy about it: falsch." }
       ]
     },
     {
@@ -337,16 +357,16 @@
         { "number": null, "text": "J. = Journalist, S. = Frau Seiffert\n\nJ.: Der Turn- und Sportverein Neustadt wird in diesem Jahr 100 Jahre alt und feiert diesen Geburtstag mit einem großen Programm. Ich begrüße dazu heute hier im Studio eine Vertreterin des Turn- und Sportvereins Neustadt, Frau Seiffert. Guten Tag!\nS.: Guten Tag!\nJ.: Frau Seiffert, welche Aufgaben haben Sie denn im Verein?\nS.: Ja, also ich führe bei allen Sitzungen Protokoll. Ich schreibe also alles auf, worüber diskutiert wird und was beschlossen wird. Schriftführerin heißt das.\nJ.: Aha. Vielleicht liegen Ihnen als Schriftführerin da sogar noch Papiere aus den ersten Vereinsjahren vor…?\nS.: Ja, so ist es. Unsere Kollegen früher waren nämlich äußerst sorgfältig. So konnten wir in unserer Festzeitung zum 100. Geburtstag das Programm von der ersten Hauptversammlung des Vereins veröffentlichen. Das macht sehr nett.\nJ.: Unglaublich, dass trotz der zwei Kriege in diesem Jahrhundert solche Papiere und Unterlagen noch vorhanden sind. Also, ich nehme mal an, als Ihr Verein vor 100 Jahren gegründet wurde, war Sport doch sicher nur eine Sache für Männer?\nS.: Ja, klar. Am Anfang war Sport reine Männersache. Es hat 16 Jahre gedauert, bis bei uns die ersten Frauen dazukamen. Das war ein echter Fortschritt für die Zeit damals, Anfang des 20. Jahrhunderts.\nJ.: Ja, das kann man sich gut vorstellen. Wie viele Frauen haben Sie denn heute im Verein im Vergleich zu Männern?\nS.: Ja, also heute sind es ziemlich viele. Über 50 Prozent der Mitglieder sind Frauen, d. h. mehr als 1000 der insgesamt 2000 Mitglieder.\nJ.: Ihr Verein hat ja hier in Neustadt eine schöne Anlage mit Sportplätzen im Freien und einer großen Halle. Wer finanziert denn das eigentlich alles?\nS.: Ja, also 50 Prozent des Geldes, das wir brauchen, bekommen wir durch unsere Mitglieder, in Form von Mitgliedsbeiträgen, den Rest bekommen wir von der Stadt und vom Deutschen Sportbund dazu.\nJ.: Wenn man sich Ihr Angebot ansieht, dann staunt man. Da gibt es alles, was zur Zeit gefragt ist: von Aerobic über sportliches Gehen bis hin zu Mutter-Kind-Gymnastik.\nS.: Ja, das stimmt. Im Grunde genommen bieten wir fast jede Sportart an, außer Schwimmen. Es gibt im Nachbarort ein großes Schwimmbad mit einem Extra-Schwimmverein. Also, da wäre es Unsinn, wenn wir eine eigene Abteilung für Schwimmen aufmachen würden.\nJ.: Woher kommen denn Ihre Trainer und die Lehrer für all diese vielen Sportarten?\nS.: Ja, also die meisten kommen aus dem Verein selber. Wir bilden ja viele Leute aus, die später Sport studieren oder Leistungssport machen. Diese Leute bitten wir oft, im eigenen Verein zu unterrichten.\nJ.: Ja, klar – so bleiben Ihnen die Talente praktisch erhalten. Frau Seiffert, ich bedanke mich für Ihren Besuch hier in unserem Studio und wünsche Ihrem Verein auch für die nächsten 100 Jahre alles Gute.\nS.: Danke." }
       ],
       "items": [
-        { "number": 46, "text": "Der Sportverein plant eine große Feier.", "correct": "+" },
-        { "number": 47, "text": "Der Journalist unterhält sich mit einer Vertreterin des Sportvereins.", "correct": "+" },
-        { "number": 48, "text": "Viele Papiere aus den Anfängen des Vereins sind im Krieg verloren gegangen.", "correct": "-" },
-        { "number": 49, "text": "Der Verein veröffentlicht jedes Jahr eine Festzeitung.", "correct": "-" },
-        { "number": 50, "text": "Der Verein hatte von Anfang an auch Frauen als Mitglieder.", "correct": "-" },
-        { "number": 51, "text": "Heute gibt es im Verein mehr Frauen als Männer.", "correct": "+" },
-        { "number": 52, "text": "Im Verein kann man Sport im Freien und in der Halle treiben.", "correct": "+" },
-        { "number": 53, "text": "Die Mitglieder müssen die Kosten für ihren Verein alleine tragen.", "correct": "-" },
-        { "number": 54, "text": "Der Sportverein bietet auch Schwimmkurse an.", "correct": "-" },
-        { "number": 55, "text": "Einige Leute, die im Verein ausgebildet wurden, arbeiten dort heute als Lehrer.", "correct": "+" }
+        { "number": 46, "text": "Der Sportverein plant eine große Feier.", "correct": "+", "explanation": "The club turns 100 and „feiert diesen Geburtstag mit einem großen Programm“: richtig." },
+        { "number": 47, "text": "Der Journalist unterhält sich mit einer Vertreterin des Sportvereins.", "correct": "+", "explanation": "The journalist welcomes „eine Vertreterin des Turn- und Sportvereins Neustadt, Frau Seiffert“: richtig." },
+        { "number": 48, "text": "Viele Papiere aus den Anfängen des Vereins sind im Krieg verloren gegangen.", "correct": "-", "explanation": "The opposite is true: the old papers still exist „trotz der zwei Kriege“, because the colleagues back then were very careful: falsch." },
+        { "number": 49, "text": "Der Verein veröffentlicht jedes Jahr eine Festzeitung.", "correct": "-", "explanation": "The Festzeitung was made for the 100th birthday. Nothing says it comes out every year: falsch." },
+        { "number": 50, "text": "Der Verein hatte von Anfang an auch Frauen als Mitglieder.", "correct": "-", "explanation": "„Am Anfang war Sport reine Männersache“, and the first women came only after 16 years: falsch." },
+        { "number": 51, "text": "Heute gibt es im Verein mehr Frauen als Männer.", "correct": "+", "explanation": "„Über 50 Prozent der Mitglieder sind Frauen“, more than 1000 of 2000: richtig." },
+        { "number": 52, "text": "Im Verein kann man Sport im Freien und in der Halle treiben.", "correct": "+", "explanation": "The club has „Sportplätze im Freien und eine große Halle“: richtig." },
+        { "number": 53, "text": "Die Mitglieder müssen die Kosten für ihren Verein alleine tragen.", "correct": "-", "explanation": "Members pay 50 Prozent; „den Rest bekommen wir von der Stadt und vom Deutschen Sportbund“. They do not pay alone: falsch." },
+        { "number": 54, "text": "Der Sportverein bietet auch Schwimmkurse an.", "correct": "-", "explanation": "„fast jede Sportart ... außer Schwimmen“, because there is a swimming club in the next town: falsch." },
+        { "number": 55, "text": "Einige Leute, die im Verein ausgebildet wurden, arbeiten dort heute als Lehrer.", "correct": "+", "explanation": "Most trainers „kommen aus dem Verein selber“; people trained there are asked to teach in the club: richtig." }
       ]
     },
     {
@@ -367,11 +387,11 @@
         { "number": 60, "text": "Das ist Spitze. Sommerschlussverkauf. Jetzt bei uns mit Superangeboten. Ja, bei uns gibt's zum Beispiel damenhafte Röcke für nur 39 Euro und modische Pullover in lässiger Weite. Wählen Sie aus verschiedenen Farben und Formen – das Stück nur 19 Euro. Und das gibt's ganz aktuell – für Sie, meine Herren: Oberhemden in großer Auswahl, pflegeleicht, für nur 5 Euro. Oder die modischen City-Hosen für Herren, vollwaschbar und echt günstig, nur 10 Euro. Greifen Sie zu, solange der Vorrat reicht." }
       ],
       "items": [
-        { "number": 56, "text": "Das Büro ist in der Schillerstraße.", "correct": "+" },
-        { "number": 57, "text": "Der Film „Sommer“ läuft im Filmcasino.", "correct": "-" },
-        { "number": 58, "text": "Im Süden Bayerns wird es am Nachmittag schön und nicht sehr warm.", "correct": "+" },
-        { "number": 59, "text": "Im Zugrestaurant können Sie auch Zeitungen kaufen.", "correct": "-" },
-        { "number": 60, "text": "Damenröcke kosten heute 39 Euro.", "correct": "+" }
+        { "number": 56, "text": "Das Büro ist in der Schillerstraße.", "correct": "+", "explanation": "You stay „in der Schillerstraße“ after crossing the Königstraße, and the office is opposite the Kino Gloria: richtig." },
+        { "number": 57, "text": "Der Film „Sommer“ läuft im Filmcasino.", "correct": "-", "explanation": "„Sommer“ runs in City Kino 1. The Filmcasino shows „Frühstück bei Tiffany“: falsch." },
+        { "number": 58, "text": "Im Süden Bayerns wird es am Nachmittag schön und nicht sehr warm.", "correct": "+", "explanation": "Südbayern: rain at first, „später zunehmend sonnig“ with at most 18 Grad, so nice but not very warm: richtig." },
+        { "number": 59, "text": "Im Zugrestaurant können Sie auch Zeitungen kaufen.", "correct": "-", "explanation": "The restaurant is only mentioned for lunch, and the minibar sells snacks and drinks. Newspapers are never mentioned: falsch." },
+        { "number": 60, "text": "Damenröcke kosten heute 39 Euro.", "correct": "+", "explanation": "„damenhafte Röcke für nur 39 Euro“ in the Sommerschlussverkauf: richtig." }
       ]
     },
     {

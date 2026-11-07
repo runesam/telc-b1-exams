@@ -52,27 +52,32 @@
         {
           "number": 1,
           "text": "Seit zehn Jahren besteht das Centrum für Reisemedizin (CRM) in Düsseldorf. Reisende können dort für 7 Euro einen Reise-Gesundheitsbrief bekommen, der speziell für ihre geplante Auslandsreise erstellt wird und ausführliche Tipps zur Gesundheitsvorsorge enthält. Darin erfährt man zum Beispiel, ob besondere Impfungen notwendig sind, ob man im Reiseland unbesorgt Wasser aus der Wasserleitung trinken darf oder worauf man beim Essen achten muss. CRM hat auch einen telefonischen Notruf eingerichtet, über den Reisende im Ausland Rat und Hilfe bekommen können, wenn es Gesundheitsprobleme gibt.",
-          "correct": "e"
+          "correct": "e",
+          "explanation": "The CRM writes a health letter for your trip abroad (vaccinations, tap water, food) and runs an emergency phone line for travellers abroad, so e. h is a trap: the centre is in Düsseldorf, but it helps people travelling abroad, not tourists in Germany."
         },
         {
           "number": 2,
           "text": "Handybenutzer fahren doppelt so sicher wie der Durchschnitt der Autofahrer. Dieses überraschende Ergebnis brachte eine Studie der Bundesanstalt für Straßenwesen in der BRD. Besitzer von Mobiltelefonen legen pro Jahr fast doppelt so viele Kilometer zurück wie andere Fahrer, sind aber trotzdem in weniger Unfälle verwickelt. Es handelt sich dabei zum Teil um Fahrer, die durch ihren Beruf gezwungen sind, lange Strecken im Wagen zurückzulegen, wie Lkw- und Taxifahrer, Pendler oder Leute, die aus geschäftlichen Gründen viel unterwegs sind.",
-          "correct": "a"
+          "correct": "a",
+          "explanation": "The study found that „Handybenutzer fahren doppelt so sicher“ and are in fewer accidents (a). f is a trap: the study is about drivers who own a phone; it never says that most drivers use one."
         },
         {
           "number": 3,
           "text": "Urlaub ohne Auto und trotzdem mobil. Die FerienTickets der Deutschen Bahn AG machen Lust auf Autoverzicht. Sie kosten nur 20 Euro und bieten viel: In 53 Regionen Deutschlands können Urlauber damit eine Woche lang kreuz und quer mit fast allen Zügen der DB die Umgebung ihres Ferienortes kennenlernen. Noch günstiger ist das FerienTicket für Gruppen und Familien. Von der zweiten bis zur fünften Person zahlen Mitfahrer die Hälfte, Kinder ein Viertel.",
-          "correct": "d"
+          "correct": "d",
+          "explanation": "The FerienTicket is a cheap train ticket, „noch günstiger ... für Gruppen und Familien“: half price from the second person, a quarter for children (d). b is the opposite, because the text is about a holiday „ohne Auto“."
         },
         {
           "number": 4,
           "text": "Für junge Leute im Alter von 12 bis 26 Jahren haben die europäischen Jugendminister die EURO<26-Karte geschaffen. Sie bietet in Deutschland und in 27 europäischen Ländern Preisvorteile zum Beispiel bei Flügen, Sprachreisen, in Hotels, Diskotheken, Fitness-Centern, Kinos, Museen und bei kulturellen Veranstaltungen. Die EURO<26-Karte kann unter der Telefonnummer (0 18 05) 13 26 26 bestellt werden. Direkt kaufen kann man sie in allen Geschäftsstellen der Dresdner Bank und an allen Fahrkartenausgaben der Deutschen Bahn AG.",
-          "correct": "g"
+          "correct": "g",
+          "explanation": "The EURO<26 card gives young people discounts on flights, language trips, hotels, discos, cinemas and museums: travel and entertainment become cheaper (g). i is a trap: it is a discount card, not a cultural programme."
         },
         {
           "number": 5,
           "text": "In den 70er Jahren galten die ersten Umweltschützer noch als komische Idealisten. Doch inzwischen hat sich „grünes Denken“ durchgesetzt. In einer aktuellen Studie des Umweltbundesamtes geben rund 75 Prozent der Befragten an, dass sie versuchen, sich möglichst „umweltfreundlich“ zu verhalten. Zwei Drittel befürchten eine globale Katastrophe, wenn wir so weitermachen wie bisher.",
-          "correct": "c"
+          "correct": "c",
+          "explanation": "About 75 Prozent try to behave „umweltfreundlich“, so most Germans take part in protecting the environment (c). j says the opposite."
         }
       ]
     },
@@ -105,7 +110,8 @@
             { "key": "b", "text": "arbeiten Kinder." },
             { "key": "c", "text": "leben 250 Millionen Kinder." }
           ],
-          "correct": "b"
+          "correct": "b",
+          "explanation": "In Asian cities Craig talked to children who work in factories (b). a is too narrow, since one meal a day is just their pay, and c is wrong because 250 million is his estimate „weltweit“, not for Asian cities."
         },
         {
           "number": 7,
@@ -115,7 +121,8 @@
             { "key": "b", "text": "in Brasilien den größten Fernsehsender unterstützen." },
             { "key": "c", "text": "helfen, Arbeitsstellen für Kinder in Fabriken zu finden." }
           ],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "„Ihr Leid muss gezeigt werden. Nur dann kann sich etwas ändern“: the actions are meant to change the children's situation (a). He brought a TV team, but not to support the station (b), and he fights against child labour, not for it (c)."
         },
         {
           "number": 8,
@@ -125,7 +132,8 @@
             { "key": "b", "text": "hielt Craig Vorträge vor der UNO, der UNESCO und dem Weltrat der Kirchen." },
             { "key": "c", "text": "erfuhr Craig zum ersten Mal etwas über das Thema Kinderarbeit." }
           ],
-          "correct": "c"
+          "correct": "c",
+          "explanation": "Three years ago Craig read the report, and child labour had been „bis dahin unbekannt“ to him, so he learned about it for the first time (c). The boy fled earlier (a), and the talks are what he does now (b)."
         },
         {
           "number": 9,
@@ -135,7 +143,8 @@
             { "key": "b", "text": "wollte Craig selbst in Asien sammeln." },
             { "key": "c", "text": "erhielt Craig von seinen Mitschülern." }
           ],
-          "correct": "b"
+          "correct": "b",
+          "explanation": "„Doch niemand wusste wirklich Bescheid“, so he decided to look for information himself and fly to Asia (b). The human rights organisations (a) and his classmates (c) could not give him enough information."
         },
         {
           "number": 10,
@@ -145,7 +154,8 @@
             { "key": "b", "text": "haben ihn überzeugt, dass die Reise nach Asien wichtig ist." },
             { "key": "c", "text": "wollten, dass ein Student mit Craig fährt." }
           ],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "„Wir sind natürlich dagegen gewesen“: at first his parents were against the trip (a). It was Craig who convinced them (b), and the text does not say the parents asked for a student to go with him (c)."
         }
       ]
     },
@@ -174,16 +184,16 @@
         { "key": "l", "text": "Highlander – Finest Whisky Malt Beer. Ristorante – Pension, italienische Spezialitäten & Pizza. Landheimer Straße 197, 60387 Frankfurt, Tel. (069) 52 13 58. Geöffnet: täglich bis 4.00 Uhr, Küche bis 3.30 Uhr." }
       ],
       "items": [
-        { "number": 11, "text": "Sie haben selbst kein Auto, möchten aber abends mit einem Auto vom Theater abgeholt werden.", "correct": "f" },
-        { "number": 12, "text": "Ihre Großeltern wollen ihre goldene Hochzeit feiern und suchen einen Raum, in dem 70 Gäste Platz haben.", "correct": "x" },
-        { "number": 13, "text": "Sie sind heute Abend mit Freunden in der Disko gewesen. Nun haben Sie Hunger bekommen und möchten noch etwas essen, obwohl es schon ziemlich spät ist.", "correct": "l" },
-        { "number": 14, "text": "Ein Freund von Ihnen sucht Arbeit. Er hat einen Führerschein und hätte gern eine feste Stelle als Fahrer.", "correct": "j" },
-        { "number": 15, "text": "Sie wollen mit Freunden fröhlich Karneval feiern.", "correct": "e" },
-        { "number": 16, "text": "Ihr Bruder hat eine Ausbildung als Automechaniker gemacht und sucht eine passende Arbeitsstelle.", "correct": "x" },
-        { "number": 17, "text": "Ihr Wagen hat eine Panne. Sie suchen nun eine Werkstatt.", "correct": "h" },
-        { "number": 18, "text": "Sie haben heute keine Zeit zum Kochen und möchten lieber ein warmes Essen kaufen und mit nach Hause nehmen.", "correct": "i" },
-        { "number": 19, "text": "Ein Freund von Ihnen braucht unbedingt ein Auto, hat aber nicht genug Geld für einen neuen Wagen.", "correct": "b" },
-        { "number": 20, "text": "Ihre alte Oma, die ohne Hilfe nicht mehr gehen kann, müsste dringend ihre Haare schneiden lassen.", "correct": "g" }
+        { "number": 11, "text": "Sie haben selbst kein Auto, möchten aber abends mit einem Auto vom Theater abgeholt werden.", "correct": "f", "explanation": "CITY-CAR is a „Funk-Mietwagen“ with a „Taxidienst“: they drive you, so you need no car of your own (f). h is a garage, and a and j are job ads." },
+        { "number": 12, "text": "Ihre Großeltern wollen ihre goldene Hochzeit feiern und suchen einen Raum, in dem 70 Gäste Platz haben.", "correct": "x", "explanation": "No ad offers a room for 70 guests, so x. d is a Tanztee event, and e is a carnival party in a bistro; neither rents a room for a private celebration." },
+        { "number": 13, "text": "Sie sind heute Abend mit Freunden in der Disko gewesen. Nun haben Sie Hunger bekommen und möchten noch etwas essen, obwohl es schon ziemlich spät ist.", "correct": "l", "explanation": "Highlander is „täglich bis 4.00 Uhr“ open, with the kitchen until 3.30 Uhr, perfect after the disco (l). The Reis Garten (i) closes at 23.00 Uhr." },
+        { "number": 14, "text": "Ein Freund von Ihnen sucht Arbeit. Er hat einen Führerschein und hätte gern eine feste Stelle als Fahrer.", "correct": "j", "explanation": "j looks for taxi drivers „für Tag und Nacht“, a real job as a driver (j). a is only „stundenweise und als Urlaubsvertretung“ for students, so it is not a permanent job." },
+        { "number": 15, "text": "Sie wollen mit Freunden fröhlich Karneval feiern.", "correct": "e", "explanation": "Vis à Vis has a „Faschings-Party“, and Fasching is another word for Karneval (e). d is a dance afternoon in January, not a carnival party." },
+        { "number": 16, "text": "Ihr Bruder hat eine Ausbildung als Automechaniker gemacht und sucht eine passende Arbeitsstelle.", "correct": "x", "explanation": "No ad looks for a car mechanic, so x. h is a workshop, but it advertises repairs, not a job, and k looks for hairdressers." },
+        { "number": 17, "text": "Ihr Wagen hat eine Panne. Sie suchen nun eine Werkstatt.", "correct": "h", "explanation": "Auto-Technik Cloeters is a „Kfz-Meister-Betrieb“ for „Reparaturen aller Kraftfahrzeuge“ (h). b and c sell cars, and f is a taxi service." },
+        { "number": 18, "text": "Sie haben heute keine Zeit zum Kochen und möchten lieber ein warmes Essen kaufen und mit nach Hause nehmen.", "correct": "i", "explanation": "The Reis Garten says „Alle Speisen auch zum Mitnehmen“ (i). l is a restaurant too, but it does not offer takeaway." },
+        { "number": 19, "text": "Ein Freund von Ihnen braucht unbedingt ein Auto, hat aber nicht genug Geld für einen neuen Wagen.", "correct": "b", "explanation": "b always has about 130 used cars, which are cheaper than new ones (b). The Sunday „kein Verkauf“ only means that on Sundays you can just look. c sells new cars, which is too expensive." },
+        { "number": 20, "text": "Ihre alte Oma, die ohne Hilfe nicht mehr gehen kann, müsste dringend ihre Haare schneiden lassen.", "correct": "g", "explanation": "„Jetzt kommt Ihr Frisör ... ins Haus“, and the ad even mentions a „Beinbruch“: right for an old lady who cannot walk (g). k is a job ad for hairdressers." }
       ]
     },
     {
@@ -200,61 +210,71 @@
           "number": 21,
           "textAfter": "in Hamburg. Es ist gar nicht einfach, sich an so eine große Stadt zu gewöhnen. Unter so vielen Menschen fühle ich mich richtig verloren. Aber das wird hoffentlich bald",
           "options": [{ "key": "a", "text": "mehr" }, { "key": "b", "text": "schon" }, { "key": "c", "text": "noch" }],
-          "correct": "b"
+          "correct": "b",
+          "explanation": "„seit einem Monat wohne ich schon in Hamburg“: „schon“ stresses that this has lasted up to now (b). „noch“ would mean still, and „mehr“ makes no sense here."
         },
         {
           "number": 22,
           "textAfter": ".\n\nIn der Schule habe ich schon Kontakt zu",
           "options": [{ "key": "a", "text": "anders" }, { "key": "b", "text": "anderes" }, { "key": "c", "text": "andere" }],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "After „werden“ an adjective used as a predicate has no ending: „das wird bald anders“ (a). „anderes“ and „andere“ need a noun after them."
         },
         {
           "number": 23,
           "textAfter": "Schülern aus meiner Klasse. Außerdem bin ich in der Handball-AG, um Leute kennenzulernen. Ansonsten ist es fast so wie früher:",
           "options": [{ "key": "a", "text": "einzigen" }, { "key": "b", "text": "eigenen" }, { "key": "c", "text": "einigen" }],
-          "correct": "c"
+          "correct": "c",
+          "explanation": "„Kontakt zu einigen Schülern“ means contact with some pupils; „zu“ takes the dative plural (c). „einzigen“ (only) would need an article („den einzigen“), and „eigenen“ (own) would need a possessive."
         },
         {
           "number": 24,
           "textAfter": ", als ob die Lehrer überall gleich blöd wären!! Die Mathelehrerin zeigt mir",
           "options": [{ "key": "a", "text": "Sie scheinen" }, { "key": "b", "text": "Man scheint" }, { "key": "c", "text": "Es scheint" }],
-          "correct": "c"
+          "correct": "c",
+          "explanation": "„Es scheint, als ob ...“ is a fixed impersonal phrase (c). „Man scheint“ and „Sie scheinen“ would need a zu-infinitive, not an „als ob“ clause."
         },
         {
           "number": 25,
           "textAfter": "jeder Gelegenheit, dass sie etwas gegen mich hat. Wenn ich nur",
           "options": [{ "key": "a", "text": "vor" }, { "key": "b", "text": "in" }, { "key": "c", "text": "bei" }],
-          "correct": "c"
+          "correct": "c",
+          "explanation": "„bei jeder Gelegenheit“ is the fixed phrase for „at every opportunity“ (c)."
         },
         {
           "number": 26,
           "textAfter": ", warum! Ich war ja noch nie besonders gut in Mathe, und das wird sich an dieser Schule bestimmt nicht",
           "options": [{ "key": "a", "text": "weiß" }, { "key": "b", "text": "wüsste" }, { "key": "c", "text": "wisse" }],
-          "correct": "b"
+          "correct": "b",
+          "explanation": "„Wenn ich nur wüsste, warum!“ is an unreal wish, which needs Konjunktiv II (b). „weiß“ is indicative, and „wisse“ is Konjunktiv I, used for reported speech."
         },
         {
           "number": 27,
           "textAfter": ".\n\n",
           "options": [{ "key": "a", "text": "ändert" }, { "key": "b", "text": "geändert" }, { "key": "c", "text": "ändern" }],
-          "correct": "c"
+          "correct": "c",
+          "explanation": "„das wird sich ... nicht ändern“ is Futur I: „werden“ plus an infinitive at the end (c). „ändert“ is conjugated, and „geändert“ would make a passive."
         },
         {
           "number": 28,
           "textAfter": "Eltern geht es gut. Mein Vater hat endlich seine Traumstelle bekommen, schließlich sind wir ja deswegen hierher gezogen. Auch meine Mutter ist zufrieden, denn sie hat schon ein paar Bekannte,",
           "options": [{ "key": "a", "text": "Meiner" }, { "key": "b", "text": "Meinen" }, { "key": "c", "text": "Meine" }],
-          "correct": "b"
+          "correct": "b",
+          "explanation": "„es geht + Dativ“: „Meinen Eltern geht es gut“, dative plural (b). „Meine“ is nominative, and „Meiner“ is dative feminine singular."
         },
         {
           "number": 29,
           "textAfter": "in der Nachbarschaft wohnen.\n\nDu wolltest mich doch bald besuchen, oder klappt",
           "options": [{ "key": "a", "text": "die" }, { "key": "b", "text": "der" }, { "key": "c", "text": "denen" }],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "„Bekannte, die in der Nachbarschaft wohnen“: the relative pronoun is the subject of „wohnen“, so nominative plural „die“ (a). „denen“ is dative, and „der“ is singular."
         },
         {
           "number": 30,
           "textAfter": "erst Weihnachten?\n\nLass von dir hören\ndein Boris",
           "options": [{ "key": "a", "text": "es" }, { "key": "b", "text": "dir" }, { "key": "c", "text": "–" }],
-          "correct": "a"
+          "correct": "a",
+          "explanation": "„klappen“ needs „es“ as its subject: „oder klappt es erst Weihnachten?“ (a). „dir“ is not a subject, and leaving the gap empty leaves the verb without one."
         }
       ]
     },
@@ -286,16 +306,16 @@
       ],
       "textBefore": "Sehr geehrte Damen und Herren vom Tiergarten,\n\nmit großer Begeisterung – und Erleichterung – haben wir Ihre Anzeige in der Zeitung gelesen. Wir haben nämlich einen Schäferhund und",
       "items": [
-        { "number": 31, "textAfter": ", welche Probleme es dadurch bei der Urlaubsplanung gibt.", "correct": "n" },
-        { "number": 32, "textAfter": "jeder Reise immer die gleiche Frage:", "correct": "i" },
-        { "number": 33, "textAfter": "kommt der Hund?\n\nIn den letzten Jahren haben wir unseren Hund jedes Mal mitgenommen. Es war nicht einfach, sich mit unseren zwei kleinen Kindern und dem Hund zu", "correct": "f" },
-        { "number": 34, "textAfter": ". Wir hoffen, dass der nächste Urlaub durch Sie gerettet", "correct": "e" },
-        { "number": 35, "textAfter": ". Natürlich möchten wir einige Einzelheiten wissen,", "correct": "l" },
-        { "number": 36, "textAfter": "wir unseren Rex zu Ihnen bringen.", "correct": "a" },
-        { "number": 37, "textAfter": "der Hund zum Beispiel bei Ihnen genügend Platz zum Laufen? Bei uns zu Hause,", "correct": "d" },
-        { "number": 38, "textAfter": "wir einen sehr großen Garten haben, ist er es nämlich so gewohnt. Was passiert, wenn die Tiere sich bei Ihnen nicht", "correct": "b" },
-        { "number": 39, "textAfter": ", weil sie etwa Ihre Mitarbeiter nicht", "correct": "p" },
-        { "number": 40, "textAfter": "?\n\nNatürlich beschäftigt uns auch die Kostenfrage. Wie teuer ist es, wenn Sie den Hund für drei Wochen aufnehmen würden?\n\nBitte informieren Sie uns möglichst bald, denn wir wollen in den nächsten Wochen unseren Urlaub buchen.\n\nMit freundlichen Grüßen\nFamilie Köttgen", "correct": "k" }
+        { "number": 31, "textAfter": ", welche Probleme es dadurch bei der Urlaubsplanung gibt.", "correct": "n", "explanation": "„wir haben einen Schäferhund und wissen, welche Probleme ...“: „wissen“ takes a question clause (WISSEN). „kennen“ only takes a direct object, like „Ihre Mitarbeiter“ in gap 40." },
+        { "number": 32, "textAfter": "jeder Reise immer die gleiche Frage:", "correct": "i", "explanation": "„vor jeder Reise“ means before every trip: „vor“ is a preposition followed by a noun in the dative (VOR). „bevor“ is a conjunction that needs a whole clause, which is why it belongs in gap 36." },
+        { "number": 33, "textAfter": "kommt der Hund?\n\nIn den letzten Jahren haben wir unseren Hund jedes Mal mitgenommen. Es war nicht einfach, sich mit unseren zwei kleinen Kindern und dem Hund zu", "correct": "f", "explanation": "„Wohin kommt der Hund?“ asks where the dog goes during the trip, a direction (WOHIN). „wo“ asks about a place without movement, and „woher“ asks where something comes from." },
+        { "number": 34, "textAfter": ". Wir hoffen, dass der nächste Urlaub durch Sie gerettet", "correct": "e", "explanation": "„sich ... zu erholen“: „sich erholen“ is a reflexive verb used here as a zu-infinitive (ERHOLEN). „kümmern“ would need „um etwas“." },
+        { "number": 35, "textAfter": ". Natürlich möchten wir einige Einzelheiten wissen,", "correct": "l", "explanation": "„dass der nächste Urlaub durch Sie gerettet wird“ is the passive: „werden“ plus the Partizip II, with „werden“ at the end of the dass-clause (WIRD)." },
+        { "number": 36, "textAfter": "wir unseren Rex zu Ihnen bringen.", "correct": "a", "explanation": "„bevor wir unseren Rex zu Ihnen bringen“ is a conjunction with the verb at the end (BEVOR). „vor“ is only a preposition and cannot start a clause." },
+        { "number": 37, "textAfter": "der Hund zum Beispiel bei Ihnen genügend Platz zum Laufen? Bei uns zu Hause,", "correct": "d", "explanation": "A yes/no question starts with the verb: „Hat der Hund ... genügend Platz zum Laufen?“ (HAT). „Kann“ would need an infinitive at the end, for example „... haben“." },
+        { "number": 38, "textAfter": "wir einen sehr großen Garten haben, ist er es nämlich so gewohnt. Was passiert, wenn die Tiere sich bei Ihnen nicht", "correct": "b", "explanation": "„Bei uns zu Hause, wo wir einen sehr großen Garten haben“: „wo“ refers back to the place „zu Hause“ (WO). „da“ (because) is possible, but the clause describes the place, so „wo“ is the better fit." },
+        { "number": 39, "textAfter": ", weil sie etwa Ihre Mitarbeiter nicht", "correct": "p", "explanation": "„wenn die Tiere sich bei Ihnen nicht wohl fühlen“: „sich wohl fühlen“ is reflexive and matches „sich“ in the sentence (WOHL FÜHLEN)." },
+        { "number": 40, "textAfter": "?\n\nNatürlich beschäftigt uns auch die Kostenfrage. Wie teuer ist es, wenn Sie den Hund für drei Wochen aufnehmen würden?\n\nBitte informieren Sie uns möglichst bald, denn wir wollen in den nächsten Wochen unseren Urlaub buchen.\n\nMit freundlichen Grüßen\nFamilie Köttgen", "correct": "k", "explanation": "„weil sie etwa Ihre Mitarbeiter nicht kennen“: „kennen“ takes a person as its direct object (KENNEN). „wissen“ does not take a person as an object." }
       ]
     },
     {
@@ -317,11 +337,11 @@
         { "number": 45, "text": "Mit meinem ersten Freund bin ich immer noch zusammen, seit drei Jahren. Zuerst sind wir immer nur auf Partys gegangen. Er war aber schon lange vorher in mich verliebt, und ich wusste das. Ich hatte damals Angst, überhaupt eine Beziehung einzugehen. Zum Glück stimmt die Chemie. Er ist nicht nur mein Freund, er ist auch mein bester Freund. Wir können alles zusammen machen, sonst hätte es bestimmt nicht so lang gehalten." }
       ],
       "items": [
-        { "number": 41, "text": "Der Sprecher hatte keine gemeinsamen Interessen mit seiner Freundin.", "correct": "-" },
-        { "number": 42, "text": "Die Sprecherin kann ihren Freund nicht vergessen.", "correct": "+" },
-        { "number": 43, "text": "Der Sprecher war am Anfang gern mit seiner Freundin zusammen.", "correct": "+" },
-        { "number": 44, "text": "Der Sprecher und seine Freundin sind jetzt getrennt.", "correct": "+" },
-        { "number": 45, "text": "Die Sprecherin ist nicht so glücklich mit ihrem Freund.", "correct": "-" }
+        { "number": 41, "text": "Der Sprecher hatte keine gemeinsamen Interessen mit seiner Freundin.", "correct": "-", "explanation": "They talked straight away „weil wir beide Gitarre spielten“ and both liked sport and music. They had shared interests: falsch." },
+        { "number": 42, "text": "Die Sprecherin kann ihren Freund nicht vergessen.", "correct": "+", "explanation": "„Ich denke immer noch oft an ihn, obwohl wir mittlerweile getrennt sind“: richtig." },
+        { "number": 43, "text": "Der Sprecher war am Anfang gern mit seiner Freundin zusammen.", "correct": "+", "explanation": "They were together „weil es mir anfangs Spaß machte“, and it was „eine schöne Zeit“: richtig." },
+        { "number": 44, "text": "Der Sprecher und seine Freundin sind jetzt getrennt.", "correct": "+", "explanation": "„bis vor Kurzem noch zusammen“: she broke up with him a few weeks ago: richtig." },
+        { "number": 45, "text": "Die Sprecherin ist nicht so glücklich mit ihrem Freund.", "correct": "-", "explanation": "They have been together for three years, „zum Glück stimmt die Chemie“, and he is her best friend. She is happy: falsch." }
       ]
     },
     {
@@ -338,16 +358,16 @@
         { "number": null, "text": "Moderatorin: Hallo Leute! Heute haben wir Stefan Walz aus dem LesArt-Zentrum zu Gast. Das LesArt-Zentrum wurde 1993 in einem renovierten Haus in Berlin eröffnet. Hier kann man sich nicht nur Kinder- und Jugendbücher ausleihen, hier wird auch eine Zeitung von Jugendlichen für Jugendliche gemacht. Stefan ist Mitglied des Zentrums und kann uns sicher mehr darüber erzählen. Guten Tag, Stefan.\nStefan: Guten Tag.\nModeratorin: Sag mal, was ist das für eine Zeitung, die ihr da macht?\nStefan: Also unsere Zeitung heißt „XYZ“ und besteht aus drei Teilen. Auf den ersten Seiten schreiben wir eigene Artikel, in der Mitte stehen Gedichte und Geschichten, die uns andere Leute eingesandt haben, und auf den letzten Seiten werden Bücher vorgestellt. Unser Ziel ist, dass Kinder und Jugendliche mehr Lust zum Lesen bekommen, sich mehr für Bücher interessieren.\nModeratorin: Das dauert sicher lange, bis so eine Zeitung fertig ist, oder?\nStefan: Na ja, das ist ganz schön viel Arbeit. Zuerst suchen wir uns ein bestimmtes Thema aus, zum Beispiel „Freundschaft unter Jugendlichen“. Mit dem müssen dann alle Artikel zu tun haben. Danach werden in einer Konferenz alle Ideen besprochen und die Aufgaben verteilt, also wer was macht. Bis dann eine Zeitung gedruckt ist, dauert es schon ein halbes Jahr.\nModeratorin: Wie oft erscheint denn die Zeitung und wie viele Artikel muss sie haben?\nStefan: Die Zeitung kann man alle zwei Monate bekommen. Wie viele Artikel sie genau hat, ist nicht so wichtig. Das können fünf sein, manchmal sind es aber auch 10 oder 12, dann sind die Texte halt kürzer. Aber die Zeitung hat immer 24 Seiten, das ist bei jeder Ausgabe gleich. Wir schneiden, ordnen und kleben die Artikel der Zeitschrift so lange, bis die Seiten voll sind. Und wenn wir dann fertig sind und alles mit dem Computer bearbeitet haben, dann gibt's jedes Mal ein großes Fest, mit dem wir die neue Ausgabe feiern.\nModeratorin: Aha, das heißt: erst die Arbeit, dann das Vergnügen. Aber so muss es ja auch sein. Erzähl uns doch noch, Stefan: Wer kann bei euch eigentlich mitmachen?\nStefan: Jeder Schüler, jeder Student, der Spaß am Schreiben hat, ist bei uns willkommen. Es ist aber auch so, dass jeder nur bei der Herstellung einer einzigen Zeitung mit dabei sein darf, damit möglichst viele junge Leute die Gelegenheit haben, produktiv zu werden. Geld gibt's natürlich nicht dafür.\nModeratorin: Ach so, na. Weshalb machen denn sonst die jungen Leute bei euch mit?\nStefan: Ach, das ist ganz unterschiedlich. Viele finden es toll, etwas zu schreiben und es dann gedruckt in der Zeitung zu sehen. Da ist man schon ganz schön stolz drauf. Andere wollen zum Beispiel später einen grafischen Beruf ausüben und können auf diese Weise erste Erfahrungen sammeln. Oder manche Schüler geben die fertige Zeitung dann ihrem Direktor, damit er sie bei dem Plan einer Schülerzeitung an ihrer eigenen Schule unterstützt. Und dann gibt es da noch diejenigen, die zwar bei uns mitmachen, dann aber feststellen, dass ihnen so eine Art Arbeit nicht gefällt, dass sie also später beruflich ganz sicher nichts damit zu tun haben wollen.\nModeratorin: Das Zentrum hier heißt ja „LesArt“. Was bedeutet das eigentlich?\nStefan: Das ist eine Kombination aus zwei Wörtern, nämlich aus „Lesen“ und „Art“, dem englischen Wort für Kunst. Die Kinder und Jugendlichen, die hierher kommen, sollen ja nicht nur Literatur hören, lesen und kennenlernen, sondern sie sollen auch mit Hilfe von eigenen Bildern, Fotos, Liedern, Plakaten, Puppen, Videos und so weiter ausdrücken, was sie gelesen haben.\nModeratorin: Das ist ja wirklich eine tolle Sache, so seine Freizeit zu gestalten. Hoffentlich kommt bald wieder eine neue Zeitung raus. Wir sind alle schon ganz drauf gespannt. Und vielen Dank für das Interview, Stefan.\nStefan: Nichts zu danken." }
       ],
       "items": [
-        { "number": 46, "text": "Das LesArt-Zentrum wurde 1993 eröffnet.", "correct": "+" },
-        { "number": 47, "text": "Im LesArt-Zentrum kann man keine Bücher ausleihen.", "correct": "-" },
-        { "number": 48, "text": "Auf den letzten Seiten der Zeitung werden Bücher vorgestellt.", "correct": "+" },
-        { "number": 49, "text": "Bis eine Zeitung gedruckt ist, dauert es etwa zwei Monate.", "correct": "-" },
-        { "number": 50, "text": "Jede Ausgabe der Zeitung hat gleich viele Seiten.", "correct": "+" },
-        { "number": 51, "text": "In jeder Ausgabe stehen genau zehn Artikel.", "correct": "-" },
-        { "number": 52, "text": "Jeder darf nur bei einer einzigen Zeitung mitarbeiten.", "correct": "+" },
-        { "number": 53, "text": "Die jungen Leute bekommen für ihre Arbeit etwas Geld.", "correct": "-" },
-        { "number": 54, "text": "Manche merken bei der Arbeit, dass sie später nicht in diesem Bereich arbeiten wollen.", "correct": "+" },
-        { "number": 55, "text": "„Art“ ist das englische Wort für „Lesen“.", "correct": "-" }
+        { "number": 46, "text": "Das LesArt-Zentrum wurde 1993 eröffnet.", "correct": "+", "explanation": "„Das LesArt-Zentrum wurde 1993 in einem renovierten Haus in Berlin eröffnet“: richtig." },
+        { "number": 47, "text": "Im LesArt-Zentrum kann man keine Bücher ausleihen.", "correct": "-", "explanation": "„Hier kann man sich ... Kinder- und Jugendbücher ausleihen“: falsch." },
+        { "number": 48, "text": "Auf den letzten Seiten der Zeitung werden Bücher vorgestellt.", "correct": "+", "explanation": "„auf den letzten Seiten werden Bücher vorgestellt“: richtig." },
+        { "number": 49, "text": "Bis eine Zeitung gedruckt ist, dauert es etwa zwei Monate.", "correct": "-", "explanation": "Printing an issue takes „ein halbes Jahr“. Two months is how often the paper comes out, a typical trap: falsch." },
+        { "number": 50, "text": "Jede Ausgabe der Zeitung hat gleich viele Seiten.", "correct": "+", "explanation": "„die Zeitung hat immer 24 Seiten, das ist bei jeder Ausgabe gleich“: richtig." },
+        { "number": 51, "text": "In jeder Ausgabe stehen genau zehn Artikel.", "correct": "-", "explanation": "The number of articles varies: „fünf ... manchmal ... 10 oder 12“: falsch." },
+        { "number": 52, "text": "Jeder darf nur bei einer einzigen Zeitung mitarbeiten.", "correct": "+", "explanation": "„jeder nur bei der Herstellung einer einzigen Zeitung mit dabei sein darf“: richtig." },
+        { "number": 53, "text": "Die jungen Leute bekommen für ihre Arbeit etwas Geld.", "correct": "-", "explanation": "„Geld gibt's natürlich nicht dafür“: falsch." },
+        { "number": 54, "text": "Manche merken bei der Arbeit, dass sie später nicht in diesem Bereich arbeiten wollen.", "correct": "+", "explanation": "Some find out „dass ihnen so eine Art Arbeit nicht gefällt“ and do not want to work in it later: richtig." },
+        { "number": 55, "text": "„Art“ ist das englische Wort für „Lesen“.", "correct": "-", "explanation": "„Art“ is the English word for „Kunst“, and „Lesen“ is the German part of the name: falsch." }
       ]
     },
     {
@@ -368,11 +388,11 @@
         { "number": 60, "text": "Sie rufen die Programmansage des Cinerama-Kinos an. Wann läuft der Film „Mulan“?\nKinoprogrammansage: Hier die Programmdurchsage des Cinerama-Kinocenters für die kommende Woche vom 19. bis 25.7. Jeder Film 2,40 Euro. „Mulan“, ab 6 Jahren: Samstag bis Sonntag 15:30 Uhr, Samstag 20:00 Uhr, Sonntag auch 17:30 Uhr. „Der Pferdeflüsterer“, ab 16 Jahren: Freitag 20:00 Uhr, Montag 17:30 Uhr, Mittwoch 23:00 Uhr. „Eine Hochzeit zum Verlieben“, ab 12 Jahren: Donnerstag 23:00 Uhr, Sonntag 20:00 Uhr, Mittwoch 17:30 Uhr." }
       ],
       "items": [
-        { "number": 56, "text": "Der Partyservice räumt nach der Party auch wieder auf.", "correct": "+" },
-        { "number": 57, "text": "Für das Konzert am Samstag kann man noch Karten kaufen.", "correct": "-" },
-        { "number": 58, "text": "Das Möbelhaus berät seine Kunden auf Wunsch auch zu Hause.", "correct": "+" },
-        { "number": 59, "text": "Am Sonntag soll es regnen.", "correct": "-" },
-        { "number": 60, "text": "Der Film „Mulan“ läuft am Samstag auch am Abend.", "correct": "+" }
+        { "number": 56, "text": "Der Partyservice räumt nach der Party auch wieder auf.", "correct": "+", "explanation": "„wenn Ihre Gäste nach Hause gehen, sieht bei Ihnen wieder alles so aus wie vorher“, so they clean up: richtig." },
+        { "number": 57, "text": "Für das Konzert am Samstag kann man noch Karten kaufen.", "correct": "-", "explanation": "For the Saturday concert there is „kein Kartenverkauf mehr“; only the Sunday concert still has tickets: falsch." },
+        { "number": 58, "text": "Das Möbelhaus berät seine Kunden auf Wunsch auch zu Hause.", "correct": "+", "explanation": "„Falls Sie es wünschen, kommen wir auch ins Haus“, and they advise customers: richtig." },
+        { "number": 59, "text": "Am Sonntag soll es regnen.", "correct": "-", "explanation": "„Am Sonntag wird es sonnig und trocken“: falsch." },
+        { "number": 60, "text": "Der Film „Mulan“ läuft am Samstag auch am Abend.", "correct": "+", "explanation": "„Mulan“ also runs „Samstag 20:00 Uhr“: richtig." }
       ]
     },
     {

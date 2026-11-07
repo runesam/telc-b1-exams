@@ -297,6 +297,12 @@ table.score-table tr:last-child td{border-bottom:none; font-weight:700;}
 .review-item .answers{display:flex; gap:16px; flex-wrap:wrap;}
 .review-item .answers .you{color:var(--bad);}
 .review-item .answers .correct{color:var(--good);}
+.review-item.is-ok{border-left:3px solid var(--good);}
+.review-item.is-wrong{border-left:3px solid var(--bad);}
+.review-item .explain-row{margin-top:8px;}
+.review-item .explanation{
+  margin-top:8px; padding:8px 10px; border-radius:6px; background:var(--surface-2); border:1px solid var(--line); line-height:1.5;
+}
 
 /* ---------- Overlay (pause) ---------- */
 .pause-overlay{

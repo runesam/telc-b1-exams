@@ -846,37 +846,56 @@
       h('tbody', null, ...rows)
     );
 
-    // wrong-answer review
-    const reviewToggleBtn = h('button', { className: 'btn btn-sm' }, 'Falsche / offene Antworten anzeigen');
+    // answer review with per-item explanations
+    const reviewToggleBtn = h('button', { className: 'btn btn-sm' }, 'Antworten & Erklärungen anzeigen');
     const reviewBox = h('div', { hidden: true, style: 'margin-top:14px;' });
     let reviewShown = false;
+    let onlyWrong = false;
     reviewToggleBtn.addEventListener('click', () => {
       reviewShown = !reviewShown;
       reviewBox.hidden = !reviewShown;
-      reviewToggleBtn.textContent = reviewShown ? 'Falsche / offene Antworten ausblenden' : 'Falsche / offene Antworten anzeigen';
+      reviewToggleBtn.textContent = reviewShown ? 'Antworten & Erklärungen ausblenden' : 'Antworten & Erklärungen anzeigen';
       if (reviewShown) buildReview(reviewBox);
     });
 
     function buildReview(container) {
       clear(container);
+      const filterBtn = h('button', { className: 'btn btn-sm', type: 'button' }, onlyWrong ? 'Alle Antworten zeigen' : 'Nur Fehler zeigen');
+      filterBtn.addEventListener('click', () => { onlyWrong = !onlyWrong; buildReview(container); });
+      container.appendChild(filterBtn);
+      let shown = 0;
       exam.sections.filter(s => s.type !== 'writing').forEach(sec => {
-        const wrong = sec.items.filter(it => !isItemCorrect(it));
-        if (!wrong.length) return;
+        const list = onlyWrong ? sec.items.filter(it => !isItemCorrect(it)) : sec.items;
+        if (!list.length) return;
         container.appendChild(h('h3', { style: 'font-size:0.95rem; margin:16px 0 8px;' }, sec.title));
-        wrong.forEach(it => {
+        list.forEach(it => {
+          shown++;
+          const ok = isItemCorrect(it);
           const your = State.answers[it.number];
           const yourLabel = your == null ? '— keine Antwort —' : describeAnswer(sec, it, your);
           const correctLabel = describeAnswer(sec, it, it.correct);
-          container.appendChild(h('div', { className: 'review-item' },
-            h('div', { className: 'rtext' }, it.number, '. ', it.text || it.question || ''),
+          let explainRow = null;
+          if (it.explanation) {
+            const label = ok ? 'Warum ist das richtig?' : 'Warum?';
+            const expl = h('div', { className: 'explanation', hidden: true }, it.explanation);
+            const btn = h('button', { className: 'btn btn-sm', type: 'button' }, label);
+            btn.addEventListener('click', () => {
+              expl.hidden = !expl.hidden;
+              btn.textContent = expl.hidden ? label : 'Erklärung ausblenden';
+            });
+            explainRow = h('div', { className: 'explain-row' }, btn, expl);
+          }
+          container.appendChild(h('div', { className: 'review-item ' + (ok ? 'is-ok' : 'is-wrong') },
+            h('div', { className: 'rtext' }, it.number, '. ', it.text || it.question || 'Lücke'),
             h('div', { className: 'answers' },
-              h('span', { className: 'you' }, 'Deine Antwort: ' + yourLabel),
-              h('span', { className: 'correct' }, 'Richtig: ' + correctLabel)
-            )
+              h('span', { className: ok ? 'correct' : 'you' }, (ok ? '✓ ' : '✗ ') + 'Deine Antwort: ' + yourLabel),
+              ok ? null : h('span', { className: 'correct' }, 'Richtig: ' + correctLabel)
+            ),
+            explainRow
           ));
         });
       });
-      if (!container.children.length) container.appendChild(h('div', { className: 'subtle' }, 'Keine Fehler in den automatisch auswertbaren Teilen — sehr gut!'));
+      if (!shown) container.appendChild(h('div', { className: 'subtle', style: 'margin-top:12px;' }, 'Keine Fehler in den automatisch auswertbaren Teilen — sehr gut!'));
     }
 
     const header = h('div', { className: 'section-head' },
