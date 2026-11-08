@@ -1,0 +1,957 @@
+{
+  "id": "telc-b1-uebungstest-3",
+  "title": "telc Deutsch B1 – Übungstest 3",
+  "source": "Übungstest im telc-B1-Format. Offizieller Schlüssel nur für Lesen Teil 3 und Sprachbausteine; Lesen 1–2 und Hören selbst ermittelt.",
+  "writtenMaxPoints": 225,
+  "writtenPassPoints": 135,
+  "objectiveMaxPoints": 180,
+  "writingMaxPoints": 45,
+  "blocks": [
+    {
+      "id": "lesen-sprachbausteine",
+      "title": "1 + 2 Leseverstehen & Sprachbausteine",
+      "officialTimeMinutes": 90,
+      "sections": [
+        "lesen1",
+        "lesen2",
+        "lesen3",
+        "sb1",
+        "sb2"
+      ]
+    },
+    {
+      "id": "hoeren",
+      "title": "3 Hörverstehen",
+      "officialTimeMinutes": 30,
+      "sections": [
+        "hoeren1",
+        "hoeren2",
+        "hoeren3"
+      ]
+    },
+    {
+      "id": "schreiben",
+      "title": "4 Schriftlicher Ausdruck",
+      "officialTimeMinutes": 30,
+      "sections": [
+        "schreiben"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "lesen1",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 1",
+      "type": "match",
+      "instructions": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen.",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "optionLabel": "Überschrift",
+      "options": [
+        {
+          "key": "a",
+          "text": "Zahl der Familien mit vielen Kindern sinkt"
+        },
+        {
+          "key": "b",
+          "text": "Gorilla verletzte dreijähriges Kind"
+        },
+        {
+          "key": "c",
+          "text": "Angst schadet Kindern"
+        },
+        {
+          "key": "d",
+          "text": "Unfall im Zoo"
+        },
+        {
+          "key": "e",
+          "text": "Verheiratete Eltern trennen sich seltener"
+        },
+        {
+          "key": "f",
+          "text": "Umweltverschmutzung sogar auf dem Mount Everest"
+        },
+        {
+          "key": "g",
+          "text": "Die Familie verliert in Deutschland an Bedeutung"
+        },
+        {
+          "key": "h",
+          "text": "Angst ist wichtig für die Entwicklung der Kinder"
+        },
+        {
+          "key": "i",
+          "text": "Kinder leiden unter der Trennung ihrer Eltern"
+        },
+        {
+          "key": "j",
+          "text": "Bergsteiger berichten über ihren anstrengenden Weg zum Mount Everest"
+        }
+      ],
+      "items": [
+        {
+          "number": 1,
+          "text": "Es gibt kein Leben ohne Angst, auch nicht für Kinder. Oft glauben Eltern, dass sie etwas falsch gemacht haben, wenn ihre Kinder verängstigt sind. Auf der anderen Seite können aber auch Bagatellisierungen wie „Das ist doch nicht so schlimm!“ dazu führen, dass Kinder sich allein gelassen fühlen und häufig ihre Ängste verdrängen. Jan-Uwe Rogge besteht darauf, dass Kinder Ängste brauchen. Denn sie machen stark, wenn Kinder lernen, wie die Angst zu bewältigen ist. Jan-Uwe Rogge: Ängste machen Kinder stark (60640/EUR 8,50)",
+          "correct": "h",
+          "explanation": "Rogge says „dass Kinder Ängste brauchen“ because fear makes them strong when they learn to cope with it, so fear is important for their development (h). c says the exact opposite."
+        },
+        {
+          "number": 2,
+          "text": "Verheiratete Eltern bleiben nach Aussage von Familienministerin Nolte wesentlich länger zusammen. „Kinder von Paaren, die nicht verheiratet sind, tragen ein viermal so hohes Risiko, von der Trennung ihrer Eltern betroffen zu werden“, sagte Nolte. Die Ministerin stützte sich dabei auf eine Studie: 80% aller Kinder, die in Ehen aufwachsen, erleben ihren 18. Geburtstag mit ihren Eltern. 80% der Kinder, deren Eltern keinen Trauschein besitzen, haben in diesem Alter bereits getrennte Eltern.",
+          "correct": "e",
+          "explanation": "„Verheiratete Eltern bleiben ... wesentlich länger zusammen“, so married parents separate less often (e). i is a trap: the text counts separations but says nothing about how the children suffer."
+        },
+        {
+          "number": 3,
+          "text": "Ein Blick auf die Statistik bestätigt, dass die Familie als Lebensform noch immer aktuell ist. So gibt es in Deutschland rund 22,4 Millionen Familien. Fast 80 Prozent der Gesamtbevölkerung sind Teil einer Familie. Jedoch zeigt sich eine starke Tendenz zur Kinderlosigkeit oder zur Ein-Kind-Ehe. Aber auch die Anzahl alleinerziehender Frauen mit Kindern hat in den letzten Jahren erheblich zugenommen. So fallen derzeit schon 15 Prozent aller Familien in diese Kategorie.",
+          "correct": "a",
+          "explanation": "The „starke Tendenz zur Kinderlosigkeit oder zur Ein-Kind-Ehe“ means fewer families with many children (a). g is the trap: the text says the family is „noch immer aktuell“, so it is not losing importance."
+        },
+        {
+          "number": 4,
+          "text": "Eine Gorilla-Mutter hat im Zoo von Brookfield einen dreijährigen Jungen gerettet, der sechs Meter tief in das Gehege der Affen gefallen war. Sie schützte das schwer am Kopf verletzte Kind vor sechs anderen Gorillas und trug es zu einer Eingangstür, wo die Zoowärter es erreichen konnten. Wie der Zoodirektor mitteilte, kam das siebenjährige Gorillaweibchen Binti Jua mit drei Monaten in den Zoo und wurde bis zum sechsten Lebensmonat rund um die Uhr von Menschen betreut.",
+          "correct": "d",
+          "explanation": "A boy fell six metres into the gorilla enclosure, which is an accident in the zoo (d). b is the trap: the gorilla saved („gerettet“) the boy; he was hurt by the fall, not by her."
+        },
+        {
+          "number": 5,
+          "text": "Das Besteigen des Mount Everest macht durstig. Bergsteiger haben inzwischen 67 000 Flaschen auf ihrem Weg zum höchsten Berg der Welt zurückgelassen, wie die nepalesische Nachrichtenagentur RSS berichtet. Nun will eine Gruppe erfahrener Bergsteiger aufräumen. Sie haben jedoch eine anstrengende Arbeit vor sich: Zunächst müssen sie den Müll auf dem Rücken bis zum Basislager tragen. Von dort wird alles auf Ochsen verladen und weitertransportiert.",
+          "correct": "f",
+          "explanation": "67 000 bottles left on the way up is pollution, even on the Mount Everest (f). j is the trap: the „anstrengende Arbeit“ is carrying the rubbish down, not a report about the climb."
+        }
+      ]
+    },
+    {
+      "id": "lesen2",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 2",
+      "type": "mc",
+      "instructions": "Lesen Sie den Text und die Aufgaben 6–10. Welche Lösung (a, b oder c) ist jeweils richtig?",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "passage": {
+        "heading": "Wenn zwei sich streiten, kommt der Konfliktlotse",
+        "subheading": "Schüler helfen bei Streit in ihrer Schule (Klaus Lauer)",
+        "paragraphs": [
+          "Florian, Tobias und Theo sind auf dem Schulhof tätig. Wenn andere Kinder streiten, erscheinen die drei Fünftklässler, um den Streit zu beenden. Sie sollen für Ordnung sorgen und versuchen, zwischen den Schülern zu vermitteln, ohne dass die Lehrer eingreifen müssen. Denn sie sind die „Konfliktlotsen“ der 1. Grundschule Berlin.",
+          "Florian, Tobias und Theo kümmern sich seit eineinhalb Jahren um streitende Mitschüler und sind sehr erfolgreich im Kampf gegen Gewalt. Die Jungen versuchen, im Konflikt zu helfen, geben aber keine fertige Lösung vor. Florian erzählt, dass er sich zuerst das Problem von allen Beteiligten erzählen lässt und fragt, wie sie sich beim Streiten und danach gefühlt haben. Wenn die Streitenden nicht miteinander reden, wird der Konflikt nicht gelöst. Statt zu suchen, wer Schuld hat, sollen die Kinder selbst vorschlagen, was sie zur Problemlösung beitragen wollen. Per Handschlag wird die Abmachung dann besiegelt.",
+          "Seit Lehrer, Eltern und Psychologen 1994 über Möglichkeiten diskutierten, etwas gegen Gewalt an der Schule zu tun, bildet Lehrerin Margit Bauer die Konfliktlotsen aus. „Die Kinder sollen lernen, Konflikte zu erkennen und damit umzugehen“, sagt sie. Seit Beginn des Schuljahres unterrichtet sie 18 Schüler der beiden fünften Klassen in zwei zusätzlichen Wochenstunden. Wer will, kann im Januar die Prüfung zum Konfliktlotsen machen.",
+          "Die anderen Kinder werden spielerisch an das Thema herangeführt, sollen Vertrauen zu den Konfliktlotsen fassen. Ziel ist, dass die Schüler mit ihren Problemen von sich aus zu den Konfliktlotsen gehen, ohne dass die Schlichter zu den prügelnden Streithähnen laufen müssen. Deshalb zeigen Florian, Tobias und Theo im Unterricht, wie die ideale Lösung aussieht. Inzwischen sind die Konfliktlotsen an der ganzen Schule bekannt und werden von fast allen respektiert. „Die Jüngsten hören immer auf uns, bei den dritten und vierten Klassen wird es oft schon schwieriger“, sagt Theo. Bei Gleichaltrigen ist seine Aufgabe oft sehr schwer. Dann muss er sehr diplomatisch verhandeln, denn Gleichaltrige wollen sich meistens nichts sagen lassen und werfen den Konfliktlotsen schnell vor, sie seien „Besserwisser“, die sich überall einmischen wollen."
+        ]
+      },
+      "items": [
+        {
+          "number": 6,
+          "question": "Die Lehrerin Margit Bauer",
+          "options": [
+            {
+              "key": "a",
+              "text": "tut seit 1994 etwas gegen Gewalt an der Schule."
+            },
+            {
+              "key": "b",
+              "text": "bildet 18 Schüler zu Konfliktlotsen aus."
+            },
+            {
+              "key": "c",
+              "text": "arbeitet nur zwei Stunden pro Woche."
+            }
+          ],
+          "correct": "b",
+          "explanation": "„Seit Beginn des Schuljahres unterrichtet sie 18 Schüler“ to become Konfliktlotsen (b). In 1994 teachers, parents and psychologists only discussed the problem (a), and the two hours are extra lessons for the pupils, not her whole working week (c)."
+        },
+        {
+          "number": 7,
+          "question": "Kinder, die sich streiten,",
+          "options": [
+            {
+              "key": "a",
+              "text": "können selbst entscheiden, wie sie ihr Problem lösen wollen."
+            },
+            {
+              "key": "b",
+              "text": "sollen nicht miteinander reden."
+            },
+            {
+              "key": "c",
+              "text": "sollen mit den Lehrern, Eltern oder Psychologen sprechen."
+            }
+          ],
+          "correct": "a",
+          "explanation": "The pilots give „keine fertige Lösung“, and the children „sollen ... selbst vorschlagen“ what they will do (a). b is the opposite: without talking the conflict is not solved. The idea is that teachers do not have to step in (c)."
+        },
+        {
+          "number": 8,
+          "question": "Bei einem Streit müssen die Konfliktlotsen",
+          "options": [
+            {
+              "key": "a",
+              "text": "herausfinden, wer an dem Streit Schuld hat."
+            },
+            {
+              "key": "b",
+              "text": "vorschlagen, wie das Problem gelöst werden kann."
+            },
+            {
+              "key": "c",
+              "text": "zuhören, wenn die Streitenden über ihr Problem berichten."
+            }
+          ],
+          "correct": "c",
+          "explanation": "Florian „lässt sich zuerst das Problem von allen Beteiligten erzählen“, so they listen (c). „Statt zu suchen, wer Schuld hat“ rules out a, and the children, not the pilots, make the suggestions (b)."
+        },
+        {
+          "number": 9,
+          "question": "Wer Konfliktlotse werden will, muss",
+          "options": [
+            {
+              "key": "a",
+              "text": "im Januar die Prüfung bestehen."
+            },
+            {
+              "key": "b",
+              "text": "lernen, was er bei einem Konflikt tun soll."
+            },
+            {
+              "key": "c",
+              "text": "das Vertrauen der Lehrer und Schüler haben."
+            }
+          ],
+          "correct": "b",
+          "explanation": "„Die Kinder sollen lernen, Konflikte zu erkennen und damit umzugehen“: the pilots are trained in what to do (b). The exam is optional, „Wer will, kann ...“ (a), and the trust is something the other children should build later (c)."
+        },
+        {
+          "number": 10,
+          "question": "Obwohl die Konfliktlotsen von fast allen Schülern respektiert werden,",
+          "options": [
+            {
+              "key": "a",
+              "text": "haben sie mit den dritten und vierten Klassen besondere Schwierigkeiten."
+            },
+            {
+              "key": "b",
+              "text": "ist ihre Aufgabe bei gleichaltrigen Schülern häufig sehr schwer."
+            },
+            {
+              "key": "c",
+              "text": "werden sie von Schülern aller Klassen für „Besserwisser“ gehalten."
+            }
+          ],
+          "correct": "b",
+          "explanation": "„Bei Gleichaltrigen ist seine Aufgabe oft sehr schwer“ (b). With the third and fourth classes it is only „oft schon schwieriger“, not their special problem (a), and only pupils of the same age call them „Besserwisser“, not all classes (c)."
+        }
+      ]
+    },
+    {
+      "id": "lesen3",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 3",
+      "type": "match",
+      "instructions": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Finden Sie für jede Situation die passende Anzeige. Sie können jede Anzeige nur einmal benutzen. Wenn Sie zu einer Situation keine Anzeige finden, wählen Sie x.",
+      "pointsPerItem": 2.5,
+      "maxPoints": 25,
+      "optionLabel": "Anzeige",
+      "allowX": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "Models, Werbetypen, Fotomodelle und Kinder ab 5 Jahren für Mode-Events gesucht!! Super Verdienst!!! Kurze Bewerbung und Foto für Ihren Termin in Hamburg unter Ref.-Nr. HHSa2987. MCI GmbH, CH 6301 Zug, Baarerstr. 43, Infotelefon (0180) 522 14 66"
+        },
+        {
+          "key": "b",
+          "text": "Spedition Meyer: Möbeltransporte, Umzüge, Warenlieferungen. Schnell und zuverlässig. Baurerdamm 5, Potsdam, Tel. 84 73 29"
+        },
+        {
+          "key": "c",
+          "text": "ELEKTROGERÄTE An- und Verkauf: Waschmaschinen ab 190,–, Kühlschränke ab 130,–, Elektroherde ab 140,–. Alle Geräte wie neu und mit Garantie. Eigener Kundendienst. Auf Wunsch liefern wir nach Hause! Ostheimer Straße 7, Köln, Tel. 56 45 22"
+        },
+        {
+          "key": "d",
+          "text": "Schauspieler/in, Stuntman: Ist das Ihr Traumberuf? Wir bilden Sie dazu aus. Bewerbungen mit kurzem Lebenslauf richten Sie bitte an: ACTORIS GmbH, Dutschke Allee 27, 19237 Berlin, Tel./Fax 3 84 30 28. Voraussetzungen: Mittlere Reife oder Abitur, Grundkenntnisse in Singen und Tanzen, gute körperliche Verfassung für Stuntman-Ausbildung"
+        },
+        {
+          "key": "e",
+          "text": "SUPERCHANCE: Leute (16–55) als Filmstatist, Schauspieler, Werbemodel, für Werbebranche und TV-Filme (seriös) in Österreich und Deutschland gesucht (auch Anfänger). Kurzbewerbung + Foto an: DMV-Deutscher Mannequinverband, Bruchstraße 4, D-52156 Monschau"
+        },
+        {
+          "key": "f",
+          "text": "Schnell und zuverlässig: Kurierdienste ins gesamte Bundesgebiet und das europäische Ausland. Schenken Sie uns Ihr Vertrauen! DSA-Express, Tel. 33 34 35"
+        },
+        {
+          "key": "g",
+          "text": "RAMEX Elektroshop: Waschmaschinen ab 95,–, Spülmaschinen ab 145,–, Kühlschränke ab 70,–, Elektroherde ab 75,–. Gebrauchtgeräte mit 6 Monaten Garantie. Würzburgstr. 6, 51103 Köln, Telefon 87 39 33"
+        },
+        {
+          "key": "h",
+          "text": "Studentinnen suchen preiswerten gebrauchten Herd und Öko-Waschmaschine. Insgesamt bis 140,– EUR möglich. Transport übernehmen wir. Tel. 47 48 29 (ab 18.00 Uhr)"
+        },
+        {
+          "key": "i",
+          "text": "Soll es schnell gehen? Dann rufen Sie uns an! Die Fahrradkuriere befördern Briefe, Päckchen und kleinere Pakete in kürzester Zeit in jede Ecke der Stadt. Staus und Verkehr sind für uns kein Problem. Noch dazu schonen wir die Umwelt! Rufnummern: Pankow 2 31 23 45, Lichtenberg 8 94 73 00, Mitte 4 58 43 11"
+        },
+        {
+          "key": "j",
+          "text": "KURIERDIENST: Wir transportieren für Sie Briefe und Geldsendungen innerhalb Berlins. In spätestens 120 Minuten hat Ihre Post den Empfänger erreicht. Zentral-Rufnummer 13 14"
+        },
+        {
+          "key": "k",
+          "text": "Kaputt? (0 22 45) 8 90 01-14. Unser Reparatur-Service kommt innerhalb von 24 Stunden und nimmt nur 7 Euro für die Anfahrt. Wir reparieren alle Elektrogeräte und haben 10 000 Ersatzteile auf Lager. Sollte eins fehlen, bringen wir es Ihnen nach Hause. Kostenlos! Kundendienst-Zentrale Bischof Elektrogeräte"
+        },
+        {
+          "key": "l",
+          "text": "Model, Werbetypen, Mannequin: Wir suchen neue Gesichter mit dem „Gewissen Etwas“ (von 18 bis 50 J., nur weiblich), auch nebenberuflich. StarCast Models International, Grottenau 2, 86150 Augsburg, Tel. 3 45 35 67"
+        }
+      ],
+      "items": [
+        {
+          "number": 11,
+          "text": "Sie haben gerade Ihre Ausbildung beendet und möchten gern als Schauspieler/in arbeiten.",
+          "correct": "e",
+          "explanation": "SUPERCHANCE looks for „Schauspieler“ and accepts „auch Anfänger“, perfect right after your training (e). d is the trap: ACTORIS offers training („Wir bilden Sie dazu aus“), which you have already finished."
+        },
+        {
+          "number": 12,
+          "text": "Sie möchten wichtige Papiere sicher und schnell an Ihren Onkel schicken, der in den USA lebt.",
+          "correct": "x",
+          "explanation": "No courier goes to the USA, so x. DSA-Express (f) only delivers in Germany and „das europäische Ausland“, and i and j only work inside the city."
+        },
+        {
+          "number": 13,
+          "text": "Ihre Nachbarin hat eine hübsche 13-jährige Tochter, die gern mal bei Werbespots mitmachen würde.",
+          "correct": "a",
+          "explanation": "MCI looks for „Werbetypen“ and „Kinder ab 5 Jahren“, so a 13-year-old can apply (a). e only takes people from 16, and l only from 18."
+        },
+        {
+          "number": 14,
+          "text": "Ihr Kühlschrank funktioniert plötzlich nicht mehr und muss schnell repariert werden.",
+          "correct": "k",
+          "explanation": "Bischof repairs „alle Elektrogeräte“ and comes „innerhalb von 24 Stunden“ (k). c and g sell appliances; c has its own customer service, but only for its own customers."
+        },
+        {
+          "number": 15,
+          "text": "Sie wollen der Umwelt nicht schaden und haben von einer ganz neuen Öko-Waschmaschine gehört, die Wasser, Energie und Waschmittel sparen hilft. Sie wollen dieses neue Modell kaufen.",
+          "correct": "x",
+          "explanation": "Nobody sells a brand-new eco washing machine, so x. h is the trap: the students are looking to buy a used Öko-Waschmaschine themselves, and c and g only sell used appliances."
+        },
+        {
+          "number": 16,
+          "text": "Ihre Mutter hat vergessen, ihre Lebensversicherung zu bezahlen. Daher möchte sie heute schnell den Betrag an die Versicherung schicken.",
+          "correct": "j",
+          "explanation": "Only the KURIERDIENST transports „Geldsendungen“, within 120 minutes, so the money arrives today (j). The Fahrradkuriere (i) carry letters and parcels, but money is not mentioned."
+        },
+        {
+          "number": 17,
+          "text": "Die Firma, bei der Ihr Vater arbeitet, will zu Weihnachten kleine Geschenke an ihre Kunden im ganzen Land schicken. Ihr Vater sucht eine Möglichkeit, die Päckchen möglichst schnell und sicher zu transportieren.",
+          "correct": "f",
+          "explanation": "DSA-Express delivers „ins gesamte Bundesgebiet“, „schnell und zuverlässig“ (f). i and j only deliver inside the city, and b moves furniture."
+        },
+        {
+          "number": 18,
+          "text": "Ihre Schwester braucht eine billige Waschmaschine. Da sie kein Auto hat, möchte sie sich die Waschmaschine auch nach Hause bringen lassen.",
+          "correct": "c",
+          "explanation": "c sells washing machines „wie neu“ and „Auf Wunsch liefern wir nach Hause!“ (c). g is cheaper, but it does not deliver, which is the key condition here."
+        },
+        {
+          "number": 19,
+          "text": "Ihre Freundin ist sehr attraktiv und möchte nach der Schule eine Ausbildung als Mannequin machen.",
+          "correct": "x",
+          "explanation": "No ad offers training as a Mannequin, so x. StarCast (l) and DMV (e) look for models who work, and ACTORIS (d) trains actors and stuntmen."
+        },
+        {
+          "number": 20,
+          "text": "Sie wollen zwei Betten und ein Sofa in Ihr Wochenendhäuschen transportieren lassen.",
+          "correct": "b",
+          "explanation": "Spedition Meyer does „Möbeltransporte“ (b). The couriers (f, i, j) only carry letters, small parcels and money."
+        }
+      ]
+    },
+    {
+      "id": "sb1",
+      "block": "lesen-sprachbausteine",
+      "title": "Sprachbausteine Teil 1",
+      "type": "cloze-mc",
+      "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+      "pointsPerItem": 1.5,
+      "maxPoints": 15,
+      "textBefore": "Sehr geehrte Damen und Herren,\n\n",
+      "items": [
+        {
+          "number": 21,
+          "textAfter": "zwei Wochen habe ich bei Ihnen ein Computerspiel gekauft. Es",
+          "options": [
+            {
+              "key": "a",
+              "text": "in"
+            },
+            {
+              "key": "b",
+              "text": "vor"
+            },
+            {
+              "key": "c",
+              "text": "seit"
+            }
+          ],
+          "correct": "b",
+          "explanation": "„vor zwei Wochen“ means two weeks ago: a finished action in the past with Perfekt (b). „seit“ is for something that is still going on, and „in zwei Wochen“ points to the future."
+        },
+        {
+          "number": 22,
+          "textAfter": "sich dabei um das Spiel „Aladdin“ aus der Reihe „Activity Centre“.",
+          "options": [
+            {
+              "key": "a",
+              "text": "handelt"
+            },
+            {
+              "key": "b",
+              "text": "geht"
+            },
+            {
+              "key": "c",
+              "text": "ist"
+            }
+          ],
+          "correct": "a",
+          "explanation": "„Es handelt sich um ...“ is the fixed phrase for „it is about / it concerns“ (a). „Es geht um“ exists too, but without „sich“, and „ist“ does not go with „sich ... um“."
+        },
+        {
+          "number": 23,
+          "textAfter": "bin ich wieder in meine Heimat zurückgekehrt und",
+          "options": [
+            {
+              "key": "a",
+              "text": "Erst"
+            },
+            {
+              "key": "b",
+              "text": "Inzwischen"
+            },
+            {
+              "key": "c",
+              "text": "Mitten"
+            }
+          ],
+          "correct": "b",
+          "explanation": "„Inzwischen“ means „in the meantime“: since buying the game he has gone home (b). „Erst“ (only just) changes the meaning, and „Mitten“ needs „in“ and a noun."
+        },
+        {
+          "number": 24,
+          "textAfter": "es leider nicht auf meinem Computer abspielen, weil es kaputt ist.",
+          "options": [
+            {
+              "key": "a",
+              "text": "darf"
+            },
+            {
+              "key": "b",
+              "text": "will"
+            },
+            {
+              "key": "c",
+              "text": "kann"
+            }
+          ],
+          "correct": "c",
+          "explanation": "The game is broken, so he is not able to play it: „kann ... nicht abspielen“ (c). „darf“ (allowed) and „will“ (wants) make no sense with „weil es kaputt ist“."
+        },
+        {
+          "number": 25,
+          "textAfter": "Grund schicke ich es Ihnen hiermit zurück. Die Rechnung, an der Sie das",
+          "options": [
+            {
+              "key": "a",
+              "text": "diese"
+            },
+            {
+              "key": "b",
+              "text": "diesem"
+            },
+            {
+              "key": "c",
+              "text": "dieser"
+            }
+          ],
+          "correct": "b",
+          "explanation": "„aus“ always takes the dative, and „der Grund“ is masculine, so „aus diesem Grund“ (b). „dieser“ would be dative feminine, and „diese“ is nominative/accusative."
+        },
+        {
+          "number": 26,
+          "textAfter": "Datum und den Preis ablesen können, lege ich",
+          "options": [
+            {
+              "key": "a",
+              "text": "genaues"
+            },
+            {
+              "key": "b",
+              "text": "genau"
+            },
+            {
+              "key": "c",
+              "text": "genaue"
+            }
+          ],
+          "correct": "c",
+          "explanation": "An adjective before a noun needs an ending: after „das“ (neuter accusative, definite article) it is „das genaue Datum“ (c). „genaues“ is the ending without an article, and „genau“ without an ending only works after a verb."
+        },
+        {
+          "number": 27,
+          "textAfter": "bei. Ich bitte Sie recht herzlich",
+          "options": [
+            {
+              "key": "a",
+              "text": "ebenfalls"
+            },
+            {
+              "key": "b",
+              "text": "wieder"
+            },
+            {
+              "key": "c",
+              "text": "also"
+            }
+          ],
+          "correct": "a",
+          "explanation": "He sends the game and „ebenfalls“ (also) the receipt (a). „wieder“ would mean he already sent it once, and „also“ (so/therefore) does not fit."
+        },
+        {
+          "number": 28,
+          "textAfter": ", mir das Geld, das ich für dieses Computerspiel bezahlt habe, zurückzuerstatten.",
+          "options": [
+            {
+              "key": "a",
+              "text": "dazu"
+            },
+            {
+              "key": "b",
+              "text": "dafür"
+            },
+            {
+              "key": "c",
+              "text": "darum"
+            }
+          ],
+          "correct": "c",
+          "explanation": "The verb is „jemanden um etwas bitten“, so the pronoun adverb is „darum“ (c). „dafür“ belongs to „danken für“, and „dazu“ to verbs like „auffordern zu“."
+        },
+        {
+          "number": 29,
+          "textAfter": "das nicht möglich sein sollte, bitte ich Sie,",
+          "options": [
+            {
+              "key": "a",
+              "text": "Wann"
+            },
+            {
+              "key": "b",
+              "text": "Ob"
+            },
+            {
+              "key": "c",
+              "text": "Falls"
+            }
+          ],
+          "correct": "c",
+          "explanation": "„Falls das nicht möglich sein sollte“ means „in case that is not possible“, a condition (c). „Ob“ (whether) only follows verbs like „fragen“ or „wissen“, and „Wann“ asks for a time."
+        },
+        {
+          "number": 30,
+          "textAfter": "ein anderes Computerspiel in der gleichen Preislage zu schicken.\n\nFür Ihre Mühe danke ich Ihnen im Voraus.\n\nDimitris Pappas",
+          "options": [
+            {
+              "key": "a",
+              "text": "mir"
+            },
+            {
+              "key": "b",
+              "text": "mich"
+            },
+            {
+              "key": "c",
+              "text": "sich"
+            }
+          ],
+          "correct": "a",
+          "explanation": "„jemandem etwas schicken“: the person receiving is dative, so „mir“ (a). „mich“ is accusative, and „sich“ would refer back to „Sie“ as subject, which makes no sense."
+        }
+      ]
+    },
+    {
+      "id": "sb2",
+      "block": "lesen-sprachbausteine",
+      "title": "Sprachbausteine Teil 2",
+      "type": "cloze-bank",
+      "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–p. Jedes Wort passt nur einmal.",
+      "pointsPerItem": 1.5,
+      "maxPoints": 15,
+      "wordBank": [
+        {
+          "key": "a",
+          "text": "SEINE"
+        },
+        {
+          "key": "b",
+          "text": "IHNEN"
+        },
+        {
+          "key": "c",
+          "text": "ERFAHREN"
+        },
+        {
+          "key": "d",
+          "text": "OB"
+        },
+        {
+          "key": "e",
+          "text": "DAS"
+        },
+        {
+          "key": "f",
+          "text": "WELCHES"
+        },
+        {
+          "key": "g",
+          "text": "WOVON"
+        },
+        {
+          "key": "h",
+          "text": "DASS"
+        },
+        {
+          "key": "i",
+          "text": "IRGENDEINE"
+        },
+        {
+          "key": "j",
+          "text": "DAZU"
+        },
+        {
+          "key": "k",
+          "text": "IHRE"
+        },
+        {
+          "key": "l",
+          "text": "UNSERE"
+        },
+        {
+          "key": "m",
+          "text": "WORAN"
+        },
+        {
+          "key": "n",
+          "text": "WAS FÜR"
+        },
+        {
+          "key": "o",
+          "text": "EINS"
+        },
+        {
+          "key": "p",
+          "text": "INFORMIERT"
+        }
+      ],
+      "textBefore": "Sehr geehrte Damen und Herren,\n\nunsere Tochter Philippa ist 7 Jahre alt und da",
+      "items": [
+        {
+          "number": 31,
+          "textAfter": "Lehrerin uns schon öfters gesagt hat, dass sie musikalisch ist, möchten wir ihr Talent fördern. Durch Ihre Anzeige in der Zeitung haben wir uns nun",
+          "correct": "k",
+          "explanation": "„ihre Lehrerin“ is Philippa's teacher, and Philippa is a girl, so „ihre“ (IHRE). „seine“ would refer to a boy, and „unsere“ would be the parents' teacher."
+        },
+        {
+          "number": 32,
+          "textAfter": "entschlossen, dass unsere Tochter ein Musikinstrument spielen lernt.\n\nDa wir überhaupt nicht darüber",
+          "correct": "j",
+          "explanation": "The verb is „sich zu etwas entschließen“, so „haben uns dazu entschlossen, dass ...“ (DAZU). „dazu“ points forward to the dass-clause."
+        },
+        {
+          "number": 33,
+          "textAfter": "sind, wie Musik unterrichtet wird, möchten wir",
+          "correct": "p",
+          "explanation": "„über etwas informiert sein“ means to know about something: „Da wir überhaupt nicht darüber informiert sind“ (INFORMIERT)."
+        },
+        {
+          "number": 34,
+          "textAfter": "einige Fragen stellen.",
+          "correct": "b",
+          "explanation": "„jemandem Fragen stellen“ needs a dative person: „möchten wir Ihnen einige Fragen stellen“ (IHNEN). „erfahren“ is a verb, and the sentence already has its verb „stellen“."
+        },
+        {
+          "number": 35,
+          "textAfter": "kann man zum Beispiel erkennen,",
+          "correct": "m",
+          "explanation": "The verb is „etwas an etwas erkennen“, so the question word is „woran“ (WORAN). „wovon“ belongs to verbs with „von“."
+        },
+        {
+          "number": 36,
+          "textAfter": "Musikinstrument für ein Kind am besten ist? Wir wollen nicht,",
+          "correct": "f",
+          "explanation": "„welches Musikinstrument“ asks which one, and „welches“ matches the neuter noun directly (WELCHES). „was für“ would need „ein“: „was für ein Musikinstrument“."
+        },
+        {
+          "number": 37,
+          "textAfter": "Philippa einfach Klavier oder Geige lernt, wie viele andere Kinder. Gibt es",
+          "correct": "h",
+          "explanation": "„Wir wollen nicht, dass Philippa ... lernt“: a dass-clause with the verb at the end (DASS)."
+        },
+        {
+          "number": 38,
+          "textAfter": "Möglichkeit festzustellen, was für sie das Beste ist? Wir wissen auch nicht,",
+          "correct": "i",
+          "explanation": "The gap stands before the noun „Möglichkeit“ (feminine): „Gibt es irgendeine Möglichkeit?“ = is there any way (IRGENDEINE). „dass“ cannot stand before a noun; it starts a clause."
+        },
+        {
+          "number": 39,
+          "textAfter": "man ein Instrument in der Gruppe oder allein lernt. Wie oft findet der Unterricht statt, und müssen wir direkt ein Instrument kaufen, oder kann man auch",
+          "correct": "d",
+          "explanation": "„Wir wissen nicht, ob ...“ is an indirect yes/no question, which needs „ob“ (OB)."
+        },
+        {
+          "number": 40,
+          "textAfter": "mieten?\n\nWir wären Ihnen wirklich dankbar, wenn Sie uns all diese Fragen beantworten könnten.\n\nMit freundlichen Grüßen\n\nMarianne und David Wolff",
+          "correct": "o",
+          "explanation": "„eins“ replaces „ein Instrument“ without repeating the noun: „oder kann man auch eins mieten?“ (EINS). „das“ would mean one specific instrument already mentioned."
+        }
+      ]
+    },
+    {
+      "id": "hoeren1",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 1",
+      "type": "truefalse",
+      "instructions": "Sie hören fünf kurze Texte. Sie hören diese Texte nur einmal. Entscheiden Sie: richtig (+) oder falsch (–)?",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 1 (fünf kurze Texte, einmal hören)",
+      "audio": {
+        "src": "audio/telc-b1-uebungstest-3-hoeren1.mp3"
+      },
+      "transcripts": [
+        {
+          "number": null,
+          "text": "„Welche Probleme habt ihr mit euren Eltern?“ Das wollten wir von deutschen Jugendlichen wissen. Hören Sie hier, was manche von ihnen darauf geantwortet haben."
+        },
+        {
+          "number": 41,
+          "text": "Welche Probleme ich mit meinen Eltern habe? ... Mit meiner Mutter vor allem. Bei jedem Streit erinnert sie sich an etwas, was schon vor langer Zeit passiert ist und gar nichts mit unserem Streit zu tun hat. Als ich zum Beispiel neulich mit meiner Freundin telefoniert habe, hat sie gesagt: „Ich wusste, dass das nicht aufhört, wenn du ein eigenes Zimmer hast.“ Was hat denn das Telefon mit meinem Zimmer zu tun? Ganz besonders regt sich meine Mutter auf, wenn ich zu spät nach Hause komme. Dann geht sie echt die Wände hoch!"
+        },
+        {
+          "number": 42,
+          "text": "Ich finde, die Erwachsenen verlieren sehr schnell die Geduld. Sie behaupten z.B., dass sie etwas schon fünfzigmal gesagt haben, dabei stimmt das überhaupt nicht. Ganz plötzlich kommen sie auf die Idee, dass man mal wieder im Haus helfen sollte. Dann sagen sie, ich soll mein Zimmer aufräumen, aber dalli! Dazu kann ich nur sagen: Etwas Geduld hat noch keinem geschadet. Wir müssen unsererseits ja schließlich auch ewig warten, bis sie endlich mal Zeit für uns haben."
+        },
+        {
+          "number": 43,
+          "text": "Ich mag es nicht, wenn meine Mutter ständig ins Zimmer kommt und etwas von mir will. Ich liege auf dem Bett und lese, da sagt sie: „Hol doch mal die Natalie – das ist meine kleine Schwester – vom Kindergarten ab!“ Dabei bin ich noch nicht mal mit den Hausaufgaben fertig. Oder wenn ich sie frage, ob ich ihr in der Küche helfen soll, heißt es: „Nee, lass mal.“ Zehn Minuten später schreit sie rum: „Würdest du mir freundlicherweise endlich beim Aufräumen helfen?“"
+        },
+        {
+          "number": 44,
+          "text": "Irgendwie verstehe ich, dass Erwachsene oft Stress haben und nicht anders können, als genervt zu sein. Aber mich stört es, dass meine Eltern so ängstlich sind. Zum Beispiel beim Snowboardfahren oder Skaten. „Pass auf, dass dir nichts passiert!“, jammern sie. Vielleicht liegt es daran, dass sie Ärzte sind und dauernd mit Leuten zu tun haben, die einen Unfall hatten. Oder wenn ich weggehe, heißt es: „Komm nicht so spät. Abends ist es gefährlich draußen.“"
+        },
+        {
+          "number": 45,
+          "text": "Mein Vater hält mich immer noch für ein Baby. „Bis zehn Uhr wach bleiben? Das ist aber reichlich spät für eine Dreizehnjährige“, sagt er. Aber wenn ich auf meine kleinen Geschwister aufpassen soll, bin ich plötzlich wieder seine Große. Meine Mutter hat manchmal nicht genug Vertrauen zu mir. „Mit diesem chaotischen Mädchen freundest du dich bitte nicht an!“, bestimmt sie einfach. Dabei weiß ich selbst, wer okay ist und wer nicht."
+        }
+      ],
+      "items": [
+        {
+          "number": 41,
+          "text": "Die Sprecherin hat immer Streit mit ihrer Mutter, wenn sie zu lange telefoniert.",
+          "correct": "-",
+          "explanation": "The phone call is only one example of her mother bringing up old things in a fight. What really upsets her mother is „wenn ich zu spät nach Hause komme“: falsch."
+        },
+        {
+          "number": 42,
+          "text": "Dem Sprecher gefällt es nicht, dass er jeden Tag sein Zimmer aufräumen muss.",
+          "correct": "-",
+          "explanation": "He complains that adults lose patience and „ganz plötzlich“ want help. Tidying his room every day is never said: falsch."
+        },
+        {
+          "number": 43,
+          "text": "Die Sprecherin mag es gar nicht, dass sie oft von ihrer Mutter gestört wird.",
+          "correct": "+",
+          "explanation": "„Ich mag es nicht, wenn meine Mutter ständig ins Zimmer kommt und etwas von mir will“: richtig."
+        },
+        {
+          "number": 44,
+          "text": "Den Sprecher stört es, dass sich seine Eltern so viele Sorgen um ihn machen.",
+          "correct": "+",
+          "explanation": "„Aber mich stört es, dass meine Eltern so ängstlich sind“, for example when he snowboards or goes out: richtig."
+        },
+        {
+          "number": 45,
+          "text": "Die Sprecherin passt nicht gern auf die kleinen Geschwister auf.",
+          "correct": "-",
+          "explanation": "She never says she dislikes babysitting. She complains that her father treats her like a baby, except when she has to look after her siblings: falsch."
+        }
+      ]
+    },
+    {
+      "id": "hoeren2",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 2",
+      "type": "truefalse",
+      "instructions": "Sie hören ein Gespräch. Sie hören das Gespräch zweimal. Entscheiden Sie: richtig (+) oder falsch (–)?",
+      "pointsPerItem": 2.5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 2 (ein Gespräch, zweimal hören)",
+      "audio": {
+        "src": "audio/telc-b1-uebungstest-3-hoeren2.mp3"
+      },
+      "transcripts": [
+        {
+          "number": null,
+          "text": "J = Journalistin, G = Herr Grießmann\n\nJ: Heute sind wir an einem ganz besonderen Ort zu Besuch. Wir sind hier am Stadtrand von Essen, wo man die Natur in die Stadt geholt hat. Wir begrüßen Herrn Grießmann, Leiter des Bauernhofs „Jugendfarm“ für Kinder und Jugendliche. Guten Tag, Herr Grießmann!\nG: Guten Tag!\nJ: Sagen Sie, wie sind Sie eigentlich auf die Idee gekommen, die „Jugendfarm“ zu gründen?\nG: Ja, also, ich bin selbst auf einem Bauernhof aufgewachsen und hatte als Kind immer Kontakt zur Natur. Heute kennen viele Kinder in der Großstadt ja nur Autos, Hochhäuser und Lärm, und Tiere haben sie nur in Bilderbüchern gesehen. Da hab' ich mir gedacht, es wär' doch schön, wenn sie die Tiere auch mal anfassen könnten und sehen könnten, wie die wirklich sind.\nJ: Und? Können sich die Kinder für Ihre Idee begeistern oder wollen sie nur vor dem Computer oder Fernseher sitzen, wie die Erwachsenen immer klagen?\nG: Sie können sich gar nicht vorstellen, wie toll die Kinder es hier finden. Oft kommen 30 bis 50 Jugendliche nach der Schule zu uns und kümmern sich dann um die Tiere, d.h. sie füttern und pflegen sie oder gehen mit den Hunden spazieren.\nJ: Was für Tiere gibt es denn eigentlich auf Ihrer Farm?\nG: Na, alle, die man auf einem normalen Bauernhof sehen kann, also Schafe, Hühner, Gänse, Schweine, Hunde und Pferde. Die sind übrigens besonders beliebt.\nJ: Und wer bestimmt, wer sich um welches Tier kümmert?\nG: Wer will, kann Pate eines Tieres werden, d.h. dass drei oder vier Jugendliche die Verantwortung für ein Tier haben. Meine Mitarbeiter und die Kinder besprechen dann gemeinsam, wer welches Tier bekommt. Die Voraussetzung ist, dass man drei-, viermal die Woche Zeit hat. Manche Kinder haben sogar mehrere Patentiere. Jedes Tier bekommt dann auch einen Namen. Ein Schaf heißt z.B. Sonntag, weil es an einem Sonntag geboren wurde.\nJ: Aber die Großstadtkinder wissen doch gar nicht, wie sie mit den Tieren umgehen müssen, oder?\nG: Dafür sind wir ja hier, also meine Mitarbeiter und ich. Wir sind alle gelernte Sozialpädagogen und Erzieher. Wir passen auf, dass es den Tieren gut geht und dass den Jugendlichen nichts passiert. Und natürlich erklären wir den Kindern vorher immer genau, was zu tun ist. Denn woher sollen sie auch wissen, was jedes Tier benötigt.\nJ: Ist es den Kindern nicht zu anstrengend, auch in ihrer Freizeit etwas tun zu müssen?\nG: Ganz und gar nicht. Das macht ihnen großen Spaß und ist eine gute Erholung nach so vielen Stunden in der Schule oder über den Hausaufgaben. Und außerdem ist es ja oft auch so, dass nichts auf der Farm zu tun ist. Dann treffen wir uns im großen Farmhaus, da wird dann erzählt, getanzt und gespielt.\nJ: Na toll! Kann eigentlich jedes Kind hierher kommen?\nG: Wenn es 11 Jahre alt ist, ja. Und worauf ich noch hinweisen möchte: Bei uns können sich auch interessierte Klassen für 14-tägige Kurse anmelden, damit sie sich mit dem bäuerlichen Leben vertraut machen. Wenn sie zwei Wochen bei uns gearbeitet haben, dann sehen sie ihren eigenen Lebensstil und ihre Umwelt mit anderen Augen als zuvor.\nJ: Das ist bestimmt für alle eine Erfahrung, die sich lohnt. Herr Grießmann, vielen Dank für das Interview!\nG: War mir eine Freude! Auf Wiedersehen!"
+        }
+      ],
+      "items": [
+        {
+          "number": 46,
+          "text": "Im Stadtzentrum von Essen gibt es viel Natur.",
+          "correct": "-",
+          "explanation": "The farm is „am Stadtrand von Essen“, on the edge of the city, not in the centre: falsch."
+        },
+        {
+          "number": 47,
+          "text": "Heute wohnen alle Kinder in Essen in Hochhäusern.",
+          "correct": "-",
+          "explanation": "„viele Kinder in der Großstadt“ only know cars and high-rises. „viele“ is not „alle“, and it is about what they know, not where they live: falsch."
+        },
+        {
+          "number": 48,
+          "text": "Jeden Tag kommen 30 bis 50 Jugendliche auf die Jugendfarm.",
+          "correct": "-",
+          "explanation": "„Oft kommen 30 bis 50 Jugendliche“: often, not every day: falsch."
+        },
+        {
+          "number": 49,
+          "text": "Die Kinder mögen am liebsten Pferde.",
+          "correct": "+",
+          "explanation": "After the list of animals: „und Pferde. Die sind übrigens besonders beliebt“: richtig."
+        },
+        {
+          "number": 50,
+          "text": "Jedes Kind kann sich sein Tier allein aussuchen.",
+          "correct": "-",
+          "explanation": "„Meine Mitarbeiter und die Kinder besprechen dann gemeinsam, wer welches Tier bekommt“: falsch."
+        },
+        {
+          "number": 51,
+          "text": "Die Tiere auf der Jugendfarm haben einen Namen.",
+          "correct": "+",
+          "explanation": "„Jedes Tier bekommt dann auch einen Namen“, for example the sheep „Sonntag“: richtig."
+        },
+        {
+          "number": 52,
+          "text": "Die Kinder brauchen Hilfe bei der Pflege der Tiere.",
+          "correct": "+",
+          "explanation": "The staff explain everything first, „denn woher sollen sie auch wissen, was jedes Tier benötigt“: richtig."
+        },
+        {
+          "number": 53,
+          "text": "Die Arbeit auf der Jugendfarm ist ziemlich anstrengend.",
+          "correct": "-",
+          "explanation": "„Ganz und gar nicht. Das macht ihnen großen Spaß und ist eine gute Erholung“: falsch."
+        },
+        {
+          "number": 54,
+          "text": "Auf der Jugendfarm kann man auch tanzen.",
+          "correct": "+",
+          "explanation": "In the farmhouse „wird dann erzählt, getanzt und gespielt“: richtig."
+        },
+        {
+          "number": 55,
+          "text": "Schulklassen können zwei Wochen lang das Leben auf der Jugendfarm kennenlernen.",
+          "correct": "+",
+          "explanation": "Classes can sign up „für 14-tägige Kurse“, which is two weeks: richtig."
+        }
+      ]
+    },
+    {
+      "id": "hoeren3",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 3",
+      "type": "truefalse",
+      "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Entscheiden Sie: richtig (+) oder falsch (–)?",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 3 (fünf kurze Texte, je zweimal hören)",
+      "audio": {
+        "src": "audio/telc-b1-uebungstest-3-hoeren3.mp3"
+      },
+      "transcripts": [
+        {
+          "number": 56,
+          "text": "In einem österreichischen Radiosender hören Sie folgende Ankündigung:\n\nBeim Tag des Rudersports auf dem Neusiedlersee wird den Besuchern so einiges geboten: An beiden Tagen kann man sich eingehend über den Rudersport informieren und selbst einmal in ein Boot steigen. Außerdem findet am Samstag um 14.00 Uhr am Südufer ein Rennen statt, bei dem Segler und Ruderer gleichzeitig auf die 10 km lange Strecke gehen. Und am Sonntag um 15.00 Uhr beginnt die große Demonstrationsregatta."
+        },
+        {
+          "number": 57,
+          "text": "Sie hören im Radio folgende Werbung:\n\nNutzen Sie jetzt das Superangebot für Stellenanzeigen der Münchner Merkur-Zeitung! Veröffentlichungen mittwochs und samstags ohne Textwechsel und innerhalb einer Woche. Einzelpreis für Mittwoch: 5,35 EUR, für Samstag 6,- EUR. Als Doppel mit einer Ersparnis von über 29% nur 8,- EUR."
+        },
+        {
+          "number": 58,
+          "text": "Das Wochenendmagazin im Radio kündigt an:\n\nSpielen und Toben können Ihre lieben Kleinen am 15. Mai zwischen 14.00 und 18.00 Uhr auf 600 Quadratmetern im Rosengarten. Ein Wasserbett und die neue Riesenrutsche von Mobil-Spiel werden sicher alle Kinderherzen erfreuen. Eröffnet wird die Veranstaltung durch den Kinderbuchautor Ali Mitgutsch. Bei sehr schlechtem Wetter fällt die Veranstaltung aus. Infos beim Regentelefon unter (0 89) 1 23 54 27. Der Eintritt ist frei."
+        },
+        {
+          "number": 59,
+          "text": "In einer Sendung über verschiedene Weiterbildungsmöglichkeiten hören Sie:\n\nIn der Sabel-Akademie für Wirtschaft finden auch in diesem Sommer wieder Sonderseminare statt. Diesmal geht es um den Computer und das Internet. Internet-Einführung für Jung und Alt an zwei Abenden: 8. und 15. Juni. Aufbaukurs: Planen, Erstellen und Publizieren einer Homepage, vier Abende: 10., 17., 24. Juni und 1. Juli. Sabel-Akademie für Wirtschaft, Schwanthalerstr. 51–55, Tel.: (0 89) 53 98 05 17."
+        },
+        {
+          "number": 60,
+          "text": "In einer Radiosendung zum Thema Erziehung hören Sie folgenden Tipp:\n\nFür eine gute Ausbildung ist es nie zu früh! Der Schulverbund München hilft, Neigungen zu erkennen, Begabungen zu pflegen und Talente zu fördern, im Gymnasium, in der Realschule, in der Wirtschaftsschule. Individuell, familiär, leistungsorientiert. Vereinbaren Sie mit uns ein persönliches Beratungsgespräch. Erziehung ist die wertvollste Investition. Fordern Sie Informationen unter (0 89) 29 70 29 oder (0 89) 29 33 33 an."
+        }
+      ],
+      "items": [
+        {
+          "number": 56,
+          "text": "Nicht nur die Sportler, sondern auch die Besucher können im Boot fahren.",
+          "correct": "+",
+          "explanation": "Visitors can „selbst einmal in ein Boot steigen“: richtig."
+        },
+        {
+          "number": 57,
+          "text": "Stellenanzeigen gibt es im Münchner Merkur an zwei Tagen in der Woche.",
+          "correct": "+",
+          "explanation": "Job ads appear „mittwochs und samstags“, two days a week: richtig."
+        },
+        {
+          "number": 58,
+          "text": "Auf der Veranstaltung kann man auch Kinderbücher kaufen.",
+          "correct": "-",
+          "explanation": "The children's book author Ali Mitgutsch only opens the event. Selling books is never mentioned: falsch."
+        },
+        {
+          "number": 59,
+          "text": "Alle können an dem Internet-Einführungskurs teilnehmen.",
+          "correct": "+",
+          "explanation": "The introduction is „für Jung und Alt“, so for everybody: richtig."
+        },
+        {
+          "number": 60,
+          "text": "Der Schulverbund berät auf Wunsch jeden persönlich.",
+          "correct": "+",
+          "explanation": "„Vereinbaren Sie mit uns ein persönliches Beratungsgespräch“: richtig."
+        }
+      ]
+    },
+    {
+      "id": "schreiben",
+      "block": "schreiben",
+      "title": "Schriftlicher Ausdruck",
+      "type": "writing",
+      "maxPoints": 45,
+      "promptTitle": "Brief von Jürgen",
+      "targetWords": "150",
+      "instructions": "Sie haben von Ihrem Freund Jürgen folgenden Brief erhalten. Antworten Sie Ihrem Freund. Schreiben Sie etwas zu allen vier Punkten, jeweils ein oder zwei Sätze. Überlegen Sie sich vor dem Schreiben eine passende Reihenfolge der Punkte, eine passende Anrede, Einleitung und einen passenden Schluss. (ca. 150 Wörter)",
+      "prompt": "Liebe(r) ...,\n\nich weiß gar nicht, wo ich anfangen soll. Es ist alles so schnell gegangen. Also, meine Eltern wollten doch schon immer ein Einfamilienhaus mit Garten haben. Na ja, und jetzt verkauft doch tatsächlich ein Kollege von meinem Vater so ein Haus 30 km von Stuttgart entfernt – und zwar recht günstig. Meine Eltern haben nicht lange überlegt und sich sofort zu dem Kauf dieses Hauses entschlossen. In einer Woche ziehen wir um ...\n\nDu kannst dir vorstellen, dass ich davon nicht besonders begeistert bin!! Aber mich fragt ja niemand!\n\nIhr seid doch damals auch in ein Dorf gezogen. Könntest du mir bitte erzählen, wie das war? Du hattest, glaube ich, nicht so viele Probleme damit, oder? Schreib mir bitte darüber!\n\nBis bald\nDein\nJürgen",
+      "leitpunkte": [
+        "Warum Sie aufs Land umgezogen sind",
+        "Wie es Ihnen am Anfang auf dem Land gefallen hat",
+        "Warum Sie jetzt gern dort wohnen",
+        "Was Sie Ihrem Freund vorschlagen würden"
+      ]
+    }
+  ]
+}

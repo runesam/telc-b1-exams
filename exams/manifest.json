@@ -11,6 +11,12 @@
       "title": "telc Deutsch B1 – Übungstest 2",
       "subtitle": "Lösungen ohne offiziellen Schlüssel, Hören 46–60 selbst erstellt",
       "file": "telc-b1-uebungstest-2.json"
+    },
+    {
+      "id": "telc-b1-uebungstest-3",
+      "title": "telc Deutsch B1 – Übungstest 3",
+      "subtitle": "Schlüssel für Lesen 3 und Sprachbausteine, Rest selbst ermittelt",
+      "file": "telc-b1-uebungstest-3.json"
     }
   ]
 }
