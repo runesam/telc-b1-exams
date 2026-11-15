@@ -1,0 +1,955 @@
+{
+  "id": "telc-b1-uebungstest-4",
+  "title": "telc Deutsch B1 – Übungstest 4",
+  "source": "Übungstest im telc-B1-Format. Schlüssel für Lesen 3 laut Ergebnisanzeige; Lesen 1–2, Sprachbausteine und Hören selbst ermittelt.",
+  "writtenMaxPoints": 225,
+  "writtenPassPoints": 135,
+  "objectiveMaxPoints": 180,
+  "writingMaxPoints": 45,
+  "blocks": [
+    {
+      "id": "lesen-sprachbausteine",
+      "title": "1 + 2 Leseverstehen & Sprachbausteine",
+      "officialTimeMinutes": 90,
+      "sections": [
+        "lesen1",
+        "lesen2",
+        "lesen3",
+        "sb1",
+        "sb2"
+      ]
+    },
+    {
+      "id": "hoeren",
+      "title": "3 Hörverstehen",
+      "officialTimeMinutes": 30,
+      "sections": [
+        "hoeren1",
+        "hoeren2",
+        "hoeren3"
+      ]
+    },
+    {
+      "id": "schreiben",
+      "title": "4 Schriftlicher Ausdruck",
+      "officialTimeMinutes": 30,
+      "sections": [
+        "schreiben"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "lesen1",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 1",
+      "type": "match",
+      "instructions": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen.",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "optionLabel": "Überschrift",
+      "options": [
+        {
+          "key": "a",
+          "text": "Durch Sport und gesunde Ernährung fit auch im Alter"
+        },
+        {
+          "key": "b",
+          "text": "Nicht jeder kann singen"
+        },
+        {
+          "key": "c",
+          "text": "Freizeitangebote für Familien"
+        },
+        {
+          "key": "d",
+          "text": "Sportliche Angebote für Ältere sollen verbessert werden"
+        },
+        {
+          "key": "e",
+          "text": "Durch Sport im Alter keine Krankheiten mehr"
+        },
+        {
+          "key": "f",
+          "text": "Singen ist gut für die Gesundheit"
+        },
+        {
+          "key": "g",
+          "text": "Freizeitverhalten der Österreicher stark verändert"
+        },
+        {
+          "key": "h",
+          "text": "Immer mehr ältere Menschen besuchen Sportvereine"
+        },
+        {
+          "key": "i",
+          "text": "Familienurlaub an mehr als siebzig Orten"
+        },
+        {
+          "key": "j",
+          "text": "Nichts tun gewinnt immer mehr an Bedeutung"
+        }
+      ],
+      "items": [
+        {
+          "number": 1,
+          "text": "Will man gesund und fröhlich sein, gibt es dafür ein einfaches und kostenloses Rezept: Singen. Wer singt, stärkt sein Abwehrsystem. Dies haben Wissenschaftler der Universität Frankfurt am Main nachgewiesen. Bei Sängern, die nur eine Stunde gesungen hatten, zeigten die Blutproben bereits erstaunliche Veränderungen: Die Konzentration von Immunglobulin A sowie Kortisol hatte sich erhöht – ein klares Zeichen für die Steigerung der Abwehrfähigkeit des Körpers. Psychologen weisen darauf hin, dass Singen auch Lebensmut und Selbstvertrauen steigert. Wer behauptet, er könne nicht singen, hat höchstwahrscheinlich unrecht. Fast jeder hat musikalische Begabung: Auch das Singen unter der Dusche hat seine Wirkung!",
+          "correct": "f",
+          "explanation": "The text says singing strengthens the immune system and raises confidence, so singing is healthy (f). b is the opposite: „Fast jeder hat musikalische Begabung“."
+        },
+        {
+          "number": 2,
+          "text": "Auch ältere Menschen, die bisher wenig für ihre Gesundheit getan haben, können durch Sport und vernünftige Ernährung etwas gegen Krankheiten im Alter tun. „Dafür bin ich schon zu alt“, eine Ausrede, zu der viele gerne greifen, wurde jetzt widerlegt. In einer Studie, die vom New York Presbyterian Hospital / Weill Cornell Medical Center durchgeführt wurde, konnten die Wissenschaftler beweisen, dass auch Menschen, die älter als 65 Jahre sind, ihre Gesundheit verbessern können. Das Rezept ist sehr einfach: Sie müssen nur mehr Sport treiben und auf eine vernünftige Ernährung achten. Man kann auch mit 60 oder 70 Jahren die typischen Krankheiten des Alters vermeiden oder zumindest abschwächen.",
+          "correct": "a",
+          "explanation": "Sport and sensible food keep older people healthy (a). e is too strong: the text only says typical illnesses can be avoided „oder zumindest abgeschwächt“, not that there are no illnesses at all."
+        },
+        {
+          "number": 3,
+          "text": "Die Sommerferien stehen vor der Tür und viele Eltern, Kinder und Jugendliche suchen noch einen Ort, wo sie die wunderbarsten Tage des Jahres verbringen können. Um hierbei zu helfen, hat das Amt für Kinder, Jugendliche und Familien des Kreises Warendorf eine Broschüre herausgegeben, in der Angebote und Aktivitäten von mehr als siebzig verschiedenen Organisationen vorgestellt werden. Die einzelnen Veranstalter organisieren die Freizeitaktivitäten selbstständig. Das Ferienfreizeitheft kann man bei dem oben genannten Amt in Warendorf oder im Internet unter der Adresse www.kreis-warendorf.de bestellen.",
+          "correct": "c",
+          "explanation": "A brochure presents holiday leisure activities for children, young people and families (c). i is the trap: the „siebzig“ are organisations, not places, and the text is not about a family holiday trip."
+        },
+        {
+          "number": 4,
+          "text": "Die Menschen werden immer älter und eine gesunde Lebensweise mit Freizeitsport wird immer wichtiger. Der Sportbund Leverkusen (SBL) hat eine Umfrage zum Thema „Sport der Älteren“ (über 50 Jahre) durchgeführt. 58 Prozent der Befragten gaben an, dass sie aktiv Sport treiben, 80 Prozent davon ein- bis zweimal wöchentlich. Walking und Jogging stehen mit 26 Prozent an der Spitze der Skala der beliebtesten Sportarten. Es folgen Radfahren, Badminton, Schwimmen, Tennis und Gymnastik. Damit ältere Menschen größeres Interesse am Sport haben und sich auch für die Vereinsarbeit interessieren, muss ein attraktives und wohnortnahes Angebot zur Verfügung stehen. Das haben die Vereine erkannt.",
+          "correct": "d",
+          "explanation": "The text ends by saying older people need an attractive offer near home, so offers should be improved (d). h is not stated: the survey gives no trend of more older people joining clubs."
+        },
+        {
+          "number": 5,
+          "text": "Österreichische Wissenschaftler haben festgestellt, dass die Freizeit immer wichtiger wird. Die Österreicher scheinen in ihrer Freizeit vor allem erholungsbedürftig zu sein. Endlich einmal lange ausschlafen, einfach nichts tun oder nur vor sich hinträumen, sind laut einer repräsentativen Umfrage des Instituts für Freizeitforschung heute wichtiger als früher. Wer jetzt glaubt, die Österreicher würden nur noch faul auf dem Sofa liegen, hat allerdings unrecht. Fernsehen, Radiohören und Lesen gehören nach wie vor zu den beliebtesten Freizeitaktivitäten. Auch beim Sport und dem Besuch von Kulturveranstaltungen konnten die Freizeitforscher eine Steigerung feststellen.",
+          "correct": "g",
+          "explanation": "The text covers several changes in free time: more rest, but also more sport and culture (g). j is the trap: doing nothing is only one point, and the text warns against thinking Austrians just lie on the sofa."
+        }
+      ]
+    },
+    {
+      "id": "lesen2",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 2",
+      "type": "mc",
+      "instructions": "Lesen Sie den Text und die Aufgaben 6–10. Welche Lösung (a, b oder c) ist jeweils richtig?",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "passage": {
+        "heading": "Zahle, was du willst",
+        "subheading": "Preis-Experiment bei vielen Kunden beliebt",
+        "paragraphs": [
+          "Gut haben die fünf Studenten im persischen Restaurant Kish in Frankfurt zu Mittag gegessen. Restaurantbesitzer Feily schaut nach: Nur 25 Euro liegen auf dem Tisch – dabei kosten allein die Getränke mehr als halb so viel. Früher mussten die Studenten wesentlich mehr zahlen. „Hauptsache, die Gäste sind zufrieden“, sagt er und freut sich trotzdem.",
+          "Bei Feily dürfen die Mittagsgäste selbst entscheiden, wie viel sie zahlen. Das Restaurant macht mit bei dem Preis-Experiment Zahle, was du willst, wobei jeder Kunde selbst bestimmt, was er zahlt. Zahle, was du willst ist ein zweiwöchiges Projekt von Wirtschaftsforschern der Johann-Wolfgang-Goethe-Universität. Der Kunde kann risikolos einen neuen Anbieter testen und in Abhängigkeit seiner Zufriedenheit den Preis festlegen. Für den Anbieter besteht dann die Chance, auf diese Weise neue Kunden zu gewinnen.",
+          "Das Projekt startet mit zunächst drei Projektpartnern: dem persischen Restaurant Kish sowie zwei Friseursalons. Alle waren von der Idee überzeugt: „Wir glauben an unsere Produkte und unser Können, sodass wir keine Angst haben, dass zu wenig bezahlt wird. Wir akzeptieren jeden Preis, weil wir unseren Kunden vertrauen.“",
+          "Feily hat die Aktion deutlich mehr Gäste gebracht, 70 Prozent der neuen Kunden wollen das Restaurant erneut besuchen. Feily sagt offen, dass sein Mittagstisch keinen Gewinn abwirft. Ihm ist es aber wichtiger, dass sein Restaurant bekannter wird und die Kunden wiederkommen. Am Ende würde, wenn man alles zusammenzählt, die richtige Summe herauskommen. „Durch die Aktion habe ich auch abends mehr Gäste, und da gelten die normalen Preise.“",
+          "Beim Frankfurter Projekt Zahle, was du willst freuten sich auch die teilnehmenden Friseure über neue Kunden. In den Wochen zuvor konnte kaum ein neuer Gast begrüßt werden. „Das hat sie sehr gut gemacht“, lobt eine Kundin ihre Friseurin. Obwohl Waschen, Schneiden und Fönen eigentlich 40 Euro kosten, will sie nur 20 Euro zahlen. Sie würde sonst auch nicht mehr zahlen und außerdem wäre sie arbeitslos.",
+          "In der Gastronomie gibt es schon mehrjährige Erfahrungen. Seit seiner Gründung im April 2005 entscheiden die Gäste im Wiener Restaurant Deewan über die Höhe der Rechnungen. Auch ein Berliner Weingeschäft überlässt den Preis seinen Kunden. Und die Fans der britischen Band Radiohead durften im Herbst selbst entscheiden, wie viel sie im Internet für das Download des neuen Albums In Rainbows bezahlen."
+        ]
+      },
+      "items": [
+        {
+          "number": 6,
+          "question": "Das Projekt Zahle, was du willst ist für die teilnehmenden Betriebe interessant,",
+          "options": [
+            {
+              "key": "a",
+              "text": "weil die Betriebe den Wissenschaftlern der Universität vertrauen."
+            },
+            {
+              "key": "b",
+              "text": "weil die Kunden die Anbieter und die Anbieter die Kunden testen können."
+            },
+            {
+              "key": "c",
+              "text": "weil sie hoffen, dadurch neue Kunden zu bekommen."
+            }
+          ],
+          "correct": "c",
+          "explanation": "„Für den Anbieter besteht dann die Chance, auf diese Weise neue Kunden zu gewinnen“ (c). In a the businesses trust their customers, not the researchers, and in b only the customer tests the provider."
+        },
+        {
+          "number": 7,
+          "question": "Der Restaurantbesitzer Feily ist mit den 25 Euro zufrieden,",
+          "options": [
+            {
+              "key": "a",
+              "text": "weil die Studenten keine teuren Getränke bestellt haben."
+            },
+            {
+              "key": "b",
+              "text": "weil die Studenten zum ersten Mal sein Restaurant besucht haben."
+            },
+            {
+              "key": "c",
+              "text": "obwohl die Studenten viel mehr konsumiert haben."
+            }
+          ],
+          "correct": "c",
+          "explanation": "The drinks alone cost more than half of 25 euros and the students used to pay much more, yet Feily is happy anyway (c). a contradicts the text, and b is never stated."
+        },
+        {
+          "number": 8,
+          "question": "Das Restaurant Kish",
+          "options": [
+            {
+              "key": "a",
+              "text": "Das Restaurant Kish"
+            },
+            {
+              "key": "b",
+              "text": "hat durch das Projekt mehr Besucher bekommen"
+            },
+            {
+              "key": "c",
+              "text": "hat durch das Projekt weniger Gewinn gemacht."
+            }
+          ],
+          "correct": "b",
+          "explanation": "„Feily hat die Aktion deutlich mehr Gäste gebracht“ (b). Option a is printed like this in the original exam. c is the trap: the lunch table makes no profit, but the text never says profit fell, and in the evening he has more guests at normal prices."
+        },
+        {
+          "number": 9,
+          "question": "In den teilnehmenden Friseursalons",
+          "options": [
+            {
+              "key": "a",
+              "text": "gab es vor dem Projekt wenig neue Kunden."
+            },
+            {
+              "key": "b",
+              "text": "wurden bei dem Projekt vor allem Kunden bedient, die arbeitslos sind."
+            },
+            {
+              "key": "c",
+              "text": "kostet Waschen, Schneiden und Föhnen jetzt nur noch 20 Euro."
+            }
+          ],
+          "correct": "a",
+          "explanation": "„In den Wochen zuvor konnte kaum ein neuer Gast begrüßt werden“ (a). In b only one customer says she would be unemployed, and in c only that customer chooses to pay 20 euros while the normal price is 40."
+        },
+        {
+          "number": 10,
+          "question": "Das Projekt Zahle, was du willst",
+          "options": [
+            {
+              "key": "a",
+              "text": "gibt es inzwischen auch für Internetnutzung."
+            },
+            {
+              "key": "b",
+              "text": "hat zwei Wochen gedauert."
+            },
+            {
+              "key": "c",
+              "text": "wurde bereits 2005 in Frankfurt durchgeführt."
+            }
+          ],
+          "correct": "b",
+          "explanation": "It is called „ein zweiwöchiges Projekt“ (b). a mixes up the Radiohead download, and c mixes up the 2005 founding of the Vienna restaurant Deewan."
+        }
+      ]
+    },
+    {
+      "id": "lesen3",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 3",
+      "type": "match",
+      "instructions": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Finden Sie für jede Situation die passende Anzeige. Sie können jede Anzeige nur einmal benutzen. Wenn Sie zu einer Situation keine Anzeige finden, wählen Sie x.",
+      "pointsPerItem": 2.5,
+      "maxPoints": 25,
+      "optionLabel": "Anzeige",
+      "allowX": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "Sommerbaden im Panoramabad mit großem Außenbecken. Schwimmen bis Mitternacht mit Cocktailbar, während der Sommermonate immer Samstags bis 1.00 Uhr. Panoramabad, Plauener Straße 60, 37085 Göttingen"
+        },
+        {
+          "key": "b",
+          "text": "Katze entlaufen. Wer hat unsere Matia gesehen? Schwarz-weiße Katze, grüne Augen, trägt rotes Halsband, entlaufen: Nähe Botanischer Garten. Bitte melden! Telefon: 0551 59 48 52 / 0172 8588477"
+        },
+        {
+          "key": "c",
+          "text": "Partyservice: Finecatering. Buffets von 10 bis 100 Personen. Feinste Salate, Hochzeitsservice, Messe-Service, Betriebsfeiern. Hanauer Landstraße 111, 37073 Göttingen, Tel.: 0551 78821"
+        },
+        {
+          "key": "d",
+          "text": "Der Tierladen: Alles für Ihren Hund und Ihre Katze. Ist Ihr Tier krank? Wir kümmern uns um diätgerechtes Futter. Öffnungszeiten Mo–Fr 9.00–18.30 Uhr, Samstag 9.00–14.00 Uhr. Bebelstr. 15, Tel.: 730108"
+        },
+        {
+          "key": "e",
+          "text": "Mitfahrzentrale Zentrum: Fahrgemeinschaften bilden, Benzinkosten teilen, gemeinsam zur Arbeit, ideal für Pendler, gemeinsam in den Urlaub. Tel.: 0551 111333. Auch regelmäßige Fahrten nach Frankreich und Italien"
+        },
+        {
+          "key": "f",
+          "text": "Wellness Bad am Forsthaus: Erlebnisbad mit Whirlpools, Außenbecken, Sonnenstudio und Gastronomie. Planschbecken für Nichtschwimmer. Forsthausstr. 27, 37073 Göttingen. Öffnungszeiten täglich von 9.00–20.00 Uhr"
+        },
+        {
+          "key": "g",
+          "text": "Urlaubsangebote: Hilfe bei der Urlaubsplanung? Nutzen Sie unsere Datenbank mit attraktiven Reiseangeboten für Ihren Urlaub in Deutschland oder wenden Sie sich an Ihr Reisebüro. Städteurlaub – Urlaub in den Bergen – Urlaub am Wasser – Küsten und Inseln – Flüsse – Seen. www.urlaub.de"
+        },
+        {
+          "key": "h",
+          "text": "Partyfun: Partyzubehör von Eltern für Eltern. Alles für Ihre Kinderparty: Kostüme, Geschenke-Tische, Partykoffer und Zauberkoffer ab 15 € und vieles mehr. Alte Gasse 12, 37081 Göttingen"
+        },
+        {
+          "key": "i",
+          "text": "Autoglas-Service: Ihr Partner für Autoglas im Landkreis Göttingen. Sie haben das Auto – wir haben die passenden Scheiben. Einbau sofort. Verkauf und Großhandel von Autoglas und Zubehör. Ischenröder Str. 13, 37310 Gleichen, Tel.: 05592 8130"
+        },
+        {
+          "key": "j",
+          "text": "Auto-Service Check ab 25 Euro: Ölstand, Kühlwasser, Stoßdämpfer, Bremsen. Flörsheimer Straße 44, Tel.: 0551 94422, Mo–Fr 7.30–16.00 Uhr"
+        },
+        {
+          "key": "k",
+          "text": "Flüge in alle Welt: Unsere Angebote nach dem 1.8. (Ende der Sommerferien): New York ab € 400, Toronto ab € 419, Mallorca ab € 99, Paris ab € 99. Tarife für Hin und Rückflug. Alle Flüge ab Frankfurt/Main. Alle Preise inkl. Gebühren. www.fliegweg.de"
+        },
+        {
+          "key": "l",
+          "text": "Wir suchen für unseren kleinen Tim (3 Jahre alt) ein liebes Kätzchen. Wir haben eine große Wohnung und Erfahrung mit Haustieren. Tel: 34 67 99"
+        }
+      ],
+      "items": [
+        {
+          "number": 11,
+          "text": "Sie wollen in Urlaub fahren und vorher Ihr Auto noch überprüfen lassen.",
+          "correct": "x",
+          "explanation": "The answer shown in the exam result is x (no ad). Note: j (Auto-Service Check: Ölstand, Kühlwasser, Stoßdämpfer, Bremsen) looks like a natural match for a car check, so treat this key with caution. i (Autoglas-Service) only sells windscreens."
+        },
+        {
+          "number": 12,
+          "text": "Sie suchen einen günstigen Flug von Frankfurt nach Mallorca.",
+          "correct": "k",
+          "explanation": "k offers flights from Frankfurt/Main to Mallorca from €99 (k). Check the date: the offers are valid after 1.8."
+        },
+        {
+          "number": 13,
+          "text": "Sie möchten in Urlaub fahren und haben niemanden, der sich um ihre Katzen kümmert.",
+          "correct": "x",
+          "explanation": "Nobody offers cat-sitting, so x. l is only a family looking for a kitten, and d sells pet food."
+        },
+        {
+          "number": 14,
+          "text": "Ihre Schwester heiratet und Sie haben die Organisation für das Festessen übernommen. Sie suchen Hilfe für die Vorbereitung und Lieferung des Essens.",
+          "correct": "c",
+          "explanation": "The Partyservice offers buffets and a Hochzeitsservice (c)."
+        },
+        {
+          "number": 15,
+          "text": "Es ist ein schöner Sommerabend. Nach einem Kinobesuch möchten Sie noch schwimmen gehen.",
+          "correct": "a",
+          "explanation": "Panoramabad offers swimming in the summer until 1.00 Uhr on Saturdays (a). f closes at 20.00 Uhr, too early after a cinema visit."
+        },
+        {
+          "number": 16,
+          "text": "Ihr Hund ist krank und braucht besonderes Futter.",
+          "correct": "d",
+          "explanation": "Der Tierladen: „Ist Ihr Tier krank? Wir kümmern uns um diätgerechtes Futter“ (d)."
+        },
+        {
+          "number": 17,
+          "text": "Sie haben auf einem Spaziergang eine schwarz-weiße Katze gefunden, die nicht mehr nach Hause findet. Sie suchen den Besitzer, um die Katze zurückzugeben.",
+          "correct": "b",
+          "explanation": "b is the ad for a black-white cat that ran away, so the finder can call the owner (b)."
+        },
+        {
+          "number": 18,
+          "text": "Der Sohn Ihrer Nachbarin feiert nächstes Wochenende Kindergeburtstag. Für das Fest suchen Sie noch eine Idee für eine Überraschung.",
+          "correct": "h",
+          "explanation": "Partyfun sells everything for a children's party, including Zauberkoffer (h)."
+        },
+        {
+          "number": 19,
+          "text": "Morgen fangen die Schulferien an und Sie möchten günstig von Frankfurt nach Paris reisen.",
+          "correct": "e",
+          "explanation": "The Mitfahrzentrale offers regular trips to France and shares petrol costs (e). k is the trap: its cheap flights only start after 1.8, the end of the summer holidays, but your trip is tomorrow."
+        },
+        {
+          "number": 20,
+          "text": "Sie möchten in den Sommerferien Urlaub auf einer deutschen Insel machen und suchen Angebote und Tipps.",
+          "correct": "g",
+          "explanation": "Urlaubsangebote has a database of offers in Germany, including „Küsten und Inseln“ (g)."
+        }
+      ]
+    },
+    {
+      "id": "sb1",
+      "block": "lesen-sprachbausteine",
+      "title": "Sprachbausteine Teil 1",
+      "type": "cloze-mc",
+      "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+      "pointsPerItem": 1.5,
+      "maxPoints": 15,
+      "textBefore": "Liebe Nicole,\n\ndanke für deine lieben Grüße. Ja, ich",
+      "items": [
+        {
+          "number": 21,
+          "textAfter": "auch nie gedacht, dass ich",
+          "options": [
+            {
+              "key": "a",
+              "text": "hätte"
+            },
+            {
+              "key": "b",
+              "text": "würde"
+            },
+            {
+              "key": "c",
+              "text": "wäre"
+            }
+          ],
+          "correct": "a",
+          "explanation": "„ich hätte nie gedacht“ is the fixed Konjunktiv II of „denken“ (a). „würde“ would need an infinitive at the end, and „wäre“ does not fit „gedacht“."
+        },
+        {
+          "number": 22,
+          "textAfter": "einmal aus dem Krankenhaus schreiben muss.\n\nDu wolltest wissen, was passiert ist. Ich habe zu Weihnachten ein",
+          "options": [
+            {
+              "key": "a",
+              "text": "dir"
+            },
+            {
+              "key": "b",
+              "text": "dich"
+            },
+            {
+              "key": "c",
+              "text": "ihnen"
+            }
+          ],
+          "correct": "a",
+          "explanation": "„jemandem schreiben“ takes the dative, and this is a du-letter, so „dir“ (a). „dich“ is accusative, and „ihnen“ is third person plural."
+        },
+        {
+          "number": 23,
+          "textAfter": "Rennrad geschenkt bekommen und musste es natürlich sofort",
+          "options": [
+            {
+              "key": "a",
+              "text": "neue"
+            },
+            {
+              "key": "b",
+              "text": "neuen"
+            },
+            {
+              "key": "c",
+              "text": "neues"
+            }
+          ],
+          "correct": "c",
+          "explanation": "„das Rennrad“ is neuter and the object after „ein“, so „ein neues Rennrad“ (c). „neuen“ is masculine accusative, and „neue“ would be feminine or plural."
+        },
+        {
+          "number": 24,
+          "textAfter": ". Ich",
+          "options": [
+            {
+              "key": "a",
+              "text": "ausprobieren"
+            },
+            {
+              "key": "b",
+              "text": "ausprobiert"
+            },
+            {
+              "key": "c",
+              "text": "auszuprobieren"
+            }
+          ],
+          "correct": "a",
+          "explanation": "„musste es ... ausprobieren“: a modal verb takes the bare infinitive at the end (a). „zu“ is not used after a modal verb, and the Partizip II does not fit here."
+        },
+        {
+          "number": 25,
+          "textAfter": "in den Wald gefahren und wollte mal sehen, wie schnell ich fahren kann. Irgendwie habe ich nicht aufgepasst, bin ausgerutscht und hingefallen. Das linke Bein hat mir unglaublich wehgetan.",
+          "options": [
+            {
+              "key": "a",
+              "text": "habe"
+            },
+            {
+              "key": "b",
+              "text": "bin"
+            },
+            {
+              "key": "c",
+              "text": "wurde"
+            }
+          ],
+          "correct": "b",
+          "explanation": "„fahren“ with a direction („in den Wald“) forms its Perfekt with „sein“: „bin ... gefahren“ (b). „habe“ is the wrong auxiliary and „wurde“ would be passive."
+        },
+        {
+          "number": 26,
+          "textAfter": "Krankenhaus haben sie festgestellt, dass das Bein gebrochen war. Gestern",
+          "options": [
+            {
+              "key": "a",
+              "text": "in das"
+            },
+            {
+              "key": "b",
+              "text": "in den"
+            },
+            {
+              "key": "c",
+              "text": "im"
+            }
+          ],
+          "correct": "c",
+          "explanation": "He is already in the hospital, so a place without movement: dative „im Krankenhaus“ (c). „in das“ means going into it, and „in den“ is masculine and does not match the neuter „das Krankenhaus“."
+        },
+        {
+          "number": 27,
+          "textAfter": "es operiert.\n\nJetzt liege ich hier und muss Tabletten nehmen,",
+          "options": [
+            {
+              "key": "a",
+              "text": "wird"
+            },
+            {
+              "key": "b",
+              "text": "wurde"
+            },
+            {
+              "key": "c",
+              "text": "worden"
+            }
+          ],
+          "correct": "b",
+          "explanation": "„Gestern“ marks the past, so Präteritum passive: „wurde ... operiert“ (b). „wird“ is present, and „worden“ needs „ist“ before it."
+        },
+        {
+          "number": 28,
+          "textAfter": "das Bein immer noch wehtut.\n\nAber am Wochenende kann ich nach Hause. Ich werde einen Gips bekommen und es",
+          "options": [
+            {
+              "key": "a",
+              "text": "denn"
+            },
+            {
+              "key": "b",
+              "text": "weil"
+            },
+            {
+              "key": "c",
+              "text": "trotzdem"
+            }
+          ],
+          "correct": "b",
+          "explanation": "„wehtut“ stands at the end, so this is a subordinate clause with „weil“ (b). „denn“ would need main-clause order, and „trotzdem“ means „nevertheless“, which makes no sense here."
+        },
+        {
+          "number": 29,
+          "textAfter": "noch einige Zeit dauern, bis ich wieder normal laufen kann.\n\nWenn du Lust hast, besuche mich doch mal. Ich langweile",
+          "options": [
+            {
+              "key": "a",
+              "text": "wird"
+            },
+            {
+              "key": "b",
+              "text": "wirst"
+            },
+            {
+              "key": "c",
+              "text": "werde"
+            }
+          ],
+          "correct": "a",
+          "explanation": "The subject is „es“, so third person: „es wird ... dauern“ (a). „wirst“ is for „du“ and „werde“ for „ich“."
+        },
+        {
+          "number": 30,
+          "textAfter": "schrecklich.\n\nBis bald und liebe Grüße\n\nErik",
+          "options": [
+            {
+              "key": "a",
+              "text": "sich"
+            },
+            {
+              "key": "b",
+              "text": "mir"
+            },
+            {
+              "key": "c",
+              "text": "mich"
+            }
+          ],
+          "correct": "c",
+          "explanation": "„sich langweilen“ is reflexive, so with „ich“ it is „mich“ (c). „sich“ is third person, and „mir“ is dative."
+        }
+      ]
+    },
+    {
+      "id": "sb2",
+      "block": "lesen-sprachbausteine",
+      "title": "Sprachbausteine Teil 2",
+      "type": "cloze-bank",
+      "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal.",
+      "pointsPerItem": 1.5,
+      "maxPoints": 15,
+      "wordBank": [
+        {
+          "key": "a",
+          "text": "AN"
+        },
+        {
+          "key": "b",
+          "text": "ANTWORTEN"
+        },
+        {
+          "key": "c",
+          "text": "AUF"
+        },
+        {
+          "key": "d",
+          "text": "AUSSERDEM"
+        },
+        {
+          "key": "e",
+          "text": "BESTEN"
+        },
+        {
+          "key": "f",
+          "text": "AUSMACHEN"
+        },
+        {
+          "key": "g",
+          "text": "ENTWEDER"
+        },
+        {
+          "key": "h",
+          "text": "FÜR"
+        },
+        {
+          "key": "i",
+          "text": "HABEN"
+        },
+        {
+          "key": "j",
+          "text": "MELDEN"
+        },
+        {
+          "key": "k",
+          "text": "SEHR"
+        },
+        {
+          "key": "l",
+          "text": "VIEL"
+        },
+        {
+          "key": "m",
+          "text": "WEIL"
+        },
+        {
+          "key": "n",
+          "text": "WENN"
+        },
+        {
+          "key": "o",
+          "text": "WÜRDE"
+        }
+      ],
+      "textBefore": "Sehr geehrte Frau Groß,\n\nich habe Ihre Anzeige im Göttinger Tageblatt gelesen und interessiere mich sehr",
+      "items": [
+        {
+          "number": 31,
+          "textAfter": "den Babysitterjob. Zurzeit studiere ich Pädagogik und habe schon",
+          "correct": "h",
+          "explanation": "The fixed verb phrase is „sich interessieren für etwas“, so „für den Babysitterjob“ (FÜR). „auf“ is wrong here, and „an“ goes with „Interesse an“."
+        },
+        {
+          "number": 32,
+          "textAfter": "Erfahrung mit Kindern. Zuhause habe ich ein bis zwei mal die Woche",
+          "correct": "l",
+          "explanation": "„viel Erfahrung“ is the normal quantity before an uncountable noun (VIEL). „sehr“ cannot stand before a noun."
+        },
+        {
+          "number": 33,
+          "textAfter": "die Töchter meiner Schwester (Zwillinge, 3 Jahre alt) aufgepasst.",
+          "correct": "c",
+          "explanation": "The verb is „aufpassen auf + Akkusativ“, so „auf die Töchter ... aufgepasst“ (AUF)."
+        },
+        {
+          "number": 34,
+          "textAfter": "habe ich einmal im Monat abends bei zwei anderen Familien als Babysitter gearbeitet. Ich bin flexibel,",
+          "correct": "d",
+          "explanation": "The sentence adds a second piece of experience and starts with the verb in second position: „Außerdem habe ich ...“ (AUSSERDEM)."
+        },
+        {
+          "number": 35,
+          "textAfter": "es um Arbeitszeiten geht.\n\nNatürlich",
+          "correct": "n",
+          "explanation": "„flexibel, wenn es um Arbeitszeiten geht“ means flexible when it comes to working hours, with the verb at the end (WENN). „weil“ would give a reason, which does not fit."
+        },
+        {
+          "number": 36,
+          "textAfter": "ich noch gern wissen, für welche Uhrzeiten genau Sie jemanden suchen und was für Lohnvorstellungen Sie haben.\n\nFalls Sie Interesse",
+          "correct": "o",
+          "explanation": "„Natürlich würde ich noch gern wissen“ is a polite Konjunktiv II wish (WÜRDE)."
+        },
+        {
+          "number": 37,
+          "textAfter": ", würde ich mich freuen, wenn Sie sich bei mir melden würden. Dann könnten wir einen Termin",
+          "correct": "i",
+          "explanation": "„Falls Sie Interesse haben“ is a subordinate clause with the verb at the end (HABEN)."
+        },
+        {
+          "number": 38,
+          "textAfter": ", um uns kennen zu lernen.\n\nSie erreichen mich",
+          "correct": "f",
+          "explanation": "„einen Termin ausmachen“ means to arrange an appointment, and „könnten wir“ needs an infinitive at the end (AUSMACHEN). „melden“ does not work with „Termin“."
+        },
+        {
+          "number": 39,
+          "textAfter": "per E-Mail unter claudia-berger@t-online.de oder telefonisch unter 0172 / 334 56 89. Am",
+          "correct": "g",
+          "explanation": "„entweder ... oder“ is a pair: „entweder per E-Mail ... oder telefonisch“ (ENTWEDER)."
+        },
+        {
+          "number": 40,
+          "textAfter": "bin ich abends nach 20 Uhr zu erreichen.\n\nViele Grüße,\nClaudia Berger",
+          "correct": "e",
+          "explanation": "„Am besten“ means „best of all“ and is the superlative of „gut“ (BESTEN)."
+        }
+      ]
+    },
+    {
+      "id": "hoeren1",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 1",
+      "type": "truefalse",
+      "instructions": "Sie hören fünf kurze Texte. Sie hören diese Texte nur einmal. Entscheiden Sie: richtig (+) oder falsch (–)?",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 1 (fünf kurze Texte, einmal hören)",
+      "audio": {
+        "src": "audio/telc-b1-uebungstest-4-hoeren1.mp3"
+      },
+      "transcripts": [
+        {
+          "number": null,
+          "text": "Moderatorin: Wir befinden uns auf dem Erzeugermarkt in Frankfurt an der Konstablerwache, einem Bauernmarkt, wo vorwiegend heimische Produkte direkt von Erzeugern verkauft werden. Viele Produkte kommen aus dem biologischen Anbau. Wir haben einige Personen gefragt, was sie über das Thema „Gesunde Ernährung“ denken."
+        },
+        {
+          "number": 41,
+          "text": "Gesund zu essen ist für mich wichtig. Wie Sie sehen, habe ich gerade viel frisches Gemüse und Obst gekauft. Ich kaufe auf dem Markt ein, weil es hier nur Produkte aus der Region gibt, die sind einfach am frischesten. Warum soll ich Äpfel oder Bohnen kaufen, die über 1000 Kilometer mit dem Flugzeug hierher transportiert worden sind? Die langen Transportwege sind bestimmt nicht gut für die Qualität der Lebensmittel. Nein, ich kaufe ganz bewusst nur Sachen von hier, auch wenn ich im Winter eben auf Erdbeeren verzichten muss."
+        },
+        {
+          "number": 42,
+          "text": "Gesunde Ernährung ... Fragen Sie mich das, weil ich gerade eine Tüte Pommes in der Hand halte? Aber im Ernst, ich finde, man sollte das mit dem Essen nicht übertreiben. Ganze Generationen vor uns haben sich auch nicht so gesund ernährt und sind alt geworden. Und ich finde, es gibt heute in der Welt größere Probleme als gesundes Essen. Was mich betrifft, Essen interessiert mich nicht so besonders. Ich habe keine Zeit und keine Lust zu kochen, meistens esse ich in der Kantine und am Wochenende bestelle ich mir eine Pizza."
+        },
+        {
+          "number": 43,
+          "text": "Meiner Meinung muss man mehr für die Gesundheit tun, als sich nur gesund zu ernähren. Ich finde, die Leute hier essen viel zu viel und bewegen sich immer weniger. Und wenn man dreimal am Tag Fleisch isst, ist das ungesund, auch wenn es Bio-Fleisch ist. Wirklich gesund lebt man, wenn man regelmäßig Sport treibt. Ob das jetzt Radfahren oder Joggen ist, ist ganz egal."
+        },
+        {
+          "number": 44,
+          "text": "Mein Problem ist, dass ich mich gesund ernähren muss, obwohl mir ungesunde Sachen besser schmecken. Ich muss Diät halten, darf keinen Zucker und nur wenig Fett essen, na ja, toll ist das nicht. Aber wenn ich ganz ehrlich bin, früher, als ich noch alles essen durfte, hat mir Essen mehr Spaß gemacht. Aber es lässt sich halt nicht ändern, und gut ist es sicherlich, dass ich meine Ernährung geändert habe."
+        },
+        {
+          "number": 45,
+          "text": "Ich finde, nur wenige Leute können es sich wirklich leisten, gesund zu essen. Ich kaufe hier nur etwas Obst, weil es einfach besser schmeckt, aber Wurst und Fleisch muss ich im Supermarkt kaufen. Haben Sie die Preise für Bio-Fleisch hier gesehen? Wer kann das denn bezahlen? Ich verstehe nicht, weshalb gesundes Essen immer noch so teuer ist. Vielleicht könnte die Politik hier irgendetwas ändern, Steuern senken oder so."
+        }
+      ],
+      "items": [
+        {
+          "number": 41,
+          "text": "Die Sprecherin findet es wichtig, Lebensmittel aus der Region zu kaufen.",
+          "correct": "+",
+          "explanation": "She buys only regional products („nur Sachen von hier“) and says long transport is bad for quality: richtig."
+        },
+        {
+          "number": 42,
+          "text": "Für den Sprecher ist gesunde Ernährung ein wichtiges Thema.",
+          "correct": "-",
+          "explanation": "He holds a bag of chips, says there are bigger problems and that food does not interest him much: falsch."
+        },
+        {
+          "number": 43,
+          "text": "Die Sprecherin findet auch Bio-Fleisch ungesund.",
+          "correct": "+",
+          "explanation": "She says eating meat three times a day is unhealthy „auch wenn es Bio-Fleisch ist“: richtig."
+        },
+        {
+          "number": 44,
+          "text": "Der Sprecher isst gern gesund.",
+          "correct": "-",
+          "explanation": "He has to eat healthily because of his diet, but unhealthy things taste better to him: falsch."
+        },
+        {
+          "number": 45,
+          "text": "Die Sprecherin findet, dass gesunde Ernährung nur etwas für Leute mit viel Geld ist.",
+          "correct": "+",
+          "explanation": "She says only few people can afford to eat healthily and asks who can pay for organic meat: richtig."
+        }
+      ]
+    },
+    {
+      "id": "hoeren2",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 2",
+      "type": "truefalse",
+      "instructions": "Sie hören ein Gespräch. Sie hören das Gespräch zweimal. Entscheiden Sie: richtig (+) oder falsch (–)?",
+      "pointsPerItem": 2.5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 2 (ein Gespräch, zweimal hören)",
+      "audio": {
+        "src": "audio/telc-b1-uebungstest-4-hoeren2.mp3"
+      },
+      "transcripts": [
+        {
+          "number": null,
+          "text": "I = Interviewerin / G. D. = Gisela Decker\n\nI: In der Sendung „Berufe mit Zukunft“ stellen wir Ihnen jeden Monat Frauen vor, die in ihrem Beruf erfolgreich tätig sind. Heute ist bei uns zu Gast Gisela Decker, wissenschaftliche Mitarbeiterin am Institut der Feuerwehr. Sie hat in Dresden Physik studiert, ist verheiratet und Mutter von zwei Kindern. Frau Decker, wieso haben Sie sich eigentlich für ein Physikstudium entschieden?\n\nG. D.: Ich habe Physik studiert, weil es meinen mathematisch-naturwissenschaftlichen Interessen am meisten entsprach, ich habe mich schon immer für Physik, Elektronik, Computer und Mathematik interessiert. Dazu gibt es viele Arbeitsmöglichkeiten für Physiker und durch das Physikstudium bekam ich auch die Möglichkeit, im Ausland zu arbeiten.\n\nI: Welche Chancen sehen Sie für Ihren Beruf in der Zukunft?\n\nG. D.: Ich denke, dass Physiker aufgrund der vielen Arbeitsmöglichkeiten immer gesucht werden.\n\nI: Wie sieht der typische Arbeitsalltag einer Physikerin aus?\n\nG. D.: Es gibt wohl keinen typischen Arbeitsalltag für Physikerinnen. Je nach Projektphase arbeite ich mehr praktisch im Labor oder mehr theoretisch. Ich arbeite zurzeit am Institut der Feuerwehr und mache gerade Untersuchungen zum Löschverhalten von Wassernebel, die mit Hilfe von Computersimulationen durchgeführt werden. So sitze ich meistens am Computer und arbeite theoretisch.\n\nI: Was gefällt Ihnen an Ihrem Beruf am meisten?\n\nG. D.: Wahrscheinlich – wie ich schon gesagt habe – dass man in den unterschiedlichsten Gebieten arbeiten kann. Dadurch kann man sich immer wieder mit neuen interessanten Dingen beschäftigen. Oft sind die verschiedenen Forschungsgebiete eng miteinander verbunden. Ich habe schon z. B. auf den Gebieten Raumfahrt, Polarforschung, Atmosphärenforschung, Computersimulation und Feuerwehrforschung gearbeitet. Die Arbeit ist abwechslungsreich, das ist das Schöne dabei. Jeder Tag ist anders, jeder Tag stellt neue Fragen. Man weiß nie, was einen erwartet.\n\nI: Was macht Ihnen manchmal nicht so viel Spaß?\n\nG. D.: Das Schreiben der Berichte über die Forschungstätigkeit. Aber das muss natürlich auch gemacht werden.\n\nI: Welches Projekt, an dem Sie bisher gearbeitet haben, würden Sie als das interessanteste oder ungewöhnlichste bezeichnen?\n\nG. D.: Das interessanteste und auch ungewöhnlichste Projekt war die Arbeit an der Koldewey-Wetterstation auf Spitzbergen. Das Besondere für mich war bestimmt die geographische Lage. Die Station liegt im hohen Norden ca. 1300 km vom Nordpol. Ich habe dort als Stationsleiterin ein knappes Jahr verbracht. Wir haben eine Reihe Routinemessungen durchgeführt, bei denen wir die Atmosphäre erforscht haben.\n\nI: Und wie war das alltägliche Leben dort?\n\nG. D.: Im Winter haben unter teilweise extremen Bedingungen dort nur ca. 20 Personen gelebt und gearbeitet, die aus der ganzen Welt kamen. Das Leben war nicht gerade abwechslungsreich, im Winter waren nicht mal Ausflüge in die nähere Umgebung möglich. So musste man auf engstem Raum miteinander auskommen, ein gutes Training für gegenseitige Toleranz.\n\nI: Frau Decker, vielen Dank für das interessante Interview!"
+        }
+      ],
+      "items": [
+        {
+          "number": 46,
+          "text": "Gisela hat im Ausland studiert.",
+          "correct": "-",
+          "explanation": "She studied physics in Dresden. Working abroad was only a possibility the degree gave her: falsch."
+        },
+        {
+          "number": 47,
+          "text": "Sie macht sich keine Sorgen, arbeitslos zu werden.",
+          "correct": "+",
+          "explanation": "She says physicists are always in demand because there are so many job options: richtig."
+        },
+        {
+          "number": 48,
+          "text": "Ihr Arbeitstag ist immer gleich.",
+          "correct": "-",
+          "explanation": "„Es gibt wohl keinen typischen Arbeitsalltag“ and „Jeder Tag ist anders“: falsch."
+        },
+        {
+          "number": 49,
+          "text": "Sie hilft, Brände zu löschen.",
+          "correct": "-",
+          "explanation": "She researches how water mist extinguishes fires, using computer simulations. She does not fight fires herself: falsch."
+        },
+        {
+          "number": 50,
+          "text": "Gisela arbeitet viel am Computer.",
+          "correct": "+",
+          "explanation": "„So sitze ich meistens am Computer und arbeite theoretisch“: richtig."
+        },
+        {
+          "number": 51,
+          "text": "Sie arbeitet gern in ihrem Beruf, weil es immer neue Aufgaben gibt.",
+          "correct": "+",
+          "explanation": "She likes the variety: „Dadurch kann man sich immer wieder mit neuen interessanten Dingen beschäftigen“: richtig."
+        },
+        {
+          "number": 52,
+          "text": "Giselas erste Arbeit war am Institut der Feuerwehr.",
+          "correct": "-",
+          "explanation": "The Feuerwehr institute is her current job („zurzeit“). She worked earlier on space, polar research and the Spitzbergen station: falsch. This one is inferred, because the interview never names her first job."
+        },
+        {
+          "number": 53,
+          "text": "Ihr gefällt nicht, dass sie oft Berichte schreiben muss.",
+          "correct": "+",
+          "explanation": "Writing the reports is what she enjoys least: richtig."
+        },
+        {
+          "number": 54,
+          "text": "Die Arbeit auf der Wetterstation war sehr interessant.",
+          "correct": "+",
+          "explanation": "She calls the Spitzbergen weather station project „das interessanteste und auch ungewöhnlichste Projekt“: richtig."
+        },
+        {
+          "number": 55,
+          "text": "Während ihrer Arbeit auf der Wetterstation hat sie viele spannende Ausflüge gemacht.",
+          "correct": "-",
+          "explanation": "„Im Winter waren nicht mal Ausflüge in die nähere Umgebung möglich“: falsch."
+        }
+      ]
+    },
+    {
+      "id": "hoeren3",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 3",
+      "type": "truefalse",
+      "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Entscheiden Sie: richtig (+) oder falsch (–)?",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 3 (fünf kurze Texte, je zweimal hören)",
+      "audio": {
+        "src": "audio/telc-b1-uebungstest-4-hoeren3.mp3"
+      },
+      "transcripts": [
+        {
+          "number": 56,
+          "text": "Im Radio hören Sie die folgende Nachricht:\n\nUnd zum Schluss des Kultur-Journals noch eine Meldung, die wir gerade bekommen haben: Dieses Jahr gehen die Hauptpreise des 30. Internationalen Kinderfilmfestivals an den portugiesischen Film „Hinter den Wolken“ und die schwedisch-norwegische Produktion „Hoppet“. Beide Filme zeigten Kinder, die mutig und eigenständig durchs Leben gehen, begründete die Jury aus fünf Erwachsenen und fünf Kindern ihre Entscheidung."
+        },
+        {
+          "number": 57,
+          "text": "In der U-Bahn hören Sie die folgende Durchsage:\n\nLiebe Fahrgäste, wegen der heutigen Bauarbeiten halten die Züge der Linien U1, U2 und U8 von 6 bis 24 Uhr nicht am Südbahnhof. Fahrgäste mit Fahrziel Südbahnhof fahren bitte bis zur Haltestelle Schweizer Straße und steigen dort auf den Bus-Ersatzverkehr um. Wir bitten um Ihr Verständnis."
+        },
+        {
+          "number": 58,
+          "text": "Am Flughafen Berlin-Tegel hören Sie die folgende Lautsprecherdurchsage:\n\nLetzter Aufruf für Passagiere, die mit dem verspäteten Lufthansa-Flug LH 199 nach Stuttgart fliegen. Bitte begeben Sie sich zum Gate 9. Das Flugzeug ist zum Einsteigen bereit."
+        },
+        {
+          "number": 59,
+          "text": "Im Radio hören Sie die folgende Meldung:\n\nDas waren die Nachrichten. Und hier noch eine Meldung der Polizei. Seit gestern Abend wird Herr Rainer Lohmann vermisst. Herr Lohmann ist 80 Jahre alt und war auf dem Weg von der Hermannstraße zu seinen Enkeln im Stadtteil Freimann. Herr Lohmann ist ca. 1,70 m groß, trägt einen braunen Wintermantel und eine Brille. Er hat Schwierigkeiten, sich zu orientieren. Hinweise nimmt jede Polizeidienststelle entgegen."
+        },
+        {
+          "number": 60,
+          "text": "Im Kaufhaus hören Sie die folgende Werbung:\n\nMeine Damen und Herren, haben Sie schon unsere Kundenkarte, mit der Sie bei uns ohne Bargeld einkaufen können? Die Kundenkarte ist kostenlos, Ihre Einkäufe werden monatlich abgerechnet. Diese Woche haben wir ein zusätzliches Angebot für Sie: Wenn wir Sie noch diese Woche als neue Kundenkarten-Inhaber begrüßen dürfen, nehmen Sie an unserem Gewinnspiel um einen Gutschein im Wert von 200 Euro teil."
+        }
+      ],
+      "items": [
+        {
+          "number": 56,
+          "text": "Alle Preise gehen nach Skandinavien.",
+          "correct": "-",
+          "explanation": "One main prize goes to a Portuguese film and the other to a Swedish-Norwegian production, so not all to Scandinavia: falsch."
+        },
+        {
+          "number": 57,
+          "text": "Die U-Bahn fährt heute nicht zum Südbahnhof.",
+          "correct": "+",
+          "explanation": "Lines U1, U2 and U8 do not stop at Südbahnhof from 6 to 24 Uhr because of construction: richtig."
+        },
+        {
+          "number": 58,
+          "text": "Fluggäste, die nach Stuttgart fliegen, sollen zum Ausgang 199 gehen.",
+          "correct": "-",
+          "explanation": "199 is the flight number (LH 199). The passengers must go to Gate 9: falsch."
+        },
+        {
+          "number": 59,
+          "text": "Herr Lohmann hat Probleme, den Weg zu finden.",
+          "correct": "+",
+          "explanation": "„Er hat Schwierigkeiten, sich zu orientieren“ is paraphrased as having trouble finding his way: richtig."
+        },
+        {
+          "number": 60,
+          "text": "Mit der Kundenkarte kann man wöchentlich für 200 € einkaufen.",
+          "correct": "-",
+          "explanation": "200 euros is the value of a voucher in a prize draw, and purchases are billed monthly: falsch."
+        }
+      ]
+    },
+    {
+      "id": "schreiben",
+      "block": "schreiben",
+      "title": "Schriftlicher Ausdruck",
+      "type": "writing",
+      "maxPoints": 45,
+      "promptTitle": "Brief von Thomas",
+      "targetWords": "150",
+      "instructions": "Sie haben von Ihrem Freund Thomas folgenden Brief erhalten. Antworten Sie Ihrem Freund. Schreiben Sie etwas zu allen vier Punkten, jeweils ein oder zwei Sätze. Überlegen Sie sich vor dem Schreiben eine passende Reihenfolge der Punkte, eine passende Anrede, Einleitung und einen passenden Schluss. (ca. 150 Wörter)",
+      "prompt": "Liebe(r) ...,\n\ndanke für deinen Brief. Ich habe mich darüber sehr gefreut. Du fragst, wie man bei uns Geburtstag feiert. Der Geburtstag spielt bei uns eine große Rolle. Es gibt aber keine feste Regeln, wie er gefeiert wird. Natürlich gibt es Leute, die keinen Geburtstag feiern. Meistens macht man aber eine Party und lädt viele Leute ein, nicht nur die nähere Familie. Auf der Arbeit sammeln oft die Kollegen Geld und kaufen zusammen ein Geschenk.\n\nWichtig sind meistens die Kindergeburtstage. Die Eltern organisieren oft eine richtige Party mit großem Programm, der Geburtstagskuchen darf natürlich auch nicht fehlen.\n\nDann gibt es noch die runden Geburtstage, also wenn man 30, 40, 50 ... wird. Die feiert man meistens auch ganz groß.\n\nFeiert man bei euch auch Geburtstag? Und was sind eigentlich die wichtigsten Feste bei euch?\n\nUnd übrigens: Ich feiere nächsten Monat meinen Geburtstag und möchte dich herzlich einladen!\n\nLiebe Grüße\nThomas",
+      "leitpunkte": [
+        "Was die wichtigsten Feste in Ihrem Land sind",
+        "Dass Sie gern zum Geburtstag von Thomas kommen",
+        "Wie man bei Ihnen Geburtstag feiert",
+        "Was Ihr Lieblingsfest ist"
+      ]
+    }
+  ]
+}

@@ -17,6 +17,12 @@
       "title": "telc Deutsch B1 – Übungstest 3",
       "subtitle": "Schlüssel für Lesen 3 und Sprachbausteine, Rest selbst ermittelt",
       "file": "telc-b1-uebungstest-3.json"
+    },
+    {
+      "id": "telc-b1-uebungstest-4",
+      "title": "telc Deutsch B1 – Übungstest 4",
+      "subtitle": "Schlüssel für Lesen 3, Rest selbst ermittelt",
+      "file": "telc-b1-uebungstest-4.json"
     }
   ]
 }
