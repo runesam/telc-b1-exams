@@ -312,7 +312,7 @@
       const elapsedStr = t ? fmtClock(getElapsed(block.id)) : '00:00';
 
       return h('div', { className: 'block-card' },
-        h('div', { className: 'num' }, block.title.split(' ')[0]),
+        h('div', { className: 'num' }, (block.title.match(/^\d(\s\+\s\d)?/) || [block.title.split(' ')[0]])[0]),
         h('h3', null, block.title.replace(/^\d(\s\+\s\d)?\s/, '')),
         h('div', { className: 'subtle' }, 'Richtzeit: ' + block.officialTimeMinutes + ' Min.'),
         h('div', { className: 'progress-bar' }, h('span', { style: 'width:' + pct + '%' })),
