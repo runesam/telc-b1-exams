@@ -272,7 +272,7 @@
       "pointsPerItem": 5,
       "maxPoints": 25,
       "audioLabel": "Hörverstehen Teil 1 (fünf kurze Texte, einmal hören)",
-      "audio": {"src": "audio/telc-b1-modelltest-1-hoeren1.m4a"},
+      "audio": {"src": "audio/telc-b1-modelltest-1-hoeren1.mp3"},
       "practice": true,
       "transcripts": [
         {"number": 41, "text": "[Auszug aus der Lösungserklärung] ... das letzte Mal sind wir mit dem Auto gefahren, als wir einen Tisch im Möbelhaus gekauft haben. ... eigentlich brauchen wir es gar nicht oft. Wenn wir große Einkäufe machen müssen, fahren wir mit dem Rad zum Supermarkt."},
@@ -298,7 +298,7 @@
       "pointsPerItem": 2.5,
       "maxPoints": 25,
       "audioLabel": "Hörverstehen Teil 2 (ein Gespräch, zweimal hören)",
-      "audio": {"src": "audio/telc-b1-modelltest-1-hoeren2.m4a"},
+      "audio": {"src": "audio/telc-b1-modelltest-1-hoeren2.mp3"},
       "practice": true,
       "transcripts": [
         {
@@ -328,7 +328,7 @@
       "pointsPerItem": 5,
       "maxPoints": 25,
       "audioLabel": "Hörverstehen Teil 3 (fünf kurze Texte, je zweimal hören)",
-      "audio": {"src": "audio/telc-b1-modelltest-1-hoeren3.m4a"},
+      "audio": {"src": "audio/telc-b1-modelltest-1-hoeren3.mp3"},
       "practice": true,
       "transcripts": [
         {"number": 56, "text": "[Auszug aus der Lösungserklärung] Sehr geehrte Fahrgäste der S8, ... Von der Haltestelle Plänterwald fahren wir gleich wieder zurück Richtung Stadtmitte – über Ostkreuz und Hauptbahnhof."},
@@ -369,7 +369,7 @@
       "type": "speaking",
       "instructions": "Übungsmodus ohne Bewertung: Höre das Audio, pausiere nach jedem Abschnitt und sprich deine Antwort laut. Mit dem A-B-Loop wiederholst du eine Stelle beliebig oft.",
       "audioLabel": "Mündliche Prüfung (Übungsaudio)",
-      "audio": {"src": "audio/telc-b1-modelltest-1-sprechen.m4a"},
+      "audio": {"src": "audio/telc-b1-modelltest-1-sprechen.mp3"},
       "practice": true,
       "transcriptParts": [
         {"title": "Teil 1", "turns": [{"speaker": "Prüfer", "text": "Guten Tag. Willkommen bei der mündlichen Prüfung telc Deutsch B1. Mein Name ist Ravi Singh und das ist meine Kollegin Carolin Paulsen."}, {"speaker": "Prüferin", "text": "Guten Tag."}, {"speaker": "TN A", "text": "Hallo."}, {"speaker": "TN B", "text": "Guten Tag."}, {"speaker": "Prüfer", "text": "Die mündliche Prüfung hat drei Teile. Auf Teil 2 und 3 haben Sie sich ja gerade schon vorbereitet. Beginnen wir mit Teil 1: Sie sollen einander etwas kennenlernen. Hier ist das Aufgabenblatt mit Themen. Sie sind Teilnehmerin A, bitte fangen Sie an."}, {"speaker": "TN A", "text": "Ja, gern. Hallo. Ich bin Carina Eyenga und ich komme aus Kamerun. Und wer sind Sie?"}, {"speaker": "TN B", "text": "Guten Tag, mein Name ist Mateo Mendoza. Mateo ist mein Vorname, Mendoza ist der Nachname. Ich komme aus Ecuador."}, {"speaker": "TN A", "text": "Ah, aus Ecuador? Wo liegt das genau?"}, {"speaker": "TN B", "text": "Ecuador liegt in Lateinamerika. An der Westküste, zwischen Kolumbien und Peru. Aus welcher Stadt in …"}, {"speaker": "TN A", "text": "In Kamerun."}, {"speaker": "TN B", "text": "Ah, ja. Aus welcher Stadt in Kamerun kommen Sie?"}, {"speaker": "TN A", "text": "Ich komme aus Douala. Das ist die größte Stadt in Kamerun, aber ich bin in Yaoundé geboren. Yaoundé ist die Hauptstadt von Kamerun. Seit 5 Jahren wohne ich in Deutschland. Und Sie?"}, {"speaker": "TN B", "text": "Ich bin vor 6 Jahren nach Köln gekommen. Meine Frau kommt aus Köln, deshalb wohnen wir hier. Wir haben zwei Kinder. Sie sind 6 und 9 Jahre alt. Haben Sie auch Familie in Deutschland?"}, {"speaker": "TN A", "text": "Ich habe auch zwei Kinder. Meine Tochter ist 3 Jahre alt und mein Sohn ist 5. Ich bin auch verheiratet. Und wir leben auch in Köln."}, {"speaker": "TN B", "text": "Wo wohnen Sie in Köln?"}, {"speaker": "TN A", "text": "Der Stadtteil heißt Nippes. Ich wohne mit meiner Familie in einer 3-Zimmer-Wohnung mit Balkon."}, {"speaker": "TN B", "text": "Ah, mit Balkon? Das ist gut!"}, {"speaker": "TN A", "text": "Ja, das ist im Sommer sehr schön. Haben Sie auch einen Balkon?"}, {"speaker": "TN B", "text": "Wir wohnen in einem Einfamilienhaus am Stadtrand."}, {"speaker": "TN A", "text": "Ah, toll. Und wie gefällt Ihnen das?"}, {"speaker": "TN B", "text": "Es ist schön ruhig. Wir haben auch einen Garten."}, {"speaker": "TN A", "text": "Schön! Und … Welche Sprachen sprechen Sie?"}, {"speaker": "TN B", "text": "Ich spreche Spanisch, Englisch und Deutsch. Und Sie? Ich habe keine Ahnung, welche Sprachen man in Kamerun spricht."}, {"speaker": "TN A", "text": "Sehr viele Sprachen! Ich spreche Duala und Französisch. Das sind meine Muttersprachen. Und jetzt auch ein bisschen Deutsch."}, {"speaker": "TN B", "text": "Wo haben Sie Deutsch gelernt? Schon in Kamerun?"}, {"speaker": "TN A", "text": "Nein, erst in Deutschland. Ich habe 8 Monate einen Deutschkurs an einer Sprachenschule in Köln besucht. Haben Sie Deutsch von Ihrer Frau gelernt?"}, {"speaker": "TN B", "text": "Ja, auch. Ich habe gerade meinen B1-Kurs an der Universität beendet und jetzt möchte ich einen B2-Kurs machen. Möchten Sie auch noch einen B2-Kurs machen?"}, {"speaker": "TN A", "text": "Ja! Ich möchte eine Ausbildung als Krankenschwester machen. Dafür brauche ich B2. Und was ist mit Ihnen? Haben Sie einen Beruf?"}, {"speaker": "TN B", "text": "Ja, ich habe in Ecuador studiert und bin Übersetzer für Spanisch – Englisch."}, {"speaker": "TN A", "text": "Ah, interessant."}, {"speaker": "Prüfer", "text": "Frau Eyenga, welche Sprache sprechen Sie mit Ihrer Familie?"}, {"speaker": "TN A", "text": "Wir sprechen Französisch. Und manchmal Deutsch."}, {"speaker": "Prüfer", "text": "Herr Mendoza, Sie haben gesagt, dass Sie am Stadtrand wohnen. Wie sind Sie jeden Tag zum Deutschkurs gekommen?"}, {"speaker": "TN B", "text": "Im Sommer bin ich manchmal mit dem Fahrrad gefahren, aber normalerweise mit dem Bus."}, {"speaker": "Prüfer", "text": "Vielen Dank! Das war Teil 1. Kommen wir jetzt zu Teil 2. Sie haben …"}]},
