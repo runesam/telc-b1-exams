@@ -250,10 +250,10 @@
      ============================================================ */
   function renderExamList() {
     const list = h('div', { className: 'col' },
-      h('div', { className: 'eyebrow' }, 'Übungstests'),
+      h('div', { className: 'eyebrow' }, 'Prüfungstraining'),
       h('h1', { style: 'margin:6px 0 18px;' }, 'Welchen Test möchtest du üben?')
     );
-    const cards = State.examList.map(entry => {
+    const makeCard = entry => {
       const resumed = hasSavedAttempt(entry.id);
       return h('div', { className: 'card exam-card' },
         h('div', null,
@@ -265,8 +265,22 @@
           onclick: () => { location.hash = '#exam/' + entry.id; }
         }, resumed ? 'Fortsetzen' : 'Test starten')
       );
+    };
+    // Group by manifest "group" (keeps manifest order); entries without one go to "Übungstests".
+    const groups = [];
+    State.examList.forEach(entry => {
+      const name = entry.group || 'Übungstests';
+      let g = groups.find(x => x.name === name);
+      if (!g) { g = { name, entries: [] }; groups.push(g); }
+      g.entries.push(entry);
     });
-    const wrap = h('div', { style: 'display:flex; flex-direction:column; gap:14px;' }, ...cards);
+    const wrap = h('div', { style: 'display:flex; flex-direction:column; gap:28px;' });
+    groups.forEach(g => {
+      wrap.appendChild(h('section', { style: 'display:flex; flex-direction:column; gap:14px;' },
+        h('h2', { className: 'eyebrow', style: 'margin:0;' }, g.name),
+        ...g.entries.map(makeCard)
+      ));
+    });
     if (!State.examList.length) {
       wrap.appendChild(h('div', { className: 'empty-state' }, 'Noch kein Übungstest hinterlegt.'));
     }
@@ -279,7 +293,7 @@
   function renderBlockOverview() {
     const exam = State.exam;
     const header = h('div', { className: 'section-head' },
-      h('div', { className: 'eyebrow' }, exam.subtitle || 'Übungstest'),
+      h('div', { className: 'eyebrow' }, exam.subtitle || (State.examList.find(e => e.id === exam.id) || {}).eyebrow || 'Übungstest'),
       h('h1', null, exam.title),
       h('p', { className: 'subtle' }, 'Bearbeite die drei Prüfungsteile in beliebiger Reihenfolge. Der Timer pro Teil läuft als Stoppuhr – du kannst jederzeit pausieren.')
     );

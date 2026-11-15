@@ -1,0 +1,357 @@
+{
+  "id": "telc-b1-modelltest-1",
+  "title": "telc Deutsch B1 – Modelltest 1",
+  "source": "Extrahiert aus dem telc-B1-Übungsbuch (Modelltest 1 – Aufgaben und Lösungserklärungen).",
+  "writtenMaxPoints": 225,
+  "writtenPassPoints": 135,
+  "objectiveMaxPoints": 180,
+  "writingMaxPoints": 45,
+  "blocks": [
+    {
+      "id": "lesen-sprachbausteine",
+      "title": "1 + 2 Leseverstehen & Sprachbausteine",
+      "officialTimeMinutes": 90,
+      "sections": ["lesen1", "lesen2", "lesen3", "sb1", "sb2"]
+    },
+    {
+      "id": "hoeren",
+      "title": "3 Hörverstehen",
+      "officialTimeMinutes": 30,
+      "sections": ["hoeren1", "hoeren2", "hoeren3"]
+    },
+    {
+      "id": "schreiben",
+      "title": "4 Schriftlicher Ausdruck",
+      "officialTimeMinutes": 30,
+      "sections": ["schreiben"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "lesen1",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 1",
+      "type": "match",
+      "instructions": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "optionLabel": "Überschrift",
+      "options": [
+        {"key": "a", "text": "Musikunterricht an Grundschulen zu teuer!"},
+        {"key": "b", "text": "Mit Informationen gemeinsam gegen Krankheit"},
+        {"key": "c", "text": "Lesen lernen mit Hilfe aus dem Internet"},
+        {"key": "d", "text": "Krankenkassen warnen: Kinder zu lange im Internet!"},
+        {"key": "e", "text": "Zu viel Zeit im Internet macht krank!"},
+        {"key": "f", "text": "Schüler lesen Bücher lieber online"},
+        {"key": "g", "text": "Jugendliche häufig krank – Krankenkassen suchen Ursachen"},
+        {"key": "h", "text": "Vorlesewettbewerb für die ganze Familie"},
+        {"key": "i", "text": "Musikschule kann bleiben"},
+        {"key": "j", "text": "Musik, Tanz und Lesen – Sommerfest zum Mitmachen"}
+      ],
+      "items": [
+        {
+          "number": 1,
+          "text": "Musik-Videos sehen, sich informieren und hauptsächlich in sozialen Netzwerken unterwegs sein ... 16- bis 29-Jährige verbringen durchschnittlich über drei Stunden täglich vor ihrem „intelligenten Telefon“. Krankenkassen warnen schon lange: Ein zu hoher Internetkonsum ist schlecht für die Gesundheit. Die Folgen können zum Beispiel Konzentrationsstörungen, Schlafprobleme, psychische Krankheiten und schlechte Leistungen in der Schule und im Beruf sein. Bei rund 1,8 Millionen Menschen spricht man von einer problematischen Nutzung des Internets und Mediensucht.",
+          "correct": "e",
+          "explanation": "Im Text steht: „Ein zu hoher Internetkonsum ist schlecht für die Gesundheit“ (= Zu viel Zeit im Internet macht krank!). d passt nicht, weil es um 16- bis 29-Jährige geht (nicht Kinder), und g passt nicht, weil Konzentrationsprobleme etc. Folgen und nicht Ursachen sind."
+        },
+        {
+          "number": 2,
+          "text": "Am 23. Juli lädt Bürgermeister Rütli zum Feiern ein. Über den ganzen Ort verteilt finden verschiedene Aktivitäten für alle statt: Im Waldstadion das Fußballturnier Alt gegen Jung und Sportspiele für die ganze Familie. In der Stadtbibliothek der Comic-Flohmarkt und ein Vorlesewettbewerb, Kinderliederkaraoke und Musik zum Tanzen auf dem Marktplatz. Für Essen, Getränke und natürlich viel Spass wird gesorgt. Sonntag von 11 bis 17 Uhr, mehr Informationen und Anmeldung zum Wettbewerb auf der Internetseite der Stadt: www.neuwil.ch/aktuell.",
+          "correct": "j",
+          "explanation": "Am 23. Juli (= im Sommer) lädt Bürgermeister Rütli zum Feiern ein (= Sommerfest), mit Aktivitäten für alle (Vorlesewettbewerb, Kinderlieder-Karaoke, Musik zum Tanzen). h ist zu eng, da es nicht nur um einen Vorlesewettbewerb geht."
+        },
+        {
+          "number": 3,
+          "text": "Lange war unsicher, ob es mit dem Musikzentrum weitergeht. Miete und Nebenkosten für das Gebäude am Park waren so hoch, dass der Unterricht für viele Schülerinnen und Schüler zu teuer wurde. „Wir mussten fast aufhören“, sagt Ina Deimers, die Leiterin des Musikzentrums, und freut sich, dass der Unterricht jetzt nachmittags und abends in den Räumen der Buber-Grundschule weitergehen kann. „Musik zu machen ist gerade für Kinder und Jugendliche so wichtig! Privater Unterricht muss bezahlbar bleiben.“",
+          "correct": "i",
+          "explanation": "Die Leiterin des Musikzentrums freut sich, dass der Unterricht jetzt in den Räumen der Buber-Grundschule weitergehen kann – die Musikschule bleibt also (i). a passt nicht, weil es um eine private Musikschule geht, nicht um Musikunterricht an Grundschulen."
+        },
+        {
+          "number": 4,
+          "text": "Lukas (10) ist sich sicher: „Bücher lesen ist viel zu anstrengend!“ Viel mehr Spaß machen dem Grundschüler Fußballspielen oder Spiele auf dem Handy. Statt zu lesen, hört er lieber das Hörbuch im Internet. „Das ist ganz typisch. Vielen Schülerinnen und Schülern fehlt einfach die Konzentration. Sie müssen erst lernen, wie man Bücher liest“, weiß Ben Linne. Als „Deutschlehrer Ben“ gibt er in sozialen Netzwerken erfrischend gute Tipps, damit Kinder auch dicke Bücher wieder gern lesen.",
+          "correct": "c",
+          "explanation": "Schüler müssen erst lernen, wie man Bücher liest, und „Deutschlehrer Ben“ gibt in sozialen Netzwerken (= im Internet) gute Tipps dazu (c). f passt nicht, weil Lukas im Internet Hörbücher hört und nicht Bücher online liest."
+        },
+        {
+          "number": 5,
+          "text": "In Deutschland leiden aktuell ca. 6 Millionen Menschen an Diabetes. „Alterszucker“ nannte man diese Krankheit früher, weil besonders ältere Menschen daran litten. Heute haben auch immer mehr junge Menschen und sogar Kinder Diabetes. Gründe dafür können eine falsche Ernährung, fehlende Bewegung und ein hohes Gewicht sein. Verschiedene Krankenkassen wollen jetzt zusammenarbeiten, um besonders Jugendliche zu erreichen und aufzuklären: Kurze Videos auf verschiedenen sozialen Medien informieren über die Ursachen und erste Symptome der Krankheit.",
+          "correct": "b",
+          "explanation": "Verschiedene Krankenkassen arbeiten zusammen (= gemeinsam) und informieren über die Ursachen und ersten Symptome von Diabetes, um gegen die Krankheit vorzugehen (b). g passt nicht, weil die Krankenkassen die Ursachen bereits kennen und darüber aufklären."
+        }
+      ]
+    },
+    {
+      "id": "lesen2",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 2",
+      "type": "mc",
+      "instructions": "Lesen Sie den Text und die Aufgaben 6–10. Welche Lösung (a, b oder c) ist jeweils richtig? Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "passage": {
+        "heading": "Neue Pläne für die Goethestraße",
+        "subheading": "Mehr Grün und weniger Autos",
+        "paragraphs": [
+          "Meenzig. Wer vom Hauptbahnhof über die Goethestraße zum Stadttheater läuft, kennt die Situation: eine lange Straße mit einer gefährlichen Kreuzung, eiliger Lieferverkehr für Geschäfte und Restaurants, am Rand parken Autos – die Sicht für Radfahrer ist so schlecht, dass es in den letzten Jahren leider viel zu häufig Unfälle gab. Doch das soll sich jetzt ändern! Bald beginnen die Bauarbeiten.",
+          "„Die Straße wird ab nächstem Monat zeitweise für den kompletten Verkehr gesperrt, damit die Bauarbeiten schnell durchgeführt werden können“, informiert Sarah Fink vom städtischen Bauamt. „Wir wollen die Fahrradwege etwas breiter machen, dort dürfen dann auch keine Autos mehr parken – das ist viel sicherer. Es wird Blumenbeete und Bänke geben, außerdem eine extra Fahrspur für Busse.“",
+          "Die meisten Bürgerinnen und Bürger freuen sich auf das fertige Projekt: „Wir warten schon lange, dass unsere Goethestraße wieder schön wird. So wie das jetzt ist, ist das doch viel zu gefährlich!“, sagt Reza Demir, der seit 20 Jahren in der Goethestraße wohnt.\n„Wo sollen wir dann parken?“, fragen sich dagegen andere Bewohner der Straße, denn dafür wird es in der neuen Goethestraße viel weniger Platz geben.",
+          "Gianluca Sarini, ihm gehört ein Restaurant in der Straße, macht sich noch andere Sorgen: „Hoffentlich wird es nicht zu laut und dreckig während der Bauarbeiten. Meine Gäste möchten doch in Ruhe ihr Essen genießen.“ Mira Lobig, die Besitzerin eines Frisörsalons, befürchtet: „Unsere Kunden und Kundinnen können ja nicht mehr bis zum Geschäft fahren, wenn gebaut wird. Vielleicht kommen manche dann gar nicht mehr. Und was ist, wenn die Bauarbeiten auch noch viel länger dauern als geplant?“ Sie hat sich jetzt schon bei der Stadt beschwert.",
+          "Bürgermeisterin Annegret Reuth beruhigt: „Wir haben alles so gut geplant, es wird nicht länger als drei Monate gebaut!“ Sie versteht den Ärger und bittet die Bewohner um Verständnis: „Über Bauarbeiten in der eigenen Straße freut sich niemand. Aber denken Sie an die neue Goethestraße: mehr Grün, ruhigerer Verkehr, pünktliche Busse und hoffentlich keine Unfälle mehr – das ist doch für alle besser! Darauf kann man sich wirklich freuen, da bin ich sicher.“",
+          "Was halten Sie von den Plänen für die Straße? Schreiben Sie uns Ihre Meinung!"
+        ]
+      },
+      "items": [
+        {
+          "number": 6,
+          "question": "Auf der Goethestraße",
+          "options": [
+            {"key": "a", "text": "fahren zu viele Autos."},
+            {"key": "b", "text": "haben die Bauarbeiten angefangen."},
+            {"key": "c", "text": "sind schon sehr oft Unfälle passiert."}
+          ],
+          "correct": "c",
+          "explanation": "Im ersten Absatz steht: „die Sicht für Radfahrer ist so schlecht, dass es in den letzten Jahren leider viel zu häufig Unfälle gab.“"
+        },
+        {
+          "number": 7,
+          "question": "Die Stadt plant,",
+          "options": [
+            {"key": "a", "text": "Busse auf der Straße zu verbieten."},
+            {"key": "b", "text": "die Wege für Fahrräder zu verbessern."},
+            {"key": "c", "text": "eine breitere Straße für Autos zu bauen."}
+          ],
+          "correct": "b",
+          "explanation": "Sarah Fink vom städtischen Bauamt erklärt: „Wir wollen die Fahrradwege etwas breiter machen, dort dürfen dann auch keine Autos mehr parken – das ist viel sicherer.“"
+        },
+        {
+          "number": 8,
+          "question": "Einige Geschäftsleute haben Angst, dass",
+          "options": [
+            {"key": "a", "text": "die Bauarbeiten zu gefährlich werden."},
+            {"key": "b", "text": "Restaurants und Geschäfte schließen müssen."},
+            {"key": "c", "text": "weniger Kundinnen und Kunden kommen."}
+          ],
+          "correct": "c",
+          "explanation": "Mira Lobig, die Besitzerin eines Frisörsalons, befürchtet: „Unsere Kunden und Kundinnen können ja nicht mehr bis zum Geschäft fahren, wenn gebaut wird. Vielleicht kommen manche dann gar nicht mehr.“"
+        },
+        {
+          "number": 9,
+          "question": "Die Bürgermeisterin",
+          "options": [
+            {"key": "a", "text": "ärgert sich über die Bauarbeiten."},
+            {"key": "b", "text": "freut sich auf die neue Goethestraße."},
+            {"key": "c", "text": "versteht die Bewohner nicht."}
+          ],
+          "correct": "b",
+          "explanation": "Bürgermeisterin Annegret Reuth sagt über die neue Goethestraße: „Darauf kann man sich wirklich freuen, da bin ich sicher.“"
+        },
+        {
+          "number": 10,
+          "question": "Die Bauarbeiten dauern",
+          "options": [
+            {"key": "a", "text": "höchstens drei Monate."},
+            {"key": "b", "text": "mindestens drei Monate."},
+            {"key": "c", "text": "ungefähr ein halbes Jahr."}
+          ],
+          "correct": "a",
+          "explanation": "Bürgermeisterin Annegret Reuth beruhigt: „Wir haben alles so gut geplant, es wird nicht länger als drei Monate gebaut!“"
+        }
+      ]
+    },
+    {
+      "id": "lesen3",
+      "block": "lesen-sprachbausteine",
+      "title": "Leseverstehen Teil 3",
+      "type": "match",
+      "instructions": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Finden Sie für jede Situation die passende Anzeige. Sie können jede Anzeige nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen. Wenn Sie zu einer Situation keine Anzeige finden, markieren Sie ein x.",
+      "pointsPerItem": 2.5,
+      "maxPoints": 25,
+      "optionLabel": "Anzeige",
+      "allowX": true,
+      "options": [
+        {"key": "a", "text": "Restaurant Bella Roma: Pasta, Pizza, Fleisch und Fisch wie in Italien. Probieren Sie auch unsere vegetarischen Spezialitäten! Achtung: 17. September geschlossen wegen Kochkurs. Bella Roma, Mariastraße 12, 30169 Hannover"},
+        {"key": "b", "text": "Sie denken über eine Ausbildung zum Berufskraftfahrer nach? Wir machen Sie fit für Ihren LKW-Führerschein! LKW-Fahrschule Linz, Bewerbung an: info@fslinz.at"},
+        {"key": "c", "text": "Lisbeths Modehaus: Gebrauchte Marken-Kleidung und Schuhe zu fairen Preisen für Groß und Klein, Feiern und besondere Anlässe. Di–Sa, 13–18 Uhr, Marktstraße 4, 20368 Hamburg"},
+        {"key": "d", "text": "Musikzentrum Koch: Du willst richtig gut singen lernen und dich mit der Gitarre, dem Klavier oder Keyboard begleiten? Bei uns kannst du beides lernen! Ruf an und mach einen Probetermin aus: 040-8412393. Kurse für Anfänger und Fortgeschrittene."},
+        {"key": "e", "text": "„Karotte und Co.“ Vegetarische Gerichte – für Sie zu Hause. Wir suchen ab sofort sportliche Personen mit Fahrrad oder Führerschein als Fahrer/innen für unseren Lieferdienst ab 18 Uhr. Ruf an: 0187 6665554"},
+        {"key": "f", "text": "Online-Fotokurs – bequem von zu Hause! Fotografieren hat noch nie so viel Spaß gemacht. Mit einfachen Videos und Erklärungen zeigen wir dir, wie du die besten Hochzeits-Fotos machst. Melde dich an unter: www.ueberallfotographie.at"},
+        {"key": "g", "text": "Ferienkurse an der Volkshochschule: – Eismachen für Kinder – Gitarre spielen für Senioren – Köstlich kochen mit Tomaten und Paprika – Sprachkurs für Berufstätige. Noch freie Plätze im Juni und Juli! Melden Sie sich auf unserer Webseite an."},
+        {"key": "h", "text": "Sie lieben Sport? Wir auch! Zusammen läuft es besser! Gruppen- oder Einzeltraining für alle Laufsportarten und (Halb)Marathon. Mo–Fr 7 bis 12 Uhr. Speziell für Berufstätige: Mi + Fr 18–20 Uhr im Stadion. Die Läufer, Alsterweg 37"},
+        {"key": "i", "text": "Führerschein in allen Sprachen! Führerschein ab 17 – Anmeldung mit Elternteil. Fahrerlaubnis, aber unsicher im Straßenverkehr? Buchen Sie unser Fahrtraining (3 bis 10 Stunden). Fahrschule Meyer, 040/567896, Römerstr. 12"},
+        {"key": "j", "text": "Wir brauchen Nachhilfelehrer (m/w/d). Deine Aufgaben: Du unterrichtest Schülerinnen und Schüler in Mathematik, Deutsch, Englisch oder anderen Sprachen. In unseren Räumen oder online über deinen Computer. Schick uns deine Bewerbung an: kapiert@nachhilfe.de."},
+        {"key": "k", "text": "Fotostudio Schmidt: Sie brauchen – seriöse Bewerbungsfotos oder – zuckersüße Babybilder? Kommen Sie in unser Studio. Oder buchen Sie uns für Ihre Feier: Wir machen die schönsten Bilder von Ihnen und Ihren Gästen vor Ort. Hauptstraße 38, Schöneberg"},
+        {"key": "l", "text": "Klamotte im Bella-Park: Zu viel Kleidung? Neue Größe? Einfach mal Lust auf etwas anderes? Bring maximal 10 Kleidungsstücke und/oder 10 Paar Schuhe mit und tausche! Diesmal keine Baby- oder Kinderkleidung! Ohne Anmeldung, einfach vorbeikommen. 18.7. ab 13 Uhr"}
+      ],
+      "items": [
+        {"number": 11, "text": "Ihr Bruder isst gern Gemüse und möchte in den Sommerferien einen Kochkurs machen.", "correct": "g", "explanation": "Anzeige g bietet in den Ferienkursen der Volkshochschule (freie Plätze im Juni und Juli = Sommerferien) „Köstlich kochen mit Tomaten und Paprika“ (= Gemüse) an."},
+        {"number": 12, "text": "Eine Freundin sucht eine Stelle als Sprachlehrerin. Sie möchte am liebsten zu Hause arbeiten.", "correct": "j", "explanation": "Anzeige j sucht Nachhilfelehrer für Deutsch, Englisch oder andere Sprachen, die auch „online über deinen Computer“ (= von zu Hause aus) unterrichten können."},
+        {"number": 13, "text": "Sie sammeln Marken-Sportschuhe, von denen Ihnen einige nicht mehr gefallen. Sie hätten gern andere Schuhe dafür.", "correct": "l", "explanation": "Bei „Klamotte im Bella-Park“ (Anzeige l) kann man bis zu 10 Paar Schuhe mitbringen und gegen andere tauschen."},
+        {"number": 14, "text": "Ihre zwölfjährige Tochter möchte ein neues Musikinstrument lernen, aber nicht Klavier.", "correct": "d", "explanation": "Das Musikzentrum Koch (Anzeige d) bietet Kurse für Anfänger und Fortgeschrittene an, bei denen man Gitarre, Klavier oder Keyboard lernen kann."},
+        {"number": 15, "text": "Sie würden gern einige Fahrstunden nehmen, obwohl Sie schon einen Führerschein haben.", "correct": "i", "explanation": "Die Fahrschule Meyer (Anzeige i) bietet ein Fahrtraining (3 bis 10 Stunden) für Personen mit Fahrerlaubnis an, die im Straßenverkehr noch unsicher sind."},
+        {"number": 16, "text": "Ihr Freund ist Koch mit vielen Jahren Berufserfahrung und sucht eine neue Arbeit.", "correct": "x", "explanation": "Keine passende Anzeige vorhanden: Restaurant Bella Roma (a) sucht keinen Koch und „Karotte und Co.“ (e) sucht Fahrer/innen für den Lieferdienst."},
+        {"number": 17, "text": "Sie gehen nicht gern ins Fitnessstudio, aber wollen sich mehr bewegen. Weil Sie arbeiten, haben Sie nur abends Zeit.", "correct": "h", "explanation": "„Die Läufer“ (Anzeige h) bieten Lauftraining im Stadion (nicht im Fitnessstudio) speziell für Berufstätige mittwochs und freitags von 18–20 Uhr (= abends) an."},
+        {"number": 18, "text": "Ihre Familie und Sie sind im Herbst zu einer Hochzeit eingeladen. Sie würden sich gern gut anziehen, ohne dafür zu viel Geld auszugeben.", "correct": "c", "explanation": "Lisbeths Modehaus (Anzeige c) verkauft gebrauchte Marken-Kleidung und Schuhe zu fairen Preisen für Groß und Klein (= ganze Familie) sowie für Feiern und besondere Anlässe."},
+        {"number": 19, "text": "Sie heiraten im Herbst und suchen für Ihre Feier eine Person, die gut fotografieren kann.", "correct": "k", "explanation": "Das Fotostudio Schmidt (Anzeige k) kann man für Feiern buchen, um vor Ort Bilder von Gastgebern und Gästen zu machen."},
+        {"number": 20, "text": "Sie haben Hunger und wollen mit Freunden essen gehen. Sie essen kein Fleisch.", "correct": "a", "explanation": "Im Restaurant Bella Roma (Anzeige a) kann man essen gehen und es gibt dort auch vegetarische Spezialitäten (= kein Fleisch). „Karotte und Co.“ (e) ist nur ein Lieferdienst."}
+      ]
+    },
+    {
+      "id": "sb1",
+      "block": "lesen-sprachbausteine",
+      "title": "Sprachbausteine Teil 1",
+      "type": "cloze-mc",
+      "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig? Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
+      "pointsPerItem": 1.5,
+      "maxPoints": 15,
+      "textBefore": "Liebe Judith,\n\nwie geht es dir? Ich finde es sehr schade, dass wir uns so lange nicht mehr",
+      "items": [
+        {"number": 21, "textAfter": "haben.\n\nIch habe eine tolle Idee: Im", "options": [{"key": "a", "text": "gesehen"}, {"key": "b", "text": "sehe"}, {"key": "c", "text": "sehen"}], "correct": "a", "explanation": "Für die Zeitform Perfekt („... haben“) wird das Partizip II „gesehen“ benötigt."},
+        {"number": 22, "textAfter": "Jahr möchte ich meinen Urlaub in Spanien verbringen,", "options": [{"key": "a", "text": "nächste"}, {"key": "b", "text": "nächsten"}, {"key": "c", "text": "nächstes"}], "correct": "b", "explanation": "Nach „Im“ (= in dem, Dativ Neutrum Singular) erhält das Adjektiv die Endung -en: „Im nächsten Jahr“."},
+        {"number": 23, "textAfter": "an einer Sprachschule in Sevilla Spanisch zu lernen.\nWie findest du diese Idee?\n\nSpanisch hatte ich schon ein paar", "options": [{"key": "a", "text": "damit"}, {"key": "b", "text": "um"}, {"key": "c", "text": "und"}], "correct": "b", "explanation": "Der Infinitivsatz mit „... zu lernen“ wird mit „um“ eingeleitet („um ... Spanisch zu lernen“)."},
+        {"number": 24, "textAfter": "in der Schule, aber ich habe sehr viel vergessen. Das geht ja immer so schnell bei Sprachen.\nIm Internet habe ich ein Angebot von einer Sprachschule im Zentrum von Sevilla gefunden,", "options": [{"key": "a", "text": "Jahr"}, {"key": "b", "text": "Jahre"}, {"key": "c", "text": "Jahren"}], "correct": "b", "explanation": "Nach „ein paar“ steht hier der Plural im Akkusativ („ein paar Jahre“)."},
+        {"number": 25, "textAfter": "ziemlich günstig ist. Die Online-Bewertungen", "options": [{"key": "a", "text": "das"}, {"key": "b", "text": "den"}, {"key": "c", "text": "der"}], "correct": "a", "explanation": "Das Relativpronomen bezieht sich auf „ein Angebot“ (Neutrum Nominativ Singular): „das ziemlich günstig ist“."},
+        {"number": 26, "textAfter": "alle sehr gut. Der Unterricht ist jeden Tag von 10 bis 14 Uhr und am Nachmittag macht man zusammen Ausflüge oder hat Programm.\n\nDu hattest mal erzählt,", "options": [{"key": "a", "text": "waren"}, {"key": "b", "text": "wären"}, {"key": "c", "text": "werden"}], "correct": "a", "explanation": "Vergangenheitsform (Präteritum Plural) passend zu „Die Online-Bewertungen“: „waren“."},
+        {"number": 27, "textAfter": "du auch gern Spanisch lernen möchtest.\nVielleicht hast du Zeit und Lust,", "options": [{"key": "a", "text": "als"}, {"key": "b", "text": "dass"}, {"key": "c", "text": "ob"}], "correct": "b", "explanation": "Nebensatz nach „erzählt“ mit dem konjugierten Verb am Satzende: „dass du auch gern Spanisch lernen möchtest“."},
+        {"number": 28, "textAfter": "? Ich fände es toll, mit", "options": [{"key": "a", "text": "mitgekommen"}, {"key": "b", "text": "mitkommen"}, {"key": "c", "text": "mitzukommen"}], "correct": "c", "explanation": "Nach „Zeit und Lust haben“ folgt der Infinitiv mit „zu“; beim trennbaren Verb „mitkommen“ steht „zu“ in der Mitte: „mitzukommen“."},
+        {"number": 29, "textAfter": "zusammen zu verreisen. Was denkst du?\n\nRuf mich bitte heute oder morgen Abend an, dann können wir", "options": [{"key": "a", "text": "dich"}, {"key": "b", "text": "dir"}, {"key": "c", "text": "du"}], "correct": "b", "explanation": "Die Präposition „mit“ verlangt immer den Dativ: „mit dir“."},
+        {"number": 30, "textAfter": "sprechen.\n\nViele Grüße\nCarola", "options": [{"key": "a", "text": "dafür"}, {"key": "b", "text": "darüber"}, {"key": "c", "text": "davor"}], "correct": "b", "explanation": "„über etwas sprechen“ wird zum Pronominaladverb „darüber“."}
+      ]
+    },
+    {
+      "id": "sb2",
+      "block": "lesen-sprachbausteine",
+      "title": "Sprachbausteine Teil 2",
+      "type": "cloze-bank",
+      "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal. Markieren Sie Ihre Lösungen für die Aufgaben 31–40 auf dem Antwortbogen.",
+      "pointsPerItem": 1.5,
+      "maxPoints": 15,
+      "wordBank": [
+        {"key": "a", "text": "ABER"},
+        {"key": "b", "text": "AM"},
+        {"key": "c", "text": "AUF"},
+        {"key": "d", "text": "AUßERDEM"},
+        {"key": "e", "text": "BLEIBEN"},
+        {"key": "f", "text": "DAFÜR"},
+        {"key": "g", "text": "DARÜBER"},
+        {"key": "h", "text": "DASS"},
+        {"key": "i", "text": "IHR"},
+        {"key": "j", "text": "KÖNNEN"},
+        {"key": "k", "text": "ODER"},
+        {"key": "l", "text": "ÜBER"},
+        {"key": "m", "text": "UNSEREN"},
+        {"key": "n", "text": "VOM"},
+        {"key": "o", "text": "WOLLTEN"}
+      ],
+      "textBefore": "[Anzeige: Hotel Seeblick – das Sport-Hotel direkt am Davos-See. Angebot: Buche 7 Nächte, zahle 6. Weitere Angebote auf Anfrage. www.hotel-seeblick.ch]\n\nSehr geehrte Damen und Herren,\n\nin der Zeitung habe ich",
+      "items": [
+        {"number": 31, "textAfter": "Angebot für sieben Nächte gesehen, das klingt gut!\nWir würden", "correct": "i", "explanation": "Formelle Anrede („Sehr geehrte Damen und Herren“ -> Sie), daher passt das Possessivpronomen „Ihr Angebot“ (Neutrum Akkusativ)."},
+        {"number": 32, "textAfter": "gern zwei Wochen am See verbringen, nicht nur sieben Nächte.\nHaben Sie", "correct": "a", "explanation": "ABER betont den Gegensatz zwischen dem 7-Nächte-Angebot und dem Wunsch, zwei Wochen zu bleiben."},
+        {"number": 33, "textAfter": "auch ein Angebot?\n\nWir sind drei Personen und möchten", "correct": "f", "explanation": "„ein Angebot für etwas haben“ -> das Präpositionalpronomen „dafür“ ersetzt „für zwei Wochen am See“."},
+        {"number": 34, "textAfter": "1. September bis zum 14. September kommen. Für diese Zeit brauchen wir ein Doppelzimmer und ein Einzelzimmer.\nIst es möglich,", "correct": "n", "explanation": "„vom ... bis zum ...“ gibt den Zeitraum von einem Anfangs- bis zu einem Enddatum an."},
+        {"number": 35, "textAfter": "Hund mitzubringen? Wir", "correct": "m", "explanation": "Der Schreiber spricht für sich und seine Begleiter („Wir“), daher passt das Possessivpronomen „unseren Hund“ (Maskulinum Akkusativ)."},
+        {"number": 36, "textAfter": "ihn leider nicht zu Hause lassen.\n\nIch möchte", "correct": "j", "explanation": "Passendes Modalverb im Präsens zum Infinitiv „lassen“ am Satzende: „Wir können ihn leider nicht zu Hause lassen.“"},
+        {"number": 37, "textAfter": "wissen, ob man die Übernachtungen ohne Frühstück buchen kann.\n", "correct": "d", "explanation": "AUßERDEM bedeutet „zusätzlich / noch mehr“ und fügt eine weitere Frage hinzu."},
+        {"number": 38, "textAfter": "ist das Frühstück immer schon im Preis für die Übernachtung enthalten?\n\nBitte informieren Sie uns auch", "correct": "k", "explanation": "ODER leitet die direkte Alternativfrage ein und bildet einen Gegensatz zur vorherigen Frage."},
+        {"number": 39, "textAfter": ", welche Sportmöglichkeiten für Senioren es in der Nähe gibt.\n\n", "correct": "g", "explanation": "„über etwas informieren“ + indirekter Fragesatz verlangt das Präpositionalpronomen „darüber“."},
+        {"number": 40, "textAfter": "Ihre Antwort freue ich mich sehr und danke Ihnen im Voraus.\n\nMit freundlichen Grüßen\n\nHeinz Friedel", "correct": "c", "explanation": "„sich freuen auf“ benutzt man für etwas Zukünftiges („im Voraus“)."}
+      ]
+    },
+    {
+      "id": "hoeren1",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 1",
+      "type": "truefalse",
+      "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig oder falsch sind. Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 41–45. Markieren Sie PLUS (+) gleich richtig und MINUS (–) gleich falsch auf dem Antwortbogen.",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 1 (fünf kurze Texte, einmal hören)",
+      "audio": {"src": ""},
+      "transcripts": [
+        {"number": 41, "text": "[Auszug aus der Lösungserklärung] ... das letzte Mal sind wir mit dem Auto gefahren, als wir einen Tisch im Möbelhaus gekauft haben. ... eigentlich brauchen wir es gar nicht oft. Wenn wir große Einkäufe machen müssen, fahren wir mit dem Rad zum Supermarkt."},
+        {"number": 42, "text": "[Auszug aus der Lösungserklärung] Ich wohne auf dem Land und arbeite auch dort. ... aber mit den öffentlichen Verkehrsmitteln komme ich nicht überall hin ... Meine Kundinnen und Kunden wohnen in verschiedenen kleinen Orten, und für meine Arbeit muss ich mehrere Kunden an einem Tag besuchen. Das schaffe ich nur mit dem Auto. Eine andere Möglichkeit gibt es für mich nicht."},
+        {"number": 43, "text": "[Auszug aus der Lösungserklärung] ... Immer dieses: Fahr weniger Auto! ... Weniger Verkehr wäre für die Umwelt besser, ja. Und was ist mit den Fabriken? Wenn die weniger Abgase und Umweltverschmutzung produzieren würden, dann würde ich vielleicht auch weniger Auto fahren. Aber so? Nö!"},
+        {"number": 44, "text": "[Auszug aus der Lösungserklärung] Von einem eigenen Auto träumen ja viele – ich auch manchmal. ... Aber wenn man in der Großstadt lebt, dann braucht man eigentlich keins. Hier gibt es Carsharing. Da kann man ein Auto mieten, wenn man mal eins braucht. Letzte Woche bin ich zum Beispiel mit einem ganz neuen E-Auto gefahren, das wollte ich schon lange mal. Die sind schon sehr toll. Einfach übers Handy buchen, fahren, wieder parken und fertig."},
+        {"number": 45, "text": "[Auszug aus der Lösungserklärung] ... wir haben einen alten Camping-Bus, ... Und der fährt auch noch super. Mit dem waren wir schon in Frankreich, Spanien ... für uns ist das die perfekte Art zu reisen."}
+      ],
+      "items": [
+        {"number": 41, "text": "Der Sprecher braucht ein Auto, um einzukaufen", "correct": "-", "explanation": "Falsch: Für große Einkäufe fährt er mit dem Fahrrad zum Supermarkt."},
+        {"number": 42, "text": "Die Sprecherin muss ihr Auto beruflich nutzen.", "correct": "+", "explanation": "Richtig: Sie arbeitet auf dem Land, muss für ihre Arbeit mehrere Kunden an einem Tag in verschiedenen kleinen Orten besuchen und schafft das nur mit dem Auto."},
+        {"number": 43, "text": "Der Sprecher möchte weniger Auto fahren.", "correct": "-", "explanation": "Falsch: Er benutzt den Konjunktiv („würde ich vielleicht auch weniger Auto fahren“) und sagt „Aber so? Nö!“ – er möchte jetzt nicht weniger Auto fahren."},
+        {"number": 44, "text": "Die Sprecherin plant, sich ein eigenes Auto zu kaufen.", "correct": "-", "explanation": "Falsch: Sie träumt nur manchmal davon, nutzt aber in der Großstadt Carsharing und mietet ein Auto, wenn sie eins braucht."},
+        {"number": 45, "text": "Die Sprecherin ist schon oft mit dem eigenen Fahrzeug verreist.", "correct": "+", "explanation": "Richtig: Sie hat einen eigenen alten Camping-Bus und war damit schon in Frankreich und Spanien."}
+      ]
+    },
+    {
+      "id": "hoeren2",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 2",
+      "type": "truefalse",
+      "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig oder falsch sind. Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 46–55. Markieren Sie PLUS (+) gleich richtig und MINUS (–) gleich falsch auf dem Antwortbogen.",
+      "pointsPerItem": 2.5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 2 (ein Gespräch, zweimal hören)",
+      "audio": {"src": ""},
+      "transcripts": [
+        {
+          "number": null,
+          "text": "[Auszüge aus den Lösungserklärungen]\n46: Herr Hansel: Also, die „Grauen Hasen“ haben wir vor vier Jahren gegründet und ... / Frau Schmidt: ... sogar vor fünf Jahren! / Herr Hansel: ... richtig, jetzt im Juni war das vor fünf Jahren, da ...\n47: Herr Hansel: Das habe ich Heidi erzählt, als wir uns beim Müllrausbringen gesehen haben ... / Frau Schmidt: Genau, Waldemars Haus ist zwei Häuser weiter links neben meinem, da sieht man sich oft auf der Straße.\n48: Frau Schmidt: Wir sind fast jeden Tag zusammen spazieren gegangen. Bei Sonne oder bei Regen, das Wetter war uns egal. / Herr Hansel: Richtig, obwohl ich bei viel Sonne und hohen Temperaturen oft lieber zu Hause bleibe.\n49: Frau Schmidt: Das ist eine Laufsportart, die jeder machen kann, besonders Leute mit Rückenproblemen, wie Waldemar, oder auch Menschen, die eher unsportlich sind.\n50: Herr Hansel: ... ein intensiveres Spazierengehen – mit speziellen Stöcken, die braucht man dafür, ... Und natürlich sollte man irgendeinen Sportschuh tragen, was Bequemes, keine Wanderschuhe mit fester Sohle.\n51: Frau Schmidt: Ja, weil wir am Anfang eigentlich nur ältere Leute in der Gruppe waren und jetzt zum größten Teil auch immer noch. Aber man muss nicht alt sein, um bei uns mitzumachen.\n52: Herr Hansel: Wir laufen zweimal am Vormittag, montags und mittwochs, und einmal freitagnachmittags.\n53: Frau Schmidt: Ja, meistens laufen wir im Stadtwald, so eine knappe Stunde, an der frischen Luft ... / Herr Hansel: Man kann das auch in der Halle trainieren – aber wir machen das nicht.\n54: Herr Hansel: ... Menschen sind Menschen und in Gruppen kommt es schnell mal zu Problemen, aber bei uns zum Glück nur sehr selten. Im Gegenteil. Wir verstehen uns alle gut.\n55: Moderator: ... Wenn man neu bei den „Grauen Hasen“ mitlaufen möchte, was soll man dann machen? Haben Sie eine Telefonnummer, unter der man sie erreichen kann? / Frau Schmidt: ... Wer mitlaufen möchte, kann einfach zum Treffpunkt kommen."
+        }
+      ],
+      "items": [
+        {"number": 46, "text": "Die Laufgruppe gibt es seit vier Monaten.", "correct": "-", "explanation": "Falsch: Die Laufgruppe „Graue Hasen“ gibt es seit fünf Jahren, nicht seit vier Monaten."},
+        {"number": 47, "text": "Herr Hansel und Frau Schmidt sind Nachbarn.", "correct": "+", "explanation": "Richtig: Waldemars (Herrn Hansels) Haus liegt zwei Häuser weiter links neben dem von Frau Schmidt."},
+        {"number": 48, "text": "Herr Hansel läuft nicht gern, wenn es zu heiß ist.", "correct": "+", "explanation": "Richtig: Er sagt, dass er bei viel Sonne und hohen Temperaturen oft lieber zu Hause bleibt."},
+        {"number": 49, "text": "Die Laufsportart ist für jeden geeignet.", "correct": "+", "explanation": "Richtig: Laut Frau Schmidt kann jeder diese Laufsportart machen, auch Leute mit Rückenproblemen oder unsportliche Menschen."},
+        {"number": 50, "text": "Herr Hansel empfiehlt, spezielle Wanderschuhe zu tragen.", "correct": "-", "explanation": "Falsch: Man braucht spezielle Stöcke und bequeme Sportschuhe, „keine Wanderschuhe mit fester Sohle“."},
+        {"number": 51, "text": "Zu den „Grauen Hasen“ gehören hauptsächlich Senioren.", "correct": "+", "explanation": "Richtig: In der Gruppe sind zum größten Teil ältere Leute."},
+        {"number": 52, "text": "Die Gruppe trifft sich einmal in der Woche vormittags.", "correct": "-", "explanation": "Falsch: Sie laufen zweimal am Vormittag (montags und mittwochs) und einmal freitagnachmittags."},
+        {"number": 53, "text": "Manchmal findet das Training auch drinnen statt.", "correct": "-", "explanation": "Falsch: Man könnte zwar in der Halle trainieren, aber die Gruppe macht das nicht und läuft draußen an der frischen Luft."},
+        {"number": 54, "text": "Im Moment hat die Gruppe ein paar Probleme.", "correct": "-", "explanation": "Falsch: Probleme kommen nur sehr selten vor und alle verstehen sich gut."},
+        {"number": 55, "text": "Man soll anrufen, um sich neu für die Gruppe anzumelden.", "correct": "-", "explanation": "Falsch: Wer mitlaufen möchte, kann einfach zum Treffpunkt kommen und muss nicht anrufen."}
+      ]
+    },
+    {
+      "id": "hoeren3",
+      "block": "hoeren",
+      "title": "Hörverstehen Teil 3",
+      "type": "truefalse",
+      "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig oder falsch sind. Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 56–60. Markieren Sie PLUS (+) gleich richtig und MINUS (–) gleich falsch auf dem Antwortbogen.",
+      "pointsPerItem": 5,
+      "maxPoints": 25,
+      "audioLabel": "Hörverstehen Teil 3 (fünf kurze Texte, je zweimal hören)",
+      "audio": {"src": ""},
+      "transcripts": [
+        {"number": 56, "text": "[Auszug aus der Lösungserklärung] Sehr geehrte Fahrgäste der S8, ... Von der Haltestelle Plänterwald fahren wir gleich wieder zurück Richtung Stadtmitte – über Ostkreuz und Hauptbahnhof."},
+        {"number": 57, "text": "[Auszug aus der Lösungserklärung] ... Morgen ist es dann den ganzen Tag sonnig und die Temperaturen steigen auf bis zu 24 Grad. ..."},
+        {"number": 58, "text": "[Auszug aus der Lösungserklärung] ... wenn Sie am U-Bahnhof Müllerstraße ankommen, ... Nehmen Sie die Rolltreppe, es gibt auch einen Lift, aber der wird gerade repariert ... kommen Sie ans Ärztehaus. Wir sind in der 4. Etage. Sie können den Lift nehmen, ..."},
+        {"number": 59, "text": "[Auszug aus der Lösungserklärung] Hier ist Ihre Agentur für Arbeit, ... Bitte rufen Sie während der genannten Zeiten an. Alternativ können Sie unseren Online-Service nutzen oder uns eine E-Mail mit Ihrem Anliegen schreiben."},
+        {"number": 60, "text": "[Auszug aus der Lösungserklärung] ... Am Donnerstag ist Feiertag und wir haben nur von 10 bis 18 Uhr geöffnet. Es finden dann auch keine Kurse statt. ... Und wer in 15 Minuten bei BBP – Bauch, Beine, Po – mitmachen will: Kommt bitte heute ausnahmsweise in den großen Raum. Der Kurs findet dort statt ..."}
+      ],
+      "items": [
+        {"number": 56, "text": "Die S8 fährt wieder zum Hauptbahnhof zurück.", "correct": "+", "explanation": "Richtig: Ab der Haltestelle Plänterwald fährt die S8 gleich wieder zurück Richtung Stadtmitte über Ostkreuz und Hauptbahnhof."},
+        {"number": 57, "text": "Morgen wird es wärmer als heute und es regnet nicht.", "correct": "+", "explanation": "Richtig: Es wird den ganzen Tag sonnig und die Temperaturen steigen auf bis zu 24 Grad."},
+        {"number": 58, "text": "Der Aufzug im Ärztehaus funktioniert nicht.", "correct": "-", "explanation": "Falsch: Der Lift am U-Bahnhof Müllerstraße wird repariert; im Ärztehaus funktioniert der Lift."},
+        {"number": 59, "text": "Man kann der Agentur telefonisch eine Nachricht hinterlassen.", "correct": "-", "explanation": "Falsch: Man soll während der genannten Zeiten anrufen, den Online-Service nutzen oder eine E-Mail schreiben."},
+        {"number": 60, "text": "Der nächste Kurs findet gleich im großen Raum statt.", "correct": "+", "explanation": "Richtig: Der Kurs „BBP – Bauch, Beine, Po“ in 15 Minuten findet ausnahmsweise im großen Raum statt."}
+      ]
+    },
+    {
+      "id": "schreiben",
+      "block": "schreiben",
+      "title": "Schriftlicher Ausdruck",
+      "type": "writing",
+      "maxPoints": 45,
+      "promptTitle": "E-Mail von Yvonne",
+      "targetWords": "150",
+      "instructions": "Sie haben von einer Freundin folgende E-Mail erhalten. Antworten Sie auf die E-Mail. Schreiben Sie etwas zu allen vier Punkten. Überlegen Sie sich vor dem Schreiben eine passende Reihenfolge der Punkte, einen passenden Betreff, eine passende Anrede, Einleitung und einen passenden Schluss.",
+      "prompt": "Liebe/r ...,\n\nich habe lange nicht geschrieben, weil ich viel zu tun hatte.\nSeit drei Monaten arbeite ich in einer Firma in Zürich!\nMit dem neuen Job ist alles gut, aber ich wohne noch in Konstanz und fahre täglich mit dem Auto zur Arbeit.\nDas ist sehr anstrengend. Ich könnte in Zürich in eine Wohngemeinschaft mit zwei Studenten ziehen – allerdings habe ich noch nie mit ganz fremden Menschen zusammengewohnt. Weißt du, wie das ist?\nVielleicht sollte ich doch lieber in Konstanz bleiben und pro Tag zwei Stunden mit dem Auto fahren. Was meinst du?\nKomm mich doch besuchen! Konstanz und die Schweiz sind total schön!\n\nViele Grüße\nYvonne",
+      "leitpunkte": [
+        "welche Erfahrungen Sie mit Wohngemeinschaften (WGs) haben",
+        "Ihre Meinung zu Yvonnes Situation",
+        "wann Sie Yvonne besuchen",
+        "warum Sie sich über Yvonnes neue Arbeit freuen"
+      ]
+    }
+  ]
+}
