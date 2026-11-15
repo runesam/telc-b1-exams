@@ -117,19 +117,22 @@
     const o = options.find(o => o.key === key);
     return o ? o.text : key;
   }
+  // writing and speaking sections have no auto-graded items
+  function isUngraded(section) { return section.type === 'writing' || section.type === 'speaking'; }
   function sectionAnsweredCount(section) {
-    if (section.type === 'writing') return 0;
+    if (isUngraded(section)) return 0;
     return section.items.filter(it => State.answers[it.number] != null && State.answers[it.number] !== '').length;
   }
-  function sectionTotalCount(section) { return section.type === 'writing' ? 0 : section.items.length; }
+  function sectionTotalCount(section) { return isUngraded(section) ? 0 : section.items.length; }
   function isItemCorrect(item) { return State.answers[item.number] === item.correct; }
   function sectionScore(section) {
+    if (section.type === 'speaking') return 0;
     if (section.type === 'writing') return State.writing.score || 0;
     const correct = section.items.filter(isItemCorrect).length;
     return correct * section.pointsPerItem;
   }
   function objectiveTotal() {
-    return State.exam.sections.filter(s => s.type !== 'writing').reduce((sum, s) => sum + sectionScore(s), 0);
+    return State.exam.sections.filter(s => !isUngraded(s)).reduce((sum, s) => sum + sectionScore(s), 0);
   }
   function writtenTotal() { return objectiveTotal() + (State.writing.score || 0); }
 
@@ -295,7 +298,7 @@
     const header = h('div', { className: 'section-head' },
       h('div', { className: 'eyebrow' }, exam.subtitle || (State.examList.find(e => e.id === exam.id) || {}).eyebrow || 'Übungstest'),
       h('h1', null, exam.title),
-      h('p', { className: 'subtle' }, 'Bearbeite die drei Prüfungsteile in beliebiger Reihenfolge. Der Timer pro Teil läuft als Stoppuhr – du kannst jederzeit pausieren.')
+      h('p', { className: 'subtle' }, 'Bearbeite die Prüfungsteile in beliebiger Reihenfolge. Der Timer pro Teil läuft als Stoppuhr – du kannst jederzeit pausieren.')
     );
 
     const cards = exam.blocks.map(block => {
@@ -303,6 +306,7 @@
       const answered = sections.reduce((s, sec) => s + sectionAnsweredCount(sec), 0);
       const total = sections.reduce((s, sec) => s + sectionTotalCount(sec), 0);
       const writingSec = sections.find(s => s.type === 'writing');
+      const speakingSec = sections.find(s => s.type === 'speaking');
       const pct = total ? Math.round((answered / total) * 100) : (writingSec ? (State.writing.text.trim() ? 100 : 0) : 0);
       const t = State.timers[block.id];
       const elapsedStr = t ? fmtClock(getElapsed(block.id)) : '00:00';
@@ -312,7 +316,7 @@
         h('h3', null, block.title.replace(/^\d(\s\+\s\d)?\s/, '')),
         h('div', { className: 'subtle' }, 'Richtzeit: ' + block.officialTimeMinutes + ' Min.'),
         h('div', { className: 'progress-bar' }, h('span', { style: 'width:' + pct + '%' })),
-        h('div', { className: 'subtle' }, writingSec ? (State.writing.text.trim() ? 'Text verfasst' : 'Noch nicht begonnen') : (answered + ' / ' + total + ' beantwortet')),
+        h('div', { className: 'subtle' }, speakingSec ? 'Übungsmodus, keine Bewertung' : writingSec ? (State.writing.text.trim() ? 'Text verfasst' : 'Noch nicht begonnen') : (answered + ' / ' + total + ' beantwortet')),
         h('div', { className: 'row', style: 'margin-top:4px;' },
           h('span', { className: 'subtle' }, '⏱ ' + elapsedStr),
           h('span', { className: 'spacer' })
@@ -370,7 +374,7 @@
         onclick: () => { location.hash = '#exam/' + exam.id + '/' + block.id + '/' + sec.id; }
       },
         sec.title.replace(/^(Leseverstehen|Sprachbausteine|Hörverstehen)\s/, ''),
-        sec.type !== 'writing' ? h('span', { className: 'count' }, ' ' + sectionAnsweredCount(sec) + '/' + sectionTotalCount(sec)) : null
+        !isUngraded(sec) ? h('span', { className: 'count' }, ' ' + sectionAnsweredCount(sec) + '/' + sectionTotalCount(sec)) : null
       );
       tabs.appendChild(btn);
     });
@@ -389,6 +393,7 @@
       case 'cloze-bank': body = renderClozeSection(section, 'bank'); break;
       case 'truefalse': body = renderTrueFalseSection(block, section); break;
       case 'writing': body = renderWritingSection(section); break;
+      case 'speaking': body = renderSpeakingSection(section); break;
       default: body = h('div', null, 'Unbekannter Abschnittstyp.');
     }
 
@@ -411,7 +416,7 @@
     // cheap refresh of the "x/y" counters in the tab row without rebuilding it
     document.querySelectorAll('.tabs button').forEach((btn, i) => {
       const sec = findSection(block.sections[i]);
-      if (!sec || sec.type === 'writing') return;
+      if (!sec || isUngraded(sec)) return;
       const countEl = btn.querySelector('.count');
       if (countEl) countEl.textContent = ' ' + sectionAnsweredCount(sec) + '/' + sectionTotalCount(sec);
     });
@@ -586,6 +591,99 @@
     return h('div', { className: 'two-col' }, textCol, itemsCol);
   }
 
+  /* ---------- practice player (pause / replay / speed / A-B loop) ---------- */
+  function buildPracticeControls(audioEl) {
+    let loopA = null, loopB = null, looping = false;
+    const fmt = s => s == null ? '–' : Math.floor(s / 60) + ':' + String(Math.floor(s % 60)).padStart(2, '0');
+    const skip = d => { audioEl.currentTime = Math.max(0, Math.min(audioEl.duration || Infinity, audioEl.currentTime + d)); };
+    const btn = (label, title, fn) => h('button', { type: 'button', className: 'btn btn-sm', title, onclick: fn }, label);
+
+    const loopInfo = h('span', { className: 'subtle' });
+    const refresh = () => {
+      loopInfo.textContent = 'Loop: ' + fmt(loopA) + ' – ' + fmt(loopB) + (looping ? ' (aktiv)' : '');
+      loopBtn.classList.toggle('btn-primary', looping);
+    };
+    const loopBtn = btn('↻ Loop', 'A-B-Loop an/aus (L)', () => {
+      if (loopA == null || loopB == null || loopB <= loopA) { looping = false; } else { looping = !looping; }
+      if (looping && (audioEl.currentTime < loopA || audioEl.currentTime > loopB)) audioEl.currentTime = loopA;
+      refresh();
+    });
+    const setA = btn('A setzen', 'Loop-Start hier setzen (A)', () => { loopA = audioEl.currentTime; if (loopB != null && loopB <= loopA) loopB = null; looping = false; refresh(); });
+    const setB = btn('B setzen', 'Loop-Ende hier setzen (B)', () => { loopB = audioEl.currentTime; if (loopB > (loopA == null ? -1 : loopA) && loopA != null) looping = true; refresh(); });
+    const clearLoop = btn('Loop löschen', 'Loop zurücksetzen', () => { loopA = loopB = null; looping = false; refresh(); });
+
+    audioEl.addEventListener('timeupdate', () => {
+      if (looping && loopB != null && audioEl.currentTime >= loopB) audioEl.currentTime = loopA;
+    });
+
+    const speed = h('select', { className: 'score-input', style: 'width:auto;', title: 'Geschwindigkeit' },
+      ...[0.6, 0.75, 0.9, 1, 1.25].map(v => h('option', { value: String(v), selected: v === 1 }, v + '×')));
+    speed.addEventListener('change', () => { audioEl.playbackRate = parseFloat(speed.value); });
+    audioEl.addEventListener('loadedmetadata', () => { audioEl.playbackRate = parseFloat(speed.value); });
+
+    const box = h('div', { className: 'practice' },
+      h('div', { className: 'row' },
+        btn('⏪ 10 s', '10 Sekunden zurück (←)', () => skip(-10)),
+        btn('⏪ 3 s', '3 Sekunden zurück (J)', () => skip(-3)),
+        btn('▶/❚❚', 'Abspielen / Pause (Leertaste)', () => { audioEl.paused ? audioEl.play() : audioEl.pause(); }),
+        btn('3 s ⏩', '3 Sekunden vor (K)', () => skip(3)),
+        btn('10 s ⏩', '10 Sekunden vor (→)', () => skip(10)),
+        speed
+      ),
+      h('div', { className: 'row' }, setA, setB, loopBtn, clearLoop, loopInfo)
+    );
+    refresh();
+
+    // keyboard shortcuts while no form field has focus
+    const onKey = e => {
+      if (!document.body.contains(box)) { document.removeEventListener('keydown', onKey); return; }
+      const tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea' || tag === 'select' || tag === 'button' || e.metaKey || e.ctrlKey || e.altKey) return;
+      const k = e.key.toLowerCase();
+      if (k === ' ') { audioEl.paused ? audioEl.play() : audioEl.pause(); }
+      else if (k === 'arrowleft') skip(-10);
+      else if (k === 'arrowright') skip(10);
+      else if (k === 'j') skip(-3);
+      else if (k === 'k') skip(3);
+      else if (k === 'a') setA.click();
+      else if (k === 'b') setB.click();
+      else if (k === 'l') loopBtn.click();
+      else return;
+      e.preventDefault();
+    };
+    document.addEventListener('keydown', onKey);
+    return box;
+  }
+
+  /* ---------- speaking practice (Mündliche Prüfung, ungraded) ---------- */
+  function renderSpeakingSection(section) {
+    const audioEl = h('audio', { controls: true, preload: 'metadata' });
+    if (section.audio && section.audio.src) audioEl.src = 'exams/' + section.audio.src;
+    const box = h('div', { className: 'card audio-box' },
+      h('div', { className: 'subtle' }, section.audioLabel || 'Audio'),
+      audioEl,
+      buildPracticeControls(audioEl),
+      h('div', { className: 'subtle' }, 'Tastatur: Leertaste = Pause, ←/→ = 10 s, J/K = 3 s, A/B = Loop-Grenzen, L = Loop. Tipp: Pausiere nach jeder Frage und antworte laut.')
+    );
+    if (section.transcriptParts && section.transcriptParts.length) {
+      const tBox = h('div', { className: 'transcript speaking-transcript', hidden: true });
+      section.transcriptParts.forEach(part => {
+        tBox.appendChild(h('h3', { style: 'font-size:0.95rem; margin:12px 0 6px;' }, part.title));
+        part.turns.forEach(turn => {
+          tBox.appendChild(h('p', { style: 'margin:0 0 8px;' }, h('strong', null, turn.speaker + ': '), turn.text));
+        });
+      });
+      const tBtn = h('button', { type: 'button', className: 'btn btn-sm' }, 'Transkript anzeigen');
+      tBtn.addEventListener('click', () => {
+        tBox.hidden = !tBox.hidden;
+        tBtn.textContent = tBox.hidden ? 'Transkript anzeigen' : 'Transkript ausblenden';
+      });
+      box.appendChild(h('div', { className: 'row' }, tBtn));
+      box.appendChild(tBox);
+    }
+    return h('div', { className: 'col', style: 'max-width:640px;' }, box);
+  }
+
   /* ---------- listening (Hörverstehen 1–3) ---------- */
   function renderTrueFalseSection(block, section) {
     const col = h('div', { className: 'col', style: 'max-width:640px;' });
@@ -652,6 +750,8 @@
       fileInput.style.display = 'none';
       audioBox.insertBefore(fileInput, audioBox.firstChild);
     }
+
+    if (section.practice) audioBox.insertBefore(buildPracticeControls(audioEl), transcriptBtn.parentNode);
 
     col.appendChild(audioBox);
 
@@ -839,10 +939,10 @@
       h('div', { className: 'kpi' },
         h('div', { className: 'label' }, 'Bearbeitungszeit gesamt'),
         h('div', { className: 'value' }, fmtClock(totalElapsed)),
-        h('div', { className: 'sub' }, 'Summe der drei Teile'))
+        h('div', { className: 'sub' }, 'Summe aller Teile'))
     );
 
-    const rows = exam.sections.map(sec => {
+    const rows = exam.sections.filter(sec => sec.type !== 'speaking').map(sec => {
       const max = sec.maxPoints;
       const score = sectionScore(sec);
       const pct = max ? Math.round((score / max) * 100) : 0;
@@ -878,7 +978,7 @@
       filterBtn.addEventListener('click', () => { onlyWrong = !onlyWrong; buildReview(container); });
       container.appendChild(filterBtn);
       let shown = 0;
-      exam.sections.filter(s => s.type !== 'writing').forEach(sec => {
+      exam.sections.filter(s => !isUngraded(s)).forEach(sec => {
         const list = onlyWrong ? sec.items.filter(it => !isItemCorrect(it)) : sec.items;
         if (!list.length) return;
         container.appendChild(h('h3', { style: 'font-size:0.95rem; margin:16px 0 8px;' }, sec.title));

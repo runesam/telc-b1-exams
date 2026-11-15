@@ -247,6 +247,9 @@ select.answer-select.duplicate{border-color:var(--warn); background:var(--warn-s
 /* ---------- Listening ---------- */
 .audio-box{display:flex; flex-direction:column; gap:10px; margin-bottom:16px;}
 .audio-box audio{width:100%;}
+.practice{display:flex; flex-direction:column; gap:8px;}
+.practice .row{flex-wrap:wrap; gap:6px;}
+.speaking-transcript{white-space:normal; max-height:60vh; overflow:auto;}
 .file-row{display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
 .transcript{
   background:var(--surface-2); border-radius:8px; padding:12px 14px; font-size:0.86rem; white-space:pre-wrap;
