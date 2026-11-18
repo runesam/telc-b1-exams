@@ -59,31 +59,31 @@
           "number": 1,
           "text": "Musik-Videos sehen, sich informieren und hauptsächlich in sozialen Netzwerken unterwegs sein ... 16- bis 29-Jährige verbringen durchschnittlich über drei Stunden täglich vor ihrem „intelligenten Telefon“. Krankenkassen warnen schon lange: Ein zu hoher Internetkonsum ist schlecht für die Gesundheit. Die Folgen können zum Beispiel Konzentrationsstörungen, Schlafprobleme, psychische Krankheiten und schlechte Leistungen in der Schule und im Beruf sein. Bei rund 1,8 Millionen Menschen spricht man von einer problematischen Nutzung des Internets und Mediensucht.",
           "correct": "e",
-          "explanation": "Im Text steht: „Ein zu hoher Internetkonsum ist schlecht für die Gesundheit“ (= Zu viel Zeit im Internet macht krank!). d passt nicht, weil es um 16- bis 29-Jährige geht (nicht Kinder), und g passt nicht, weil Konzentrationsprobleme etc. Folgen und nicht Ursachen sind."
+          "explanation": "The text says: „Ein zu hoher Internetkonsum ist schlecht für die Gesundheit“ (= spending too much time online makes you ill). d does not fit because the text is about 16- to 29-year-olds (not children), and g does not fit because concentration problems etc. are consequences, not causes."
         },
         {
           "number": 2,
           "text": "Am 23. Juli lädt Bürgermeister Rütli zum Feiern ein. Über den ganzen Ort verteilt finden verschiedene Aktivitäten für alle statt: Im Waldstadion das Fußballturnier Alt gegen Jung und Sportspiele für die ganze Familie. In der Stadtbibliothek der Comic-Flohmarkt und ein Vorlesewettbewerb, Kinderliederkaraoke und Musik zum Tanzen auf dem Marktplatz. Für Essen, Getränke und natürlich viel Spass wird gesorgt. Sonntag von 11 bis 17 Uhr, mehr Informationen und Anmeldung zum Wettbewerb auf der Internetseite der Stadt: www.neuwil.ch/aktuell.",
           "correct": "j",
-          "explanation": "Am 23. Juli (= im Sommer) lädt Bürgermeister Rütli zum Feiern ein (= Sommerfest), mit Aktivitäten für alle (Vorlesewettbewerb, Kinderlieder-Karaoke, Musik zum Tanzen). h ist zu eng, da es nicht nur um einen Vorlesewettbewerb geht."
+          "explanation": "On 23 July (= in summer) Mayor Rütli invites everyone to celebrate (= summer festival), with activities for all (reading competition, children's song karaoke, music for dancing). h is too narrow, because it is not only about a reading competition."
         },
         {
           "number": 3,
           "text": "Lange war unsicher, ob es mit dem Musikzentrum weitergeht. Miete und Nebenkosten für das Gebäude am Park waren so hoch, dass der Unterricht für viele Schülerinnen und Schüler zu teuer wurde. „Wir mussten fast aufhören“, sagt Ina Deimers, die Leiterin des Musikzentrums, und freut sich, dass der Unterricht jetzt nachmittags und abends in den Räumen der Buber-Grundschule weitergehen kann. „Musik zu machen ist gerade für Kinder und Jugendliche so wichtig! Privater Unterricht muss bezahlbar bleiben.“",
           "correct": "i",
-          "explanation": "Die Leiterin des Musikzentrums freut sich, dass der Unterricht jetzt in den Räumen der Buber-Grundschule weitergehen kann – die Musikschule bleibt also (i). a passt nicht, weil es um eine private Musikschule geht, nicht um Musikunterricht an Grundschulen."
+          "explanation": "The head of the music centre is glad that the lessons can now continue in the rooms of the Buber primary school, so the music school stays (i). a does not fit because this is about a private music school, not about music lessons at primary schools."
         },
         {
           "number": 4,
           "text": "Lukas (10) ist sich sicher: „Bücher lesen ist viel zu anstrengend!“ Viel mehr Spaß machen dem Grundschüler Fußballspielen oder Spiele auf dem Handy. Statt zu lesen, hört er lieber das Hörbuch im Internet. „Das ist ganz typisch. Vielen Schülerinnen und Schülern fehlt einfach die Konzentration. Sie müssen erst lernen, wie man Bücher liest“, weiß Ben Linne. Als „Deutschlehrer Ben“ gibt er in sozialen Netzwerken erfrischend gute Tipps, damit Kinder auch dicke Bücher wieder gern lesen.",
           "correct": "c",
-          "explanation": "Schüler müssen erst lernen, wie man Bücher liest, und „Deutschlehrer Ben“ gibt in sozialen Netzwerken (= im Internet) gute Tipps dazu (c). f passt nicht, weil Lukas im Internet Hörbücher hört und nicht Bücher online liest."
+          "explanation": "Pupils first have to learn how to read books, and „Deutschlehrer Ben“ gives good tips on this in social networks (= on the internet) (c). f does not fit because Lukas listens to audiobooks online and does not read books online."
         },
         {
           "number": 5,
           "text": "In Deutschland leiden aktuell ca. 6 Millionen Menschen an Diabetes. „Alterszucker“ nannte man diese Krankheit früher, weil besonders ältere Menschen daran litten. Heute haben auch immer mehr junge Menschen und sogar Kinder Diabetes. Gründe dafür können eine falsche Ernährung, fehlende Bewegung und ein hohes Gewicht sein. Verschiedene Krankenkassen wollen jetzt zusammenarbeiten, um besonders Jugendliche zu erreichen und aufzuklären: Kurze Videos auf verschiedenen sozialen Medien informieren über die Ursachen und erste Symptome der Krankheit.",
           "correct": "b",
-          "explanation": "Verschiedene Krankenkassen arbeiten zusammen (= gemeinsam) und informieren über die Ursachen und ersten Symptome von Diabetes, um gegen die Krankheit vorzugehen (b). g passt nicht, weil die Krankenkassen die Ursachen bereits kennen und darüber aufklären."
+          "explanation": "Several health insurers are working together (= jointly) and give information about the causes and first symptoms of diabetes in order to take action against the disease (b). g does not fit because the insurers already know the causes and are educating people about them."
         }
       ]
     },
@@ -117,7 +117,7 @@
             {"key": "c", "text": "sind schon sehr oft Unfälle passiert."}
           ],
           "correct": "c",
-          "explanation": "Im ersten Absatz steht: „die Sicht für Radfahrer ist so schlecht, dass es in den letzten Jahren leider viel zu häufig Unfälle gab.“"
+          "explanation": "The first paragraph says: „die Sicht für Radfahrer ist so schlecht, dass es in den letzten Jahren leider viel zu häufig Unfälle gab.“"
         },
         {
           "number": 7,
@@ -128,7 +128,7 @@
             {"key": "c", "text": "eine breitere Straße für Autos zu bauen."}
           ],
           "correct": "b",
-          "explanation": "Sarah Fink vom städtischen Bauamt erklärt: „Wir wollen die Fahrradwege etwas breiter machen, dort dürfen dann auch keine Autos mehr parken – das ist viel sicherer.“"
+          "explanation": "Sarah Fink from the city planning office explains: „Wir wollen die Fahrradwege etwas breiter machen, dort dürfen dann auch keine Autos mehr parken – das ist viel sicherer.“"
         },
         {
           "number": 8,
@@ -139,7 +139,7 @@
             {"key": "c", "text": "weniger Kundinnen und Kunden kommen."}
           ],
           "correct": "c",
-          "explanation": "Mira Lobig, die Besitzerin eines Frisörsalons, befürchtet: „Unsere Kunden und Kundinnen können ja nicht mehr bis zum Geschäft fahren, wenn gebaut wird. Vielleicht kommen manche dann gar nicht mehr.“"
+          "explanation": "Mira Lobig, the owner of a hair salon, is worried: „Unsere Kunden und Kundinnen können ja nicht mehr bis zum Geschäft fahren, wenn gebaut wird. Vielleicht kommen manche dann gar nicht mehr.“"
         },
         {
           "number": 9,
@@ -150,7 +150,7 @@
             {"key": "c", "text": "versteht die Bewohner nicht."}
           ],
           "correct": "b",
-          "explanation": "Bürgermeisterin Annegret Reuth sagt über die neue Goethestraße: „Darauf kann man sich wirklich freuen, da bin ich sicher.“"
+          "explanation": "Mayor Annegret Reuth says about the new Goethestraße: „Darauf kann man sich wirklich freuen, da bin ich sicher.“"
         },
         {
           "number": 10,
@@ -161,7 +161,7 @@
             {"key": "c", "text": "ungefähr ein halbes Jahr."}
           ],
           "correct": "a",
-          "explanation": "Bürgermeisterin Annegret Reuth beruhigt: „Wir haben alles so gut geplant, es wird nicht länger als drei Monate gebaut!“"
+          "explanation": "Mayor Annegret Reuth reassures people: „Wir haben alles so gut geplant, es wird nicht länger als drei Monate gebaut!“"
         }
       ]
     },
@@ -190,16 +190,16 @@
         {"key": "l", "text": "Klamotte im Bella-Park: Zu viel Kleidung? Neue Größe? Einfach mal Lust auf etwas anderes? Bring maximal 10 Kleidungsstücke und/oder 10 Paar Schuhe mit und tausche! Diesmal keine Baby- oder Kinderkleidung! Ohne Anmeldung, einfach vorbeikommen. 18.7. ab 13 Uhr"}
       ],
       "items": [
-        {"number": 11, "text": "Ihr Bruder isst gern Gemüse und möchte in den Sommerferien einen Kochkurs machen.", "correct": "g", "explanation": "Anzeige g bietet in den Ferienkursen der Volkshochschule (freie Plätze im Juni und Juli = Sommerferien) „Köstlich kochen mit Tomaten und Paprika“ (= Gemüse) an."},
-        {"number": 12, "text": "Eine Freundin sucht eine Stelle als Sprachlehrerin. Sie möchte am liebsten zu Hause arbeiten.", "correct": "j", "explanation": "Anzeige j sucht Nachhilfelehrer für Deutsch, Englisch oder andere Sprachen, die auch „online über deinen Computer“ (= von zu Hause aus) unterrichten können."},
-        {"number": 13, "text": "Sie sammeln Marken-Sportschuhe, von denen Ihnen einige nicht mehr gefallen. Sie hätten gern andere Schuhe dafür.", "correct": "l", "explanation": "Bei „Klamotte im Bella-Park“ (Anzeige l) kann man bis zu 10 Paar Schuhe mitbringen und gegen andere tauschen."},
-        {"number": 14, "text": "Ihre zwölfjährige Tochter möchte ein neues Musikinstrument lernen, aber nicht Klavier.", "correct": "d", "explanation": "Das Musikzentrum Koch (Anzeige d) bietet Kurse für Anfänger und Fortgeschrittene an, bei denen man Gitarre, Klavier oder Keyboard lernen kann."},
-        {"number": 15, "text": "Sie würden gern einige Fahrstunden nehmen, obwohl Sie schon einen Führerschein haben.", "correct": "i", "explanation": "Die Fahrschule Meyer (Anzeige i) bietet ein Fahrtraining (3 bis 10 Stunden) für Personen mit Fahrerlaubnis an, die im Straßenverkehr noch unsicher sind."},
-        {"number": 16, "text": "Ihr Freund ist Koch mit vielen Jahren Berufserfahrung und sucht eine neue Arbeit.", "correct": "x", "explanation": "Keine passende Anzeige vorhanden: Restaurant Bella Roma (a) sucht keinen Koch und „Karotte und Co.“ (e) sucht Fahrer/innen für den Lieferdienst."},
-        {"number": 17, "text": "Sie gehen nicht gern ins Fitnessstudio, aber wollen sich mehr bewegen. Weil Sie arbeiten, haben Sie nur abends Zeit.", "correct": "h", "explanation": "„Die Läufer“ (Anzeige h) bieten Lauftraining im Stadion (nicht im Fitnessstudio) speziell für Berufstätige mittwochs und freitags von 18–20 Uhr (= abends) an."},
-        {"number": 18, "text": "Ihre Familie und Sie sind im Herbst zu einer Hochzeit eingeladen. Sie würden sich gern gut anziehen, ohne dafür zu viel Geld auszugeben.", "correct": "c", "explanation": "Lisbeths Modehaus (Anzeige c) verkauft gebrauchte Marken-Kleidung und Schuhe zu fairen Preisen für Groß und Klein (= ganze Familie) sowie für Feiern und besondere Anlässe."},
-        {"number": 19, "text": "Sie heiraten im Herbst und suchen für Ihre Feier eine Person, die gut fotografieren kann.", "correct": "k", "explanation": "Das Fotostudio Schmidt (Anzeige k) kann man für Feiern buchen, um vor Ort Bilder von Gastgebern und Gästen zu machen."},
-        {"number": 20, "text": "Sie haben Hunger und wollen mit Freunden essen gehen. Sie essen kein Fleisch.", "correct": "a", "explanation": "Im Restaurant Bella Roma (Anzeige a) kann man essen gehen und es gibt dort auch vegetarische Spezialitäten (= kein Fleisch). „Karotte und Co.“ (e) ist nur ein Lieferdienst."}
+        {"number": 11, "text": "Ihr Bruder isst gern Gemüse und möchte in den Sommerferien einen Kochkurs machen.", "correct": "g", "explanation": "Ad g offers „Köstlich kochen mit Tomaten und Paprika“ (= vegetables) in the adult-education holiday courses (free places in June and July = summer holidays)."},
+        {"number": 12, "text": "Eine Freundin sucht eine Stelle als Sprachlehrerin. Sie möchte am liebsten zu Hause arbeiten.", "correct": "j", "explanation": "Ad j is looking for tutors for German, English or other languages who can also teach „online über deinen Computer“ (= from home)."},
+        {"number": 13, "text": "Sie sammeln Marken-Sportschuhe, von denen Ihnen einige nicht mehr gefallen. Sie hätten gern andere Schuhe dafür.", "correct": "l", "explanation": "At „Klamotte im Bella-Park“ (ad l) you can bring up to 10 pairs of shoes and swap them for others."},
+        {"number": 14, "text": "Ihre zwölfjährige Tochter möchte ein neues Musikinstrument lernen, aber nicht Klavier.", "correct": "d", "explanation": "The Musikzentrum Koch (ad d) offers courses for beginners and advanced learners in which you can learn guitar, piano or keyboard."},
+        {"number": 15, "text": "Sie würden gern einige Fahrstunden nehmen, obwohl Sie schon einen Führerschein haben.", "correct": "i", "explanation": "The driving school Meyer (ad i) offers driving practice (3 to 10 hours) for people who already have a licence but are still unsure in traffic."},
+        {"number": 16, "text": "Ihr Freund ist Koch mit vielen Jahren Berufserfahrung und sucht eine neue Arbeit.", "correct": "x", "explanation": "There is no matching ad: Restaurant Bella Roma (a) is not looking for a cook, and „Karotte und Co.“ (e) is looking for drivers for the delivery service."},
+        {"number": 17, "text": "Sie gehen nicht gern ins Fitnessstudio, aber wollen sich mehr bewegen. Weil Sie arbeiten, haben Sie nur abends Zeit.", "correct": "h", "explanation": "„Die Läufer“ (ad h) offer running training in the stadium (not in the gym) especially for working people on Wednesdays and Fridays from 18:00 to 20:00 (= evenings)."},
+        {"number": 18, "text": "Ihre Familie und Sie sind im Herbst zu einer Hochzeit eingeladen. Sie würden sich gern gut anziehen, ohne dafür zu viel Geld auszugeben.", "correct": "c", "explanation": "Lisbeths Modehaus (ad c) sells second-hand brand-name clothes and shoes at fair prices for big and small (= the whole family) as well as for celebrations and special occasions."},
+        {"number": 19, "text": "Sie heiraten im Herbst und suchen für Ihre Feier eine Person, die gut fotografieren kann.", "correct": "k", "explanation": "Fotostudio Schmidt (ad k) can be booked for celebrations to take photos of hosts and guests on site."},
+        {"number": 20, "text": "Sie haben Hunger und wollen mit Freunden essen gehen. Sie essen kein Fleisch.", "correct": "a", "explanation": "At Restaurant Bella Roma (ad a) you can eat out and there are also vegetarian specialities (= no meat). „Karotte und Co.“ (e) is only a delivery service."}
       ]
     },
     {
@@ -212,16 +212,16 @@
       "maxPoints": 15,
       "textBefore": "Liebe Judith,\n\nwie geht es dir? Ich finde es sehr schade, dass wir uns so lange nicht mehr",
       "items": [
-        {"number": 21, "textAfter": "haben.\n\nIch habe eine tolle Idee: Im", "options": [{"key": "a", "text": "gesehen"}, {"key": "b", "text": "sehe"}, {"key": "c", "text": "sehen"}], "correct": "a", "explanation": "Für die Zeitform Perfekt („... haben“) wird das Partizip II „gesehen“ benötigt."},
-        {"number": 22, "textAfter": "Jahr möchte ich meinen Urlaub in Spanien verbringen,", "options": [{"key": "a", "text": "nächste"}, {"key": "b", "text": "nächsten"}, {"key": "c", "text": "nächstes"}], "correct": "b", "explanation": "Nach „Im“ (= in dem, Dativ Neutrum Singular) erhält das Adjektiv die Endung -en: „Im nächsten Jahr“."},
-        {"number": 23, "textAfter": "an einer Sprachschule in Sevilla Spanisch zu lernen.\nWie findest du diese Idee?\n\nSpanisch hatte ich schon ein paar", "options": [{"key": "a", "text": "damit"}, {"key": "b", "text": "um"}, {"key": "c", "text": "und"}], "correct": "b", "explanation": "Der Infinitivsatz mit „... zu lernen“ wird mit „um“ eingeleitet („um ... Spanisch zu lernen“)."},
-        {"number": 24, "textAfter": "in der Schule, aber ich habe sehr viel vergessen. Das geht ja immer so schnell bei Sprachen.\nIm Internet habe ich ein Angebot von einer Sprachschule im Zentrum von Sevilla gefunden,", "options": [{"key": "a", "text": "Jahr"}, {"key": "b", "text": "Jahre"}, {"key": "c", "text": "Jahren"}], "correct": "b", "explanation": "Nach „ein paar“ steht hier der Plural im Akkusativ („ein paar Jahre“)."},
-        {"number": 25, "textAfter": "ziemlich günstig ist. Die Online-Bewertungen", "options": [{"key": "a", "text": "das"}, {"key": "b", "text": "den"}, {"key": "c", "text": "der"}], "correct": "a", "explanation": "Das Relativpronomen bezieht sich auf „ein Angebot“ (Neutrum Nominativ Singular): „das ziemlich günstig ist“."},
-        {"number": 26, "textAfter": "alle sehr gut. Der Unterricht ist jeden Tag von 10 bis 14 Uhr und am Nachmittag macht man zusammen Ausflüge oder hat Programm.\n\nDu hattest mal erzählt,", "options": [{"key": "a", "text": "waren"}, {"key": "b", "text": "wären"}, {"key": "c", "text": "werden"}], "correct": "a", "explanation": "Vergangenheitsform (Präteritum Plural) passend zu „Die Online-Bewertungen“: „waren“."},
-        {"number": 27, "textAfter": "du auch gern Spanisch lernen möchtest.\nVielleicht hast du Zeit und Lust,", "options": [{"key": "a", "text": "als"}, {"key": "b", "text": "dass"}, {"key": "c", "text": "ob"}], "correct": "b", "explanation": "Nebensatz nach „erzählt“ mit dem konjugierten Verb am Satzende: „dass du auch gern Spanisch lernen möchtest“."},
-        {"number": 28, "textAfter": "? Ich fände es toll, mit", "options": [{"key": "a", "text": "mitgekommen"}, {"key": "b", "text": "mitkommen"}, {"key": "c", "text": "mitzukommen"}], "correct": "c", "explanation": "Nach „Zeit und Lust haben“ folgt der Infinitiv mit „zu“; beim trennbaren Verb „mitkommen“ steht „zu“ in der Mitte: „mitzukommen“."},
-        {"number": 29, "textAfter": "zusammen zu verreisen. Was denkst du?\n\nRuf mich bitte heute oder morgen Abend an, dann können wir", "options": [{"key": "a", "text": "dich"}, {"key": "b", "text": "dir"}, {"key": "c", "text": "du"}], "correct": "b", "explanation": "Die Präposition „mit“ verlangt immer den Dativ: „mit dir“."},
-        {"number": 30, "textAfter": "sprechen.\n\nViele Grüße\nCarola", "options": [{"key": "a", "text": "dafür"}, {"key": "b", "text": "darüber"}, {"key": "c", "text": "davor"}], "correct": "b", "explanation": "„über etwas sprechen“ wird zum Pronominaladverb „darüber“."}
+        {"number": 21, "textAfter": "haben.\n\nIch habe eine tolle Idee: Im", "options": [{"key": "a", "text": "gesehen"}, {"key": "b", "text": "sehe"}, {"key": "c", "text": "sehen"}], "correct": "a", "explanation": "The perfect tense („... haben“) needs the past participle „gesehen“."},
+        {"number": 22, "textAfter": "Jahr möchte ich meinen Urlaub in Spanien verbringen,", "options": [{"key": "a", "text": "nächste"}, {"key": "b", "text": "nächsten"}, {"key": "c", "text": "nächstes"}], "correct": "b", "explanation": "After „Im“ (= in dem, dative neuter singular) the adjective takes the ending -en: „Im nächsten Jahr“."},
+        {"number": 23, "textAfter": "an einer Sprachschule in Sevilla Spanisch zu lernen.\nWie findest du diese Idee?\n\nSpanisch hatte ich schon ein paar", "options": [{"key": "a", "text": "damit"}, {"key": "b", "text": "um"}, {"key": "c", "text": "und"}], "correct": "b", "explanation": "The infinitive clause with „... zu lernen“ is introduced by „um“ („um ... Spanisch zu lernen“) to express purpose."},
+        {"number": 24, "textAfter": "in der Schule, aber ich habe sehr viel vergessen. Das geht ja immer so schnell bei Sprachen.\nIm Internet habe ich ein Angebot von einer Sprachschule im Zentrum von Sevilla gefunden,", "options": [{"key": "a", "text": "Jahr"}, {"key": "b", "text": "Jahre"}, {"key": "c", "text": "Jahren"}], "correct": "b", "explanation": "After „ein paar“ the accusative plural is needed here („ein paar Jahre“)."},
+        {"number": 25, "textAfter": "ziemlich günstig ist. Die Online-Bewertungen", "options": [{"key": "a", "text": "das"}, {"key": "b", "text": "den"}, {"key": "c", "text": "der"}], "correct": "a", "explanation": "The relative pronoun refers to „ein Angebot“ (neuter nominative singular): „das ziemlich günstig ist“."},
+        {"number": 26, "textAfter": "alle sehr gut. Der Unterricht ist jeden Tag von 10 bis 14 Uhr und am Nachmittag macht man zusammen Ausflüge oder hat Programm.\n\nDu hattest mal erzählt,", "options": [{"key": "a", "text": "waren"}, {"key": "b", "text": "wären"}, {"key": "c", "text": "werden"}], "correct": "a", "explanation": "Past tense (Präteritum, plural) to match „Die Online-Bewertungen“: „waren“."},
+        {"number": 27, "textAfter": "du auch gern Spanisch lernen möchtest.\nVielleicht hast du Zeit und Lust,", "options": [{"key": "a", "text": "als"}, {"key": "b", "text": "dass"}, {"key": "c", "text": "ob"}], "correct": "b", "explanation": "Subordinate clause after „erzählt“ with the conjugated verb at the end: „dass du auch gern Spanisch lernen möchtest“."},
+        {"number": 28, "textAfter": "? Ich fände es toll, mit", "options": [{"key": "a", "text": "mitgekommen"}, {"key": "b", "text": "mitkommen"}, {"key": "c", "text": "mitzukommen"}], "correct": "c", "explanation": "After „Zeit und Lust haben“ comes the infinitive with „zu“; with the separable verb „mitkommen“, „zu“ goes in the middle: „mitzukommen“."},
+        {"number": 29, "textAfter": "zusammen zu verreisen. Was denkst du?\n\nRuf mich bitte heute oder morgen Abend an, dann können wir", "options": [{"key": "a", "text": "dich"}, {"key": "b", "text": "dir"}, {"key": "c", "text": "du"}], "correct": "b", "explanation": "The preposition „mit“ always takes the dative: „mit dir“."},
+        {"number": 30, "textAfter": "sprechen.\n\nViele Grüße\nCarola", "options": [{"key": "a", "text": "dafür"}, {"key": "b", "text": "darüber"}, {"key": "c", "text": "davor"}], "correct": "b", "explanation": "„über etwas sprechen“ becomes the pronominal adverb „darüber“."}
       ]
     },
     {
@@ -251,16 +251,16 @@
       ],
       "textBefore": "[Anzeige: Hotel Seeblick – das Sport-Hotel direkt am Davos-See. Angebot: Buche 7 Nächte, zahle 6. Weitere Angebote auf Anfrage. www.hotel-seeblick.ch]\n\nSehr geehrte Damen und Herren,\n\nin der Zeitung habe ich",
       "items": [
-        {"number": 31, "textAfter": "Angebot für sieben Nächte gesehen, das klingt gut!\nWir würden", "correct": "i", "explanation": "Formelle Anrede („Sehr geehrte Damen und Herren“ -> Sie), daher passt das Possessivpronomen „Ihr Angebot“ (Neutrum Akkusativ)."},
-        {"number": 32, "textAfter": "gern zwei Wochen am See verbringen, nicht nur sieben Nächte.\nHaben Sie", "correct": "a", "explanation": "ABER betont den Gegensatz zwischen dem 7-Nächte-Angebot und dem Wunsch, zwei Wochen zu bleiben."},
-        {"number": 33, "textAfter": "auch ein Angebot?\n\nWir sind drei Personen und möchten", "correct": "f", "explanation": "„ein Angebot für etwas haben“ -> das Präpositionalpronomen „dafür“ ersetzt „für zwei Wochen am See“."},
-        {"number": 34, "textAfter": "1. September bis zum 14. September kommen. Für diese Zeit brauchen wir ein Doppelzimmer und ein Einzelzimmer.\nIst es möglich,", "correct": "n", "explanation": "„vom ... bis zum ...“ gibt den Zeitraum von einem Anfangs- bis zu einem Enddatum an."},
-        {"number": 35, "textAfter": "Hund mitzubringen? Wir", "correct": "m", "explanation": "Der Schreiber spricht für sich und seine Begleiter („Wir“), daher passt das Possessivpronomen „unseren Hund“ (Maskulinum Akkusativ)."},
-        {"number": 36, "textAfter": "ihn leider nicht zu Hause lassen.\n\nIch möchte", "correct": "j", "explanation": "Passendes Modalverb im Präsens zum Infinitiv „lassen“ am Satzende: „Wir können ihn leider nicht zu Hause lassen.“"},
-        {"number": 37, "textAfter": "wissen, ob man die Übernachtungen ohne Frühstück buchen kann.\n", "correct": "d", "explanation": "AUßERDEM bedeutet „zusätzlich / noch mehr“ und fügt eine weitere Frage hinzu."},
-        {"number": 38, "textAfter": "ist das Frühstück immer schon im Preis für die Übernachtung enthalten?\n\nBitte informieren Sie uns auch", "correct": "k", "explanation": "ODER leitet die direkte Alternativfrage ein und bildet einen Gegensatz zur vorherigen Frage."},
-        {"number": 39, "textAfter": ", welche Sportmöglichkeiten für Senioren es in der Nähe gibt.\n\n", "correct": "g", "explanation": "„über etwas informieren“ + indirekter Fragesatz verlangt das Präpositionalpronomen „darüber“."},
-        {"number": 40, "textAfter": "Ihre Antwort freue ich mich sehr und danke Ihnen im Voraus.\n\nMit freundlichen Grüßen\n\nHeinz Friedel", "correct": "c", "explanation": "„sich freuen auf“ benutzt man für etwas Zukünftiges („im Voraus“)."}
+        {"number": 31, "textAfter": "Angebot für sieben Nächte gesehen, das klingt gut!\nWir würden", "correct": "i", "explanation": "Formal address („Sehr geehrte Damen und Herren“ -> Sie), so the possessive pronoun „Ihr Angebot“ (neuter accusative) fits."},
+        {"number": 32, "textAfter": "gern zwei Wochen am See verbringen, nicht nur sieben Nächte.\nHaben Sie", "correct": "a", "explanation": "ABER stresses the contrast between the 7-night offer and the wish to stay for two weeks."},
+        {"number": 33, "textAfter": "auch ein Angebot?\n\nWir sind drei Personen und möchten", "correct": "f", "explanation": "„ein Angebot für etwas haben“ -> the pronominal adverb „dafür“ replaces „für zwei Wochen am See“."},
+        {"number": 34, "textAfter": "1. September bis zum 14. September kommen. Für diese Zeit brauchen wir ein Doppelzimmer und ein Einzelzimmer.\nIst es möglich,", "correct": "n", "explanation": "„vom ... bis zum ...“ gives the period from a start date to an end date."},
+        {"number": 35, "textAfter": "Hund mitzubringen? Wir", "correct": "m", "explanation": "The writer speaks for themselves and their companions („Wir“), so the possessive pronoun „unseren Hund“ (masculine accusative) fits."},
+        {"number": 36, "textAfter": "ihn leider nicht zu Hause lassen.\n\nIch möchte", "correct": "j", "explanation": "The matching present-tense modal verb for the infinitive „lassen“ at the end of the clause: „Wir können ihn leider nicht zu Hause lassen.“"},
+        {"number": 37, "textAfter": "wissen, ob man die Übernachtungen ohne Frühstück buchen kann.\n", "correct": "d", "explanation": "AUßERDEM means „zusätzlich / noch mehr“ (in addition / what is more) and adds a further question."},
+        {"number": 38, "textAfter": "ist das Frühstück immer schon im Preis für die Übernachtung enthalten?\n\nBitte informieren Sie uns auch", "correct": "k", "explanation": "ODER introduces the direct alternative question and forms a contrast with the previous question."},
+        {"number": 39, "textAfter": ", welche Sportmöglichkeiten für Senioren es in der Nähe gibt.\n\n", "correct": "g", "explanation": "„über etwas informieren“ + an indirect question requires the pronominal adverb „darüber“."},
+        {"number": 40, "textAfter": "Ihre Antwort freue ich mich sehr und danke Ihnen im Voraus.\n\nMit freundlichen Grüßen\n\nHeinz Friedel", "correct": "c", "explanation": "„sich freuen auf“ is used for something in the future („im Voraus“, looking forward to it)."}
       ]
     },
     {
@@ -283,11 +283,11 @@
         {"number": 45, "text": "Frau 3: Ganz ehrlich? Im Alltag kann ich ganz auf ein Auto verzichten. Brauche ich einfach nicht. Aber wir haben einen alten Campingbus. Der ist schon über 40 Jahre alt. Orange und ja, einfach cool! Und der fährt auch noch super. Mit dem waren wir schon in Frankreich, Spanien und diesen Sommer fahren wir nach Italien. Er ist laut und fährt nicht schneller als 80 Kilometer pro Stunde, aber für uns ist das die perfekte Art zu reisen."}
       ],
       "items": [
-        {"number": 41, "text": "Der Sprecher braucht ein Auto, um einzukaufen", "correct": "-", "explanation": "Falsch: Für große Einkäufe fährt er mit dem Fahrrad zum Supermarkt."},
-        {"number": 42, "text": "Die Sprecherin muss ihr Auto beruflich nutzen.", "correct": "+", "explanation": "Richtig: Sie arbeitet auf dem Land, muss für ihre Arbeit mehrere Kunden an einem Tag in verschiedenen kleinen Orten besuchen und schafft das nur mit dem Auto."},
-        {"number": 43, "text": "Der Sprecher möchte weniger Auto fahren.", "correct": "-", "explanation": "Falsch: Er benutzt den Konjunktiv („würde ich vielleicht auch weniger Auto fahren“) und sagt „Aber so? Nö!“ – er möchte jetzt nicht weniger Auto fahren."},
-        {"number": 44, "text": "Die Sprecherin plant, sich ein eigenes Auto zu kaufen.", "correct": "-", "explanation": "Falsch: Sie träumt nur manchmal davon, nutzt aber in der Großstadt Carsharing und mietet ein Auto, wenn sie eins braucht."},
-        {"number": 45, "text": "Die Sprecherin ist schon oft mit dem eigenen Fahrzeug verreist.", "correct": "+", "explanation": "Richtig: Sie hat einen eigenen alten Camping-Bus und war damit schon in Frankreich und Spanien."}
+        {"number": 41, "text": "Der Sprecher braucht ein Auto, um einzukaufen", "correct": "-", "explanation": "False: For big shopping trips he goes to the supermarket by bike."},
+        {"number": 42, "text": "Die Sprecherin muss ihr Auto beruflich nutzen.", "correct": "+", "explanation": "True: She works in the countryside, has to visit several customers in different small places in one day for her job, and can only manage that by car."},
+        {"number": 43, "text": "Der Sprecher möchte weniger Auto fahren.", "correct": "-", "explanation": "False: He uses the subjunctive („würde ich vielleicht auch weniger Auto fahren“) and says „Aber so? Nö!“ - he does not want to drive less now."},
+        {"number": 44, "text": "Die Sprecherin plant, sich ein eigenes Auto zu kaufen.", "correct": "-", "explanation": "False: She only dreams of it sometimes, but in the city she uses car sharing and rents a car when she needs one."},
+        {"number": 45, "text": "Die Sprecherin ist schon oft mit dem eigenen Fahrzeug verreist.", "correct": "+", "explanation": "True: She has an old camper van of her own and has already been to France and Spain in it."}
       ]
     },
     {
@@ -305,16 +305,16 @@
         {"number": null, "text": "Moderator: Liebe Hörerinnen und Hörer, im Studio begrüße ich heute Waldemar Hansel und Heidi Schmidt, zwei Mitglieder der Laufgruppe „Die grauen Hasen“. Guten Tag.\nWaldemar: Guten Tag.\nHeidi: Hallo und danke für die Einladung.\nModerator: Schön, dass Sie heute bei uns in der Sendung sind. Ihre Laufgruppe nennt sich „Die grauen Hasen“. Erzählen Sie doch mal: Wie hat das alles angefangen?\nWaldemar: Also, die grauen Hasen haben wir vor vier Jahren gegründet und …\nHeidi: Sogar vor fünf Jahren!\nWaldemar: Richtig. Jetzt im Juni war das vor fünf Jahren. Da sind die grauen Hasen zum ersten Mal als Gruppe gelaufen. Ja, und angefangen hat alles, weil ich Probleme mit meinem Rücken hatte. Das habe ich Heidi erzählt, als wir uns beim Müllrausbringen gesehen haben und ich mich so vorsichtig bewegt habe.\nHeidi: Genau. Waldemars Haus ist zwei Häuser weiter links neben meinem. Da sieht man sich oft auf der Straße. Und ich meinte dann, dass gerade Laufen gegen Rückenschmerzen hilft. Man muss sich bewegen. Wir sind fast jeden Tag zusammen spazieren gegangen. Bei Sonne oder bei Regen – das Wetter war uns egal.\nWaldemar: Richtig. Obwohl ich bei viel Sonne und hohen Temperaturen oft lieber zu Hause bleibe. Bald war uns Spazieren zu wenig und wir haben an der Volkshochschule einen Kurs für Nordic Walking gemacht, auf Deutsch „nordisches Gehen“.\nModerator: Aha. Und was ist das genau – nordisches Gehen?\nHeidi: Das ist eine Laufsportart, die jeder machen kann, besonders Leute mit Rückenproblemen wie Waldemar oder auch Menschen, die eher unsportlich sind.\nWaldemar: Das kann man sich vorstellen wie ein intensiveres Spazierengehen mit speziellen Stöcken. Die braucht man dafür, sonst macht man das nicht richtig. Und natürlich sollte man irgendeinen Sportschuh tragen, was Bequemes, keine Wanderschuhe mit fester Sohle.\nHeidi: Die Stöcke sind wichtig. So ähnlich wie beim Skifahren, also beim Langlauf, hält man in jeder Hand einen Stock und bewegt sich damit. Das ist sportlicher und schneller als Spazierengehen. Schnell wie die Hasen! Deshalb heißt unsere Gruppe „Die grauen Hasen“.\nModerator: Ah, klar, schnell wie die Hasen. Aber warum „grau“?\nHeidi: Na, weil wir am Anfang eigentlich nur ältere Leute in der Gruppe waren und jetzt zum größten Teil auch immer noch. Aber man muss nicht alt sein, um bei uns mitzumachen.\nModerator: Wie viele graue Hasen gibt es denn?\nHeidi: 15. Neun kommen fast zu jedem Termin, andere nur ab und zu. Wir laufen oft vormittags, da haben Berufstätige natürlich selten Zeit.\nModerator: Wie oft treffen Sie sich denn?\nHeidi: Wir laufen zweimal am Vormittag, montags und mittwochs, und einmal Freitagnachmittag.\nModerator: Und dann laufen Sie nur im Wald oder …?\nHeidi: Ja, meistens laufen wir im Stadtwald, so eine knappe Stunde, an der frischen Luft. Das tut richtig gut.\nWaldemar: Man kann das auch in der Halle trainieren, aber wir machen das nicht. Würde mir persönlich auch gar keinen Spaß machen, immer im Kreis rumzulaufen.\nModerator: Sie sagten, in der Gruppe sind auch jüngere Mitglieder, unterschiedliche Generationen. Gibt es da manchmal auch Probleme?\nWaldemar: Wissen Sie, Menschen sind Menschen, und in Gruppen kommt es schnell mal zu Problemen. Aber bei uns zum Glück nur sehr selten. Im Gegenteil: Wir verstehen uns alle gut. Mit jungen Menschen kann man auch mal über andere Themen sprechen, und sie haben schon oft geholfen, wenn einer von uns mal wieder ein Problem mit dem Handy hatte.\nModerator: Das klingt doch gut. Wenn man neu bei den grauen Hasen mitlaufen möchte, was soll man dann machen? Haben Sie eine Telefonnummer, unter der man Sie erreichen kann?\nHeidi: Wir freuen uns immer über neue Hasen. Wer mitlaufen möchte, kann einfach zum Treffpunkt kommen. Im Sommer treffen wir uns um 8:30 Uhr am Haupteingang am Stadtwald.\nModerator: Dann weiterhin viel Spaß beim Laufen und vielen Dank für das Gespräch."}
       ],
       "items": [
-        {"number": 46, "text": "Die Laufgruppe gibt es seit vier Monaten.", "correct": "-", "explanation": "Falsch: Die Laufgruppe „Graue Hasen“ gibt es seit fünf Jahren, nicht seit vier Monaten."},
-        {"number": 47, "text": "Herr Hansel und Frau Schmidt sind Nachbarn.", "correct": "+", "explanation": "Richtig: Waldemars (Herrn Hansels) Haus liegt zwei Häuser weiter links neben dem von Frau Schmidt."},
-        {"number": 48, "text": "Herr Hansel läuft nicht gern, wenn es zu heiß ist.", "correct": "+", "explanation": "Richtig: Er sagt, dass er bei viel Sonne und hohen Temperaturen oft lieber zu Hause bleibt."},
-        {"number": 49, "text": "Die Laufsportart ist für jeden geeignet.", "correct": "+", "explanation": "Richtig: Laut Frau Schmidt kann jeder diese Laufsportart machen, auch Leute mit Rückenproblemen oder unsportliche Menschen."},
-        {"number": 50, "text": "Herr Hansel empfiehlt, spezielle Wanderschuhe zu tragen.", "correct": "-", "explanation": "Falsch: Man braucht spezielle Stöcke und bequeme Sportschuhe, „keine Wanderschuhe mit fester Sohle“."},
-        {"number": 51, "text": "Zu den „Grauen Hasen“ gehören hauptsächlich Senioren.", "correct": "+", "explanation": "Richtig: In der Gruppe sind zum größten Teil ältere Leute."},
-        {"number": 52, "text": "Die Gruppe trifft sich einmal in der Woche vormittags.", "correct": "-", "explanation": "Falsch: Sie laufen zweimal am Vormittag (montags und mittwochs) und einmal freitagnachmittags."},
-        {"number": 53, "text": "Manchmal findet das Training auch drinnen statt.", "correct": "-", "explanation": "Falsch: Man könnte zwar in der Halle trainieren, aber die Gruppe macht das nicht und läuft draußen an der frischen Luft."},
-        {"number": 54, "text": "Im Moment hat die Gruppe ein paar Probleme.", "correct": "-", "explanation": "Falsch: Probleme kommen nur sehr selten vor und alle verstehen sich gut."},
-        {"number": 55, "text": "Man soll anrufen, um sich neu für die Gruppe anzumelden.", "correct": "-", "explanation": "Falsch: Wer mitlaufen möchte, kann einfach zum Treffpunkt kommen und muss nicht anrufen."}
+        {"number": 46, "text": "Die Laufgruppe gibt es seit vier Monaten.", "correct": "-", "explanation": "False: The running group „Graue Hasen“ has existed for five years, not four months."},
+        {"number": 47, "text": "Herr Hansel und Frau Schmidt sind Nachbarn.", "correct": "+", "explanation": "True: Waldemar's (Mr Hansel's) house is two houses further along, to the left of Ms Schmidt's."},
+        {"number": 48, "text": "Herr Hansel läuft nicht gern, wenn es zu heiß ist.", "correct": "+", "explanation": "True: He says that when it is very sunny and hot he often prefers to stay at home."},
+        {"number": 49, "text": "Die Laufsportart ist für jeden geeignet.", "correct": "+", "explanation": "True: According to Ms Schmidt, anyone can do this running sport, including people with back problems or unsporty people."},
+        {"number": 50, "text": "Herr Hansel empfiehlt, spezielle Wanderschuhe zu tragen.", "correct": "-", "explanation": "False: You need special poles and comfortable sports shoes, „keine Wanderschuhe mit fester Sohle“."},
+        {"number": 51, "text": "Zu den „Grauen Hasen“ gehören hauptsächlich Senioren.", "correct": "+", "explanation": "True: Most of the people in the group are older."},
+        {"number": 52, "text": "Die Gruppe trifft sich einmal in der Woche vormittags.", "correct": "-", "explanation": "False: They run twice in the morning (Mondays and Wednesdays) and once on Friday afternoon."},
+        {"number": 53, "text": "Manchmal findet das Training auch drinnen statt.", "correct": "-", "explanation": "False: You could train in a hall, but the group does not do that and runs outside in the fresh air."},
+        {"number": 54, "text": "Im Moment hat die Gruppe ein paar Probleme.", "correct": "-", "explanation": "False: Problems only happen very rarely and everyone gets on well."},
+        {"number": 55, "text": "Man soll anrufen, um sich neu für die Gruppe anzumelden.", "correct": "-", "explanation": "False: Anyone who wants to join can simply come to the meeting point and does not have to call."}
       ]
     },
     {
@@ -336,11 +336,11 @@
         {"number": 60, "text": "Situation: Sie sind in Ihrem Fitnessstudio und hören folgende Durchsage.\nDurchsage: Liebe Kundinnen und Kunden, denkt dran: Am Donnerstag ist Feiertag und wir haben nur von 10 bis 18 Uhr geöffnet. Es finden dann auch keine Kurse statt. Heute sind wir wie gewohnt bis 23 Uhr für euch da. Und wer in 15 Minuten bei BBP – Bauch, Beine, Po – mitmachen will, kommt bitte heute ausnahmsweise in den großen Raum. Der Kurs findet dort statt, nicht auf der Gymnastikfläche wie sonst. In 15 Minuten geht’s los. Viel Spaß!"}
       ],
       "items": [
-        {"number": 56, "text": "Die S8 fährt wieder zum Hauptbahnhof zurück.", "correct": "+", "explanation": "Richtig: Ab der Haltestelle Plänterwald fährt die S8 gleich wieder zurück Richtung Stadtmitte über Ostkreuz und Hauptbahnhof."},
-        {"number": 57, "text": "Morgen wird es wärmer als heute und es regnet nicht.", "correct": "+", "explanation": "Richtig: Es wird den ganzen Tag sonnig und die Temperaturen steigen auf bis zu 24 Grad."},
-        {"number": 58, "text": "Der Aufzug im Ärztehaus funktioniert nicht.", "correct": "-", "explanation": "Falsch: Der Lift am U-Bahnhof Müllerstraße wird repariert; im Ärztehaus funktioniert der Lift."},
-        {"number": 59, "text": "Man kann der Agentur telefonisch eine Nachricht hinterlassen.", "correct": "-", "explanation": "Falsch: Man soll während der genannten Zeiten anrufen, den Online-Service nutzen oder eine E-Mail schreiben."},
-        {"number": 60, "text": "Der nächste Kurs findet gleich im großen Raum statt.", "correct": "+", "explanation": "Richtig: Der Kurs „BBP – Bauch, Beine, Po“ in 15 Minuten findet ausnahmsweise im großen Raum statt."}
+        {"number": 56, "text": "Die S8 fährt wieder zum Hauptbahnhof zurück.", "correct": "+", "explanation": "True: From the stop Plänterwald the S8 goes straight back towards the city centre via Ostkreuz and Hauptbahnhof."},
+        {"number": 57, "text": "Morgen wird es wärmer als heute und es regnet nicht.", "correct": "+", "explanation": "True: It will be sunny all day and temperatures will rise to up to 24 degrees."},
+        {"number": 58, "text": "Der Aufzug im Ärztehaus funktioniert nicht.", "correct": "-", "explanation": "False: The lift at the Müllerstraße underground station is being repaired; in the medical centre the lift works."},
+        {"number": 59, "text": "Man kann der Agentur telefonisch eine Nachricht hinterlassen.", "correct": "-", "explanation": "False: You should call during the stated times, use the online service or write an e-mail."},
+        {"number": 60, "text": "Der nächste Kurs findet gleich im großen Raum statt.", "correct": "+", "explanation": "True: The „BBP – Bauch, Beine, Po“ class in 15 minutes takes place in the large room, as an exception."}
       ]
     },
     {
